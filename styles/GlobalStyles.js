@@ -1,0 +1,491 @@
+import { StyleSheet } from 'react-native';
+
+export const GlobalStyles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+  },
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    backgroundColor: 'rgba(0,0,0,0.3)', // Semi-transparent overlay
+  },
+  title: {
+    fontSize: 48,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    textAlign: 'center',
+    marginBottom: 10,
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 4,
+  },
+  subtitle: {
+    fontSize: 18,
+    color: '#FFFFFF',
+    textAlign: 'center',
+    marginBottom: 40,
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  playButton: {
+    backgroundColor: '#FF6B6B',
+    paddingVertical: 15,
+    paddingHorizontal: 50,
+    borderRadius: 25,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+  },
+  playButtonText: {
+    color: '#FFFFFF',
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  continueButton: {
+    backgroundColor: '#45B7D1',
+    paddingVertical: 12,
+    paddingHorizontal: 40,
+    borderRadius: 20,
+    marginBottom: 20,
+  },
+  continueButtonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  backButton: {
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    paddingVertical: 10,
+    paddingHorizontal: 30,
+    borderRadius: 15,
+  },
+  backButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+  },
+  buttonContainer: {
+    width: '100%',
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  startButton: {
+    backgroundColor: '#FF6B6B',
+    paddingVertical: 15,
+    paddingHorizontal: 40,
+    borderRadius: 25,
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+  },
+  startButtonText: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  textInput: {
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    borderRadius: 10,
+    paddingVertical: 12,
+    paddingHorizontal: 15,
+    fontSize: 16,
+    color: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: 'rgba(255,255,255,0.3)',
+  },
+  inputLabel: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  scrollContainer: {
+    width: '100%',
+    maxHeight: '60%',
+  },
+  inputContainer: {
+    width: '100%',
+    marginBottom: 20,
+  },
+});
+
+export const GameStyles = StyleSheet.create({
+  gameHeader: {
+    alignItems: 'center',
+    marginBottom: 30,
+    paddingTop: 20,
+  },
+  currentTeam: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    textAlign: 'center',
+    marginBottom: 10,
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  timer: {
+    fontSize: 48,
+    fontWeight: 'bold',
+    color: '#FFD93D',
+    textAlign: 'center',
+    marginBottom: 5,
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 4,
+  },
+  passInfo: {
+    fontSize: 16,
+    color: '#FFFFFF',
+    textAlign: 'center',
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  wordCard: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderRadius: 20,
+    padding: 20,
+    marginBottom: 30,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+    minHeight: 200,
+  },
+  mainWord: {
+    fontSize: 36,
+    fontWeight: 'bold',
+    color: '#FF6B6B',
+    textAlign: 'center',
+    marginBottom: 20,
+    textShadowColor: 'rgba(0,0,0,0.1)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  forbiddenWordsContainer: {
+    alignItems: 'center',
+  },
+  forbiddenWord: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333333',
+    textAlign: 'center',
+    marginBottom: 8,
+    letterSpacing: 1,
+  },
+  actionButtonsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    marginBottom: 20,
+    paddingHorizontal: 10,
+  },
+  actionButton: {
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    borderRadius: 20,
+    marginHorizontal: 5,
+    marginVertical: 5,
+    minWidth: 100,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 5,
+    alignItems: 'center',
+  },
+  correctButton: {
+    backgroundColor: '#4ECDC4',
+  },
+  wrongButton: {
+    backgroundColor: '#FF6B6B',
+  },
+  tabooButton: {
+    backgroundColor: '#A855F7',
+  },
+  passButton: {
+    backgroundColor: '#45B7D1',
+  },
+  disabledButton: {
+    backgroundColor: 'rgba(255,255,255,0.3)',
+  },
+  actionButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  buttonSubText: {
+    color: 'rgba(255,255,255,0.8)',
+    fontSize: 12,
+    fontWeight: '600',
+    textAlign: 'center',
+    marginTop: 2,
+  },
+  currentScores: {
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    borderRadius: 15,
+    padding: 15,
+    alignItems: 'center',
+  },
+  scoresTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 5,
+  },
+  scoreText: {
+    fontSize: 14,
+    color: '#FFFFFF',
+    textAlign: 'center',
+  },
+  scoreSubText: {
+    fontSize: 12,
+    color: '#FFD93D',
+    textAlign: 'center',
+    marginTop: 5,
+    fontWeight: '600',
+  },
+});
+
+export const ResultStyles = StyleSheet.create({
+  // Current team highlight
+  currentTeamHighlight: {
+    backgroundColor: 'rgba(255, 107, 107, 0.8)',
+    borderRadius: 15,
+    padding: 15,
+    marginBottom: 20,
+    alignItems: 'center',
+  },
+  currentTeamText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  
+  // Teams container
+  teamsContainer: {
+    width: '100%',
+    maxHeight: '60%',
+    marginBottom: 20,
+  },
+  
+  // Team card styles
+  teamCard: {
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    borderRadius: 15,
+    padding: 15,
+    marginBottom: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 5,
+  },
+  currentTeamCard: {
+    backgroundColor: 'rgba(255, 107, 107, 0.15)',
+    borderWidth: 2,
+    borderColor: '#FF6B6B',
+  },
+  winnerCard: {
+    backgroundColor: 'rgba(255, 217, 61, 0.2)',
+    borderWidth: 3,
+    borderColor: '#FFD93D',
+  },
+  
+  // Team header
+  teamHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  teamPosition: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    minWidth: 40,
+  },
+  positionText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#666666',
+    marginRight: 5,
+  },
+  winnerText: {
+    color: '#FFD93D',
+    fontSize: 20,
+  },
+  crownEmoji: {
+    fontSize: 16,
+  },
+  teamName: {
+    flex: 1,
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333333',
+    marginLeft: 10,
+  },
+  winnerTeamName: {
+    color: '#FFD93D',
+    fontSize: 20,
+  },
+  teamScore: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#4ECDC4',
+  },
+  winnerScore: {
+    color: '#FFD93D',
+    fontSize: 20,
+  },
+  
+  // Mini stats row
+  teamStatsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  },
+  miniStatItem: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  miniStatNumber: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333333',
+  },
+  miniStatLabel: {
+    fontSize: 10,
+    fontWeight: 'bold',
+    color: '#666666',
+    marginTop: 2,
+  },
+
+  // Legacy styles for compatibility
+  teamResult: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderRadius: 20,
+    padding: 30,
+    marginBottom: 30,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+    width: '90%',
+  },
+  teamResultName: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#FF6B6B',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
+    marginBottom: 20,
+  },
+  statItem: {
+    alignItems: 'center',
+  },
+  statNumber: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#333333',
+  },
+  statLabel: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#666666',
+    marginTop: 5,
+  },
+  finalScore: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#4ECDC4',
+    textAlign: 'center',
+  },
+  nextTeamButton: {
+    backgroundColor: '#4ECDC4',
+    paddingVertical: 15,
+    paddingHorizontal: 40,
+    borderRadius: 25,
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+  },
+  nextTeamButtonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  finishGameButton: {
+    backgroundColor: '#FF6B6B',
+    paddingVertical: 15,
+    paddingHorizontal: 40,
+    borderRadius: 25,
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 8,
+  },
+  finishGameButtonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
+
+export const TeamCountStyles = StyleSheet.create({
+  teamCountContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  countButton: {
+    backgroundColor: '#4ECDC4',
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginHorizontal: 20,
+  },
+  countButtonText: {
+    color: '#FFFFFF',
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  countText: {
+    fontSize: 48,
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 4,
+  },
+}); 
