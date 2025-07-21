@@ -8,15 +8,18 @@ export const useGameLogic = () => {
   const [currentWord, setCurrentWord] = useState(null);
   const [timeLeft, setTimeLeft] = useState(90);
   const [isGameActive, setIsGameActive] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
   const [passCount, setPassCount] = useState(3);
   const [gameStats, setGameStats] = useState({});
   const [usedWords, setUsedWords] = useState([]);
   const [teamNames, setTeamNames] = useState(['', '']);
+  const [gameMode, setGameMode] = useState('classic');
+  const [rushTimer, setRushTimer] = useState(10);
 
   // Timer effect
   useEffect(() => {
     let interval = null;
-    if (isGameActive && timeLeft > 0) {
+    if (isGameActive && !isPaused && timeLeft > 0) {
       interval = setInterval(() => {
         setTimeLeft(timeLeft => timeLeft - 1);
       }, 1000);
@@ -25,7 +28,24 @@ export const useGameLogic = () => {
       showRoundResults();
     }
     return () => clearInterval(interval);
-  }, [isGameActive, timeLeft]);
+  }, [isGameActive, isPaused, timeLeft]);
+
+  // Rush mode timer effect
+  useEffect(() => {
+    let rushInterval = null;
+    if (gameMode === 'rush' && isGameActive && !isPaused && rushTimer > 0) {
+      rushInterval = setInterval(() => {
+        setRushTimer(timer => timer - 1);
+      }, 1000);
+         } else if (gameMode === 'rush' && rushTimer === 0 && isGameActive) {
+       // Auto-change word in rush mode
+       const newWord = getRandomWord();
+       setCurrentWord(newWord);
+       setUsedWords(prev => [...prev, newWord.word]);
+       setRushTimer(10); // Reset rush timer
+    }
+    return () => clearInterval(rushInterval);
+  }, [gameMode, isGameActive, isPaused, rushTimer]);
 
   const getRandomWord = () => {
     const availableWords = wordsData.filter(wordObj => !usedWords.includes(wordObj.word));
@@ -37,7 +57,7 @@ export const useGameLogic = () => {
     return availableWords[Math.floor(Math.random() * availableWords.length)];
   };
 
-  const initializeGame = (teams) => {
+  const initializeGame = (teams, mode = 'classic') => {
     // Initialize game stats
     const stats = {};
     teams.forEach(team => {
@@ -45,8 +65,10 @@ export const useGameLogic = () => {
     });
     setGameStats(stats);
     setTeamNames(teams);
+    setGameMode(mode);
     setCurrentTeamIndex(0);
     setUsedWords([]);
+    setRushTimer(10); // Reset rush timer
   };
 
   const startNewRound = () => {
@@ -58,8 +80,16 @@ export const useGameLogic = () => {
     setIsGameActive(true);
   };
 
+  const pauseGame = () => {
+    setIsPaused(true);
+  };
+
+  const resumeGame = () => {
+    setIsPaused(false);
+  };
+
   const handleAnswer = (type) => {
-    if (!isGameActive) return;
+    if (!isGameActive || isPaused) return;
 
     const currentTeam = teamNames[currentTeamIndex];
     const newStats = { ...gameStats };
@@ -89,6 +119,11 @@ export const useGameLogic = () => {
     const newWord = getRandomWord();
     setCurrentWord(newWord);
     setUsedWords(prev => [...prev, newWord.word]);
+    
+    // Reset rush timer if in rush mode
+    if (gameMode === 'rush') {
+      setRushTimer(10);
+    }
   };
 
   const showRoundResults = () => {
@@ -128,10 +163,13 @@ export const useGameLogic = () => {
     setCurrentWord(null);
     setTimeLeft(90);
     setIsGameActive(false);
+    setIsPaused(false);
     setPassCount(3);
     setGameStats({});
     setUsedWords([]);
     setTeamNames(['', '']);
+    setGameMode('classic');
+    setRushTimer(10);
   };
 
   const formatTime = (seconds) => {
@@ -172,9 +210,12 @@ export const useGameLogic = () => {
     currentWord,
     timeLeft,
     isGameActive,
+    isPaused,
     passCount,
     gameStats,
     teamNames,
+    gameMode,
+    rushTimer,
     
     // Actions
     initializeGame,
@@ -185,6 +226,8 @@ export const useGameLogic = () => {
     resetGame,
     formatTime,
     getAllTeamsStats,
+    pauseGame,
+    resumeGame,
     
     // Computed values
     currentTeam: teamNames[currentTeamIndex] || '',

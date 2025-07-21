@@ -8,8 +8,8 @@ const TeamCountScreen = ({ teamCount, setTeamCount, onContinue, onBack }) => {
       Alert.alert('Uyarı', 'En az 2 takım olmalıdır!');
       return;
     }
-    if (teamCount > 10) {
-      Alert.alert('Uyarı', 'En fazla 10 takım olabilir!');
+    if (teamCount > 4) {
+      Alert.alert('Uyarı', 'En fazla 4 takım olabilir!');
       return;
     }
     onContinue();
@@ -17,7 +17,7 @@ const TeamCountScreen = ({ teamCount, setTeamCount, onContinue, onBack }) => {
 
   return (
     <View style={GlobalStyles.container}>
-      <Text style={GlobalStyles.title}>Kaç Takım?</Text>
+      <Text style={GlobalStyles.title}>Kaç takım olacak?</Text>
       
       <View style={TeamCountStyles.teamCountContainer}>
         <TouchableOpacity 
@@ -31,7 +31,7 @@ const TeamCountScreen = ({ teamCount, setTeamCount, onContinue, onBack }) => {
         
         <TouchableOpacity 
           style={TeamCountStyles.countButton} 
-          onPress={() => setTeamCount(Math.min(10, teamCount + 1))}
+          onPress={() => setTeamCount(Math.min(4, teamCount + 1))}
         >
           <Text style={TeamCountStyles.countButtonText}>+</Text>
         </TouchableOpacity>

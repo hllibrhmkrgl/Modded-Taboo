@@ -4,6 +4,7 @@ import { ImageBackground } from 'react-native';
 
 // Import Screens
 import WelcomeScreen from './screens/WelcomeScreen';
+import GameModeScreen from './screens/GameModeScreen';
 import TeamCountScreen from './screens/TeamCountScreen';
 import TeamNamesScreen from './screens/TeamNamesScreen';
 import GameScreen from './screens/GameScreen';
@@ -17,6 +18,7 @@ import { GlobalStyles } from './styles/GlobalStyles';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('welcome');
+  const [gameMode, setGameMode] = useState('classic');
   const [teamCount, setTeamCount] = useState(2);
   const [teamNames, setTeamNames] = useState(['', '']);
 
@@ -25,6 +27,11 @@ export default function App() {
 
   // Navigation handlers
   const handlePlayPress = () => {
+    setCurrentScreen('gameMode');
+  };
+
+  const handleModeSelect = (mode) => {
+    setGameMode(mode);
     setCurrentScreen('teamCount');
   };
 
@@ -44,7 +51,7 @@ export default function App() {
   };
 
   const handleStartGame = () => {
-    gameLogic.initializeGame(teamNames);
+    gameLogic.initializeGame(teamNames, gameMode);
     setCurrentScreen('game');
     gameLogic.startNewRound();
   };
@@ -73,6 +80,7 @@ export default function App() {
   const handleBackToMenu = () => {
     gameLogic.resetGame();
     setCurrentScreen('welcome');
+    setGameMode('classic');
     setTeamCount(2);
     setTeamNames(['', '']);
   };
@@ -90,6 +98,14 @@ export default function App() {
     switch (currentScreen) {
       case 'welcome':
         return <WelcomeScreen onPlayPress={handlePlayPress} />;
+      
+      case 'gameMode':
+        return (
+          <GameModeScreen
+            onModeSelect={handleModeSelect}
+            onBack={() => setCurrentScreen('welcome')}
+          />
+        );
       
       case 'teamCount':
         return (
@@ -120,8 +136,14 @@ export default function App() {
             currentWord={gameLogic.currentWord}
             gameStats={gameLogic.currentTeamStats}
             isGameActive={gameLogic.isGameActive}
+            isPaused={gameLogic.isPaused}
+            gameMode={gameLogic.gameMode}
+            rushTimer={gameLogic.rushTimer}
             onAnswer={handleGameAnswer}
             formatTime={gameLogic.formatTime}
+            onPause={gameLogic.pauseGame}
+            onResume={gameLogic.resumeGame}
+            onBackToMenu={handleBackToMenu}
           />
         );
       
