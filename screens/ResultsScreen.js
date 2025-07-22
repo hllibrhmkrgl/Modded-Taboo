@@ -5,7 +5,6 @@ import { GlobalStyles, ResultStyles } from '../styles/GlobalStyles';
 const ResultsScreen = ({ 
   currentTeam, 
   allTeamsStats = [], // Default to empty array
-  isLastTeam, 
   onNextTeam, 
   onFinishGame, 
   onBackToMenu 
@@ -29,15 +28,16 @@ const ResultsScreen = ({
 
   return (
     <SafeAreaView style={GlobalStyles.container}>
-      <Text style={GlobalStyles.title}>
-        {isLastTeam ? 'Final Sonuçları' : 'Anlık Durumlar'}
-      </Text>
+      <Text style={GlobalStyles.title}>Tur Sonucu</Text>
       
       {/* Current team highlight */}
-      {!isLastTeam && currentTeam && (
+      {currentTeam && (
         <View style={ResultStyles.currentTeamHighlight}>
           <Text style={ResultStyles.currentTeamText}>
             {currentTeam} takımının turu bitti!
+          </Text>
+          <Text style={ResultStyles.countdownText}>
+            Hazır olduğunuzda sonraki takıma geçebilirsiniz
           </Text>
         </View>
       )}
@@ -53,31 +53,15 @@ const ResultsScreen = ({
               key={`team-${index}-${team.name || 'unnamed'}`}
               style={[
                 ResultStyles.teamCard,
-                index === 0 && isLastTeam && ResultStyles.winnerCard,
-                team.name === currentTeam && !isLastTeam && ResultStyles.currentTeamCard
+                team.name === currentTeam && ResultStyles.currentTeamCard
               ]}
             >
               {/* Team position and name */}
               <View style={ResultStyles.teamHeader}>
-                <View style={ResultStyles.teamPosition}>
-                  <Text style={[
-                    ResultStyles.positionText,
-                    index === 0 && isLastTeam && ResultStyles.winnerText
-                  ]}>
-                    {isLastTeam ? `${index + 1}.` : ''}
-                  </Text>
-                  {index === 0 && isLastTeam && <Text style={ResultStyles.crownEmoji}>👑</Text>}
-                </View>
-                <Text style={[
-                  ResultStyles.teamName,
-                  index === 0 && isLastTeam && ResultStyles.winnerTeamName
-                ]}>
+                <Text style={ResultStyles.teamName}>
                   {team.name || `Takım ${index + 1}`}
                 </Text>
-                <Text style={[
-                  ResultStyles.teamScore,
-                  index === 0 && isLastTeam && ResultStyles.winnerScore
-                ]}>
+                <Text style={ResultStyles.teamScore}>
                   {team.stats.correct || 0} puan
                 </Text>
               </View>
@@ -88,12 +72,6 @@ const ResultsScreen = ({
                   <Text style={ResultStyles.miniStatNumber}>{team.stats.correct || 0}</Text>
                   <Text style={ResultStyles.miniStatLabel}>Doğru</Text>
                 </View>
-                
-                <View style={ResultStyles.miniStatItem}>
-                  <Text style={ResultStyles.miniStatNumber}>{team.stats.wrong || 0}</Text>
-                  <Text style={ResultStyles.miniStatLabel}>Yanlış</Text>
-                </View>
-                
                 <View style={ResultStyles.miniStatItem}>
                   <Text style={ResultStyles.miniStatNumber}>{team.stats.taboo || 0}</Text>
                   <Text style={ResultStyles.miniStatLabel}>Tabu</Text>
@@ -111,18 +89,14 @@ const ResultsScreen = ({
 
       {/* Action buttons */}
       <View style={GlobalStyles.buttonContainer}>
-        {!isLastTeam ? (
-          <TouchableOpacity style={ResultStyles.nextTeamButton} onPress={onNextTeam}>
-            <Text style={ResultStyles.nextTeamButtonText}>Sonraki Takım</Text>
-          </TouchableOpacity>
-        ) : (
-          <TouchableOpacity style={ResultStyles.finishGameButton} onPress={onBackToMenu}>
-            <Text style={ResultStyles.finishGameButtonText}>Yeni Oyun</Text>
-          </TouchableOpacity>
-        )}
+        <TouchableOpacity style={ResultStyles.nextTeamButton} onPress={onNextTeam}>
+          <Text style={ResultStyles.nextTeamButtonText}>
+            Sonraki Takım
+          </Text>
+        </TouchableOpacity>
         
         <TouchableOpacity style={GlobalStyles.backButton} onPress={onBackToMenu}>
-          <Text style={GlobalStyles.backButtonText}>Ana Menü</Text>
+          <Text style={GlobalStyles.backButtonText}>Oyunu Bitir</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

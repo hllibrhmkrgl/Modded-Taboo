@@ -1,0 +1,4931 @@
+[
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Televizyon",
+      "forbidden_words": ["İzlemek", "Ekran", "Kanal", "Kumanda", "Dizi"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Bilgisayar",
+      "forbidden_words": ["Klavye", "Fare", "Monitör", "İnternet", "Yazılım"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Çamaşır Makinesi",
+      "forbidden_words": ["Yıkamak", "Deterjan", "Kıyafet", "Kazan", "Sıkma"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Ütü",
+      "forbidden_words": ["Kırışık", "Sıcak", "Masa", "Buhar", "Giysi"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Elektrik Süpürgesi",
+      "forbidden_words": ["Toz", "Temizlik", "Çekmek", "Hortum", "Filtre"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Koltuk",
+      "forbidden_words": ["Oturmak", "Salon", "Kanepe", "Minder", "Yumuşak"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Halı",
+      "forbidden_words": ["Zemin", "Yere sermek", "Desen", "Yün", "Toz"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Perde",
+      "forbidden_words": ["Pencere", "Güneşlik", "Kapatmak", "Tül", "Korniş"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Ayna",
+      "forbidden_words": ["Yansıma", "Bakmak", "Görüntü", "Sır", "Cam"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Çatal",
+      "forbidden_words": ["Bıçak", "Kaşık", "Yemek", "Batırmak", "Diş"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Tabak",
+      "forbidden_words": ["Yemek", "Porselen", "Kase", "Servis", "Mutfak"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Havlu",
+      "forbidden_words": ["Kurulanmak", "Banyo", "Islak", "Pamuk", "Plaj"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Sabun",
+      "forbidden_words": ["Yıkamak", "Köpük", "Temizlik", "El", "Kalıp"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Diş Fırçası",
+      "forbidden_words": ["Macun", "Diş", "Temizlemek", "Ağız", "Kıl"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Ayakkabı",
+      "forbidden_words": ["Giymek", "Yürümek", "Bağcık", "Taban", "Spor"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Çanta",
+      "forbidden_words": ["Taşımak", "Kol", "Omuz", "Eşya", "Sırt"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Şemsiye",
+      "forbidden_words": ["Yağmur", "Islanmak", "Açmak", "Korunmak", "Güneş"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Kalem",
+      "forbidden_words": ["Yazmak", "Kağıt", "Defter", "Mürekkep", "Çizmek"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Makas",
+      "forbidden_words": ["Kesmek", "Kağıt", "Kumaş", "İki", "Bıçak"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Radyo",
+      "forbidden_words": ["Dinlemek", "Müzik", "Frekans", "İstasyon", "Ses"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Telefon",
+      "forbidden_words": ["Aramak", "Konuşmak", "Mesaj", "Cep", "Mobil"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Anahtar",
+      "forbidden_words": ["Kilit", "Açmak", "Kapı", "Ev", "Metal"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Gözlük",
+      "forbidden_words": ["Görmek", "Göz", "Cam", "Çerçeve", "Miyop"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Saat",
+      "forbidden_words": ["Zaman", "Akrep", "Yelkovan", "Kol", "Saniye"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Yatak",
+      "forbidden_words": ["Uyumak", "Oda", "Yastık", "Çarşaf", "Rüya"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Buzdolabı",
+      "forbidden_words": ["Soğuk", "Mutfak", "Yiyecek", "Saklamak", "Motor"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Lamba",
+      "forbidden_words": ["Işık", "Aydınlatma", "Ampul", "Tavan", "Karanlık"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Sandalye",
+      "forbidden_words": ["Oturmak", "Masa", "Bacak", "Sırt", "Ahşap"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Cüzdan",
+      "forbidden_words": ["Para", "Kredi Kartı", "Kimlik", "Deri", "Cep"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Merdiven",
+      "forbidden_words": ["Çıkmak", "İnmek", "Basamak", "Kat", "Yüksek"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Fırın",
+      "forbidden_words": ["Pişirmek", "Sıcak", "Kek", "Mutfak", "Tepsi"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Tarak",
+      "forbidden_words": ["Saç", "Düzeltmek", "Kafa", "Diş", "Plastik"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Dolap",
+      "forbidden_words": ["Giysi", "Eşya", "Kapak", "Raf", "Saklamak"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Paspas",
+      "forbidden_words": ["Temizlik", "Yer", "Silmek", "Islak", "Sopa"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Pil",
+      "forbidden_words": ["Enerji", "Kumanda", "Artı", "Eksi", "Güç"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Priz",
+      "forbidden_words": ["Elektrik", "Fiş", "Duvar", "Akım", "Soket"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Tencere",
+      "forbidden_words": ["Yemek", "Pişirmek", "Kapak", "Ocak", "Sıcak"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Çöp Kutusu",
+      "forbidden_words": ["Atık", "Poşet", "Dolu", "Boş", "Koku"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Masa",
+      "forbidden_words": ["Sandalye", "Yemek", "Çalışmak", "Bacak", "Üst"]
+    },
+    {
+      "category": "Günlük Yaşam ve Nesneler",
+      "word": "Duvar",
+      "forbidden_words": ["Oda", "Tablo", "Boya", "Tuğla", "Sıva"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Okyanus",
+      "forbidden_words": ["Deniz", "Büyük", "Su", "Derin", "Atlantik"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Çöl",
+      "forbidden_words": ["Sıcak", "Kum", "Kaktüs", "Deve", "Kurak"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Orman",
+      "forbidden_words": ["Ağaç", "Yeşil", "Hayvan", "Oksijen", "Balta girmemiş"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Göl",
+      "forbidden_words": ["Su", "Tatlı", "Kenar", "Balık", "Durgun"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Şelale",
+      "forbidden_words": ["Su", "Akarsu", "Yüksekten", "Dökülmek", "Çağlayan"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Buzul",
+      "forbidden_words": ["Buz", "Soğuk", "Kutup", "Erimek", "Dağ"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Ada",
+      "forbidden_words": ["Deniz", "Kara parçası", "Etrafı suyla çevrili", "Yalnız", "Tropikal"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Deprem",
+      "forbidden_words": ["Sallanmak", "Fay hattı", "Yer kabuğu", "Richter", "Tektonik"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Rüzgar",
+      "forbidden_words": ["Esmek", "Hava", "Fırtına", "Serin", "Yel"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Kar",
+      "forbidden_words": ["Soğuk", "Beyaz", "Kış", "Yağmak", "Tane"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Yıldırım",
+      "forbidden_words": ["Şimşek", "Gök gürültüsü", "Elektrik", "Fırtına", "Çakmak"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Gökkuşağı",
+      "forbidden_words": ["Renk", "Yağmur", "Güneş", "Yay", "Kemer"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Atmosfer",
+      "forbidden_words": ["Hava", "Gaz", "Oksijen", "Katman", "Dünya"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Gezegen",
+      "forbidden_words": ["Güneş Sistemi", "Mars", "Jüpiter", "Yörünge", "Uydu"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Mevsim",
+      "forbidden_words": ["Yaz", "Kış", "İlkbahar", "Sonbahar", "Dört"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Mağara",
+      "forbidden_words": ["Karanlık", "Yeraltı", "Sarkıt", "Dikit", "Yarasa"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Kıta",
+      "forbidden_words": ["Asya", "Avrupa", "Amerika", "Kara", "Büyük"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Gelgit",
+      "forbidden_words": ["Deniz", "Ay", "Çekim", "Yükselme", "Alçalma"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Sis",
+      "forbidden_words": ["Görüş", "Bulut", "Hava", "Yoğun", "Nemli"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Bitki",
+      "forbidden_words": ["Yeşil", "Fotosentez", "Kök", "Yaprak", "Toprak"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Ağaç",
+      "forbidden_words": ["Yaprak", "Orman", "Dal", "Yeşil", "Kök"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Yağmur",
+      "forbidden_words": ["Islak", "Bulut", "Şemsiye", "Su", "Yağmak"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Güneş",
+      "forbidden_words": ["Sıcak", "Yıldız", "Işık", "Gündüz", "Sarı"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Deniz",
+      "forbidden_words": ["Su", "Dalga", "Kumsal", "Okyanus", "Mavi"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Dağ",
+      "forbidden_words": ["Yüksek", "Zirve", "Tırmanmak", "Tepe", "Kar"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Nehir",
+      "forbidden_words": ["Akarsu", "Su", "Yatak", "Köprü", "Akıntı"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Çiçek",
+      "forbidden_words": ["Bitki", "Yaprak", "Koku", "Bahçe", "Tomurcuk"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Ay",
+      "forbidden_words": ["Gece", "Uydu", "Gezegen", "Dolunay", "Krater"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Toprak",
+      "forbidden_words": ["Arazi", "Çamur", "Bitki", "Ekmek", "Kahverengi"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Volkan",
+      "forbidden_words": ["Dağ", "Patlama", "Lav", "Magma", "Püskürmek"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Kaya",
+      "forbidden_words": ["Taş", "Sert", "Mineral", "Dağ", "Madde"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Yosun",
+      "forbidden_words": ["Yeşil", "Su", "Nemli", "Kaya", "Bitki"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Mantar",
+      "forbidden_words": ["Şapka", "Zehirli", "Yemek", "Orman", "Spor"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Ova",
+      "forbidden_words": ["Düz", "Arazi", "Tarım", "Yeşil", "Geniş"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Yıldız",
+      "forbidden_words": ["Güneş", "Gökyüzü", "Gece", "Parlak", "Işık"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Galaksi",
+      "forbidden_words": ["Yıldız", "Samanyolu", "Uzay", "Sarmal", "Evren"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Fosil",
+      "forbidden_words": ["Eski", "Taş", "Kalıntı", "Dinozor", "Milyon yıl"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Mercan",
+      "forbidden_words": ["Deniz", "Resif", "Renkli", "Canlı", "İskelet"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Vadi",
+      "forbidden_words": ["Dağ", "Akarsu", "Yeşil", "Çukur", "İki yamaç"]
+    },
+    {
+      "category": "Doğa ve Dünya",
+      "word": "Hortum",
+      "forbidden_words": ["Rüzgar", "Dönmek", "Fırtına", "Siklon", "Yıkıcı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Domates",
+      "forbidden_words": ["Kırmızı", "Sebze", "Salça", "Salata", "Çorba"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Patates",
+      "forbidden_words": ["Kızartma", "Yemek", "Toprak altı", "Yumru", "Püre"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Soğan",
+      "forbidden_words": ["Acı", "Doğramak", "Gözyaşı", "Yemek", "Kuru"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Limon",
+      "forbidden_words": ["Ekşi", "Sarı", "C Vitamini", "Salata", "Sıkmak"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Muz",
+      "forbidden_words": ["Sarı", "Meyve", "Tatlı", "Kabuk", "Tropikal"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Zeytin",
+      "forbidden_words": ["Kahvaltı", "Siyah", "Yeşil", "Yağ", "Ağaç"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Yumurta",
+      "forbidden_words": ["Tavuk", "Kahvaltı", "Beyaz", "Sarı", "Kırmak"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Süt",
+      "forbidden_words": ["İnek", "Beyaz", "İçmek", "Peynir", "Kalsiyum"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Yoğurt",
+      "forbidden_words": ["Süt", "Maya", "Kase", "Bakteri", "Ayran"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Bal",
+      "forbidden_words": ["Arı", "Tatlı", "Kovan", "Petek", "Kahvaltı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Pirinç",
+      "forbidden_words": ["Pilav", "Beyaz", "Tane", "Lapa", "Çeltik"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Tavuk",
+      "forbidden_words": ["Et", "Beyaz", "Kanat", "But", "Izgara"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Balık",
+      "forbidden_words": ["Deniz", "Kılçık", "Pullu", "Yüzmek", "Omega-3"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Kek",
+      "forbidden_words": ["Tatlı", "Un", "Şeker", "Fırın", "Doğum günü"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Kurabiye",
+      "forbidden_words": ["Tatlı", "Atıştırmalık", "Çay", "Un", "Fırın"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Çorba",
+      "forbidden_words": ["Sıcak", "Kaşık", "Kase", "Sıvı", "Mercimek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Salata",
+      "forbidden_words": ["Yeşillik", "Marul", "Domates", "Sağlıklı", "Sos"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Gazoz",
+      "forbidden_words": ["Asitli", "İçecek", "Kabarcık", "Şişe", "Şekerli"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Şeker",
+      "forbidden_words": ["Tatlı", "Beyaz", "Çay", "Kristal", "Pancar"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Tuz",
+      "forbidden_words": ["Tat", "Beyaz", "Deniz", "Yemek", "İyot"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Ekmek",
+      "forbidden_words": ["Un", "Fırın", "Hamur", "Dilim", "Buğday"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Su",
+      "forbidden_words": ["İçmek", "Sıvı", "Bardak", "Hayat", "Şişe"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Çikolata",
+      "forbidden_words": ["Tatlı", "Kakao", "Şeker", "Kahverengi", "Bar"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Elma",
+      "forbidden_words": ["Meyve", "Ağaç", "Kırmızı", "Yeşil", "Isırmak"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Kahve",
+      "forbidden_words": ["Fincan", "Kafein", "Sıcak", "Çekirdek", "İçmek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Peynir",
+      "forbidden_words": ["Süt", "Kahvaltı", "Beyaz", "Kaşar", "İnek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Makarna",
+      "forbidden_words": ["İtalya", "Sos", "Spagetti", "Hamur", "Haşlamak"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Dondurma",
+      "forbidden_words": ["Soğuk", "Yaz", "Külah", "Tatlı", "Süt"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Çay",
+      "forbidden_words": ["Demlik", "Sıcak", "Bardak", "İçmek", "Kahvaltı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Pizza",
+      "forbidden_words": ["İtalya", "Hamur", "Fırın", "Dilim", "Domates"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Karpuz",
+      "forbidden_words": ["Meyve", "Yaz", "Kırmızı", "Çekirdek", "Tatlı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Biber",
+      "forbidden_words": ["Acı", "Yeşil", "Kırmızı", "Dolma", "Sebze"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Et",
+      "forbidden_words": ["Kırmızı", "Kasap", "Protein", "Hayvan", "Biftek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Simit",
+      "forbidden_words": ["Susam", "Sokak", "Yuvarlak", "Hamur", "Gevrek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Reçel",
+      "forbidden_words": ["Meyve", "Şeker", "Kahvaltı", "Kavanoz", "Tatlı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Mısır",
+      "forbidden_words": ["Patlamış", "Sarı", "Tane", "Koçan", "Haşlama"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Fındık",
+      "forbidden_words": ["Kabuklu", "Çerez", "Karadeniz", "Kırmak", "Yağlı"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Meyve Suyu",
+      "forbidden_words": ["İçecek", "Portakal", "Sıkmak", "Kutu", "Vitamin"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Tereyağı",
+      "forbidden_words": ["Süt", "Yağ", "Kahvaltı", "Sarı", "Eritmek"]
+    },
+    {
+      "category": "Yiyecek ve İçecekler",
+      "word": "Sucuk",
+      "forbidden_words": ["Baharat", "Kahvaltı", "Yumurta", "Et", "Kırmızı"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Resim",
+      "forbidden_words": ["Yapmak", "Boya", "Fırça", "Tuval", "Çizmek"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Müzik",
+      "forbidden_words": ["Dinlemek", "Şarkı", "Nota", "Enstrüman", "Ses"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Tiyatro",
+      "forbidden_words": ["Sahne", "Oyuncu", "Perde", "Oyun", "İzleyici"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Bisiklet",
+      "forbidden_words": ["Sürmek", "Pedal", "Tekerlek", "Gidon", "Zincir"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Koşu",
+      "forbidden_words": ["Hızlı", "Yürümek", "Spor", "Adım", "Maraton"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Bulmaca",
+      "forbidden_words": ["Çözmek", "Kare", "Kelime", "Soru", "Gazete"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Kamp",
+      "forbidden_words": ["Çadır", "Doğa", "Ateş", "Orman", "Uyku tulumu"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Balık Tutmak",
+      "forbidden_words": ["Olta", "Yem", "Göl", "Deniz", "Sabır"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Bahçıvanlık",
+      "forbidden_words": ["Bitki", "Toprak", "Çiçek", "Sulama", "Bahçe"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Piyano",
+      "forbidden_words": ["Çalmak", "Tuş", "Siyah", "Beyaz", "Müzik"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Keman",
+      "forbidden_words": ["Yay", "Tel", "Klasik Müzik", "Çalmak", "İnce"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Koleksiyon",
+      "forbidden_words": ["Biriktirmek", "Pul", "Para", "Nadir", "Seri"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Yoga",
+      "forbidden_words": ["Meditasyon", "Mat", "Hareket", "Nefes", "Esneme"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Tırmanış",
+      "forbidden_words": ["Dağ", "Kaya", "İp", "Yüksek", "Zirve"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Sörf",
+      "forbidden_words": ["Dalga", "Deniz", "Tahta", "Su", "Plaj"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Heykel",
+      "forbidden_words": ["Yontmak", "Çamur", "Taş", "Sanat", "Üç boyutlu"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Tavla",
+      "forbidden_words": ["Zar", "Pul", "Kapı", "Oyun", "Mars"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Konser",
+      "forbidden_words": ["Müzik", "Canlı", "Sahne", "Şarkıcı", "Kalabalık"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Festival",
+      "forbidden_words": ["Eğlence", "Müzik", "Kalabalık", "Kutlama", "Etkinlik"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Paten",
+      "forbidden_words": ["Kaymak", "Tekerlekli", "Buz", "Ayakkabı", "Denge"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Futbol",
+      "forbidden_words": ["Top", "Gol", "Kale", "Maç", "Takım"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Sinema",
+      "forbidden_words": ["Film", "İzlemek", "Perde", "Koltuk", "Patlamış Mısır"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Gitar",
+      "forbidden_words": ["Müzik", "Tel", "Çalmak", "Akor", "Pena"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Kitap",
+      "forbidden_words": ["Okumak", "Sayfa", "Yazar", "Roman", "Kütüphane"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Satranç",
+      "forbidden_words": ["Tahta", "Şah", "Mat", "Piyon", "Hamle"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Basketbol",
+      "forbidden_words": ["Top", "Pota", "Sayı", "Maç", "Smaç"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Fotoğraf",
+      "forbidden_words": ["Çekmek", "Kamera", "Makine", "Poz", "Lens"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Dans",
+      "forbidden_words": ["Müzik", "Etmek", "Figür", "Hareket", "Ritim"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Yüzme",
+      "forbidden_words": ["Havuz", "Deniz", "Su", "Kulaç", "Stil"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Video Oyunu",
+      "forbidden_words": ["Oynamak", "Konsol", "Bilgisayar", "Karakter", "Bölüm"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Voleybol",
+      "forbidden_words": ["File", "Top", "Takım", "Servis", "Manşet"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Yapboz",
+      "forbidden_words": ["Parça", "Birleştirmek", "Resim", "Tamamlamak", "Kutu"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Piknik",
+      "forbidden_words": ["Sepet", "Doğa", "Yemek", "Örtü", "Açık hava"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Dalış",
+      "forbidden_words": ["Su altı", "Tüp", "Deniz", "Balık", "Oksijen"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Kaykay",
+      "forbidden_words": ["Tahta", "Tekerlek", "Sürmek", "Cadde", "Hareket"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Seramik",
+      "forbidden_words": ["Çamur", "Şekil vermek", "Fırın", "Vazo", "Sanat"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Gezi",
+      "forbidden_words": ["Seyahat", "Turist", "Valiz", "Yeni yerler", "Tatil"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Bilardo",
+      "forbidden_words": ["Masa", "Istaka", "Top", "Delik", "Amerikan"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Tenis",
+      "forbidden_words": ["Raket", "Top", "Kort", "File", "Servis"]
+    },
+    {
+      "category": "Eğlence ve Hobiler",
+      "word": "Uçurtma",
+      "forbidden_words": ["Uçurmak", "Rüzgar", "İp", "Gökyüzü", "Kuyruk"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Mühendis",
+      "forbidden_words": ["İnşaat", "Makine", "Proje", "Hesaplama", "Tasarım"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Mimar",
+      "forbidden_words": ["Bina", "Çizim", "Tasarım", "Proje", "Yapı"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Aşçı",
+      "forbidden_words": ["Yemek", "Mutfak", "Pişirmek", "Restoran", "Şef"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "İtfaiyeci",
+      "forbidden_words": ["Yangın", "Söndürmek", "Hortum", "İstasyon", "Kurtarmak"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Çiftçi",
+      "forbidden_words": ["Tarla", "Ekmek", "Biçmek", "Traktör", "Mahsul"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Ekonomi",
+      "forbidden_words": ["Para", "Borsa", "Enflasyon", "Kriz", "Büyüme"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Hükümet",
+      "forbidden_words": ["Devlet", "Bakan", "Yönetim", "Başkan", "Meclis"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Adalet",
+      "forbidden_words": ["Mahkeme", "Hukuk", "Hakim", "Yasa", "Eşitlik"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Eğitim",
+      "forbidden_words": ["Okul", "Öğrenci", "Öğretmen", "Öğrenmek", "Bilgi"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Sağlık",
+      "forbidden_words": ["Doktor", "Hastane", "İlaç", "Hastalık", "Vücut"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Komşu",
+      "forbidden_words": ["Apartman", "Yan daire", "Selam", "Yakın", "Ev"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Toplantı",
+      "forbidden_words": ["İş", "Katılımcı", "Gündem", "Karar", "Konuşma"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Savaş",
+      "forbidden_words": ["Barış", "Asker", "Silah", "Ordu", "Düşman"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Bayram",
+      "forbidden_words": ["Kutlama", "Tatil", "Aile", "Şeker", "Ziyaret"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Düğün",
+      "forbidden_words": ["Gelin", "Damat", "Evlilik", "Nikah", "Davetiye"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Bebek",
+      "forbidden_words": ["Doğum", "Küçük", "Ağlamak", "Anne", "Çocuk"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Emeklilik",
+      "forbidden_words": ["Yaşlılık", "Çalışmamak", "Maaş", "İstirahat", "Son"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Dil",
+      "forbidden_words": ["Konuşmak", "Kelime", "Lisan", "Yabancı", "Gramer"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Kültür",
+      "forbidden_words": ["Gelenek", "Sanat", "Toplum", "Yaşam tarzı", "Miras"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Yasa",
+      "forbidden_words": ["Kanun", "Kural", "Meclis", "Suç", "Ceza"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Doktor",
+      "forbidden_words": ["Hasta", "Hastane", "İlaç", "Tedavi", "Sağlık"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Öğretmen",
+      "forbidden_words": ["Okul", "Öğrenci", "Ders", "Sınıf", "Bilgi"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Aile",
+      "forbidden_words": ["Anne", "Baba", "Çocuk", "Kardeş", "Ev"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Para",
+      "forbidden_words": ["Almak", "Satmak", "Nakit", "Banka", "Zengin"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Tarih",
+      "forbidden_words": ["Geçmiş", "Savaş", "Kral", "Zaman", "Olay"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Polis",
+      "forbidden_words": ["Suçlu", "Karakol", "Güvenlik", "Memur", "Silah"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Avukat",
+      "forbidden_words": ["Dava", "Mahkeme", "Hukuk", "Savunma", "Yasa"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Seçim",
+      "forbidden_words": ["Oy", "Sandık", "Parti", "Aday", "Başkan"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Evlilik",
+      "forbidden_words": ["Gelin", "Damat", "Düğün", "Yüzük", "Karı-Koca"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Arkadaş",
+      "forbidden_words": ["Dost", "Sohbet", "Güvenmek", "Samimi", "Birlikte"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Vatandaş",
+      "forbidden_words": ["Ülke", "Kimlik", "Hak", "Sorumluluk", "Halk"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Şehir",
+      "forbidden_words": ["Bina", "Sokak", "Kalabalık", "Belediye", "Merkez"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Köy",
+      "forbidden_words": ["Tarım", "Hayvan", "Doğa", "Küçük", "Sakin"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Sanatçı",
+      "forbidden_words": ["Resim", "Müzik", "Heykel", "Eser", "Yaratıcı"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Bilim İnsanı",
+      "forbidden_words": ["Deney", "Araştırma", "Laboratuvar", "Keşif", "Teori"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Postacı",
+      "forbidden_words": ["Mektup", "Kargo", "Dağıtmak", "Adres", "Zarf"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Gazeteci",
+      "forbidden_words": ["Haber", "Röportaj", "Yazı", "Manşet", "Medya"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Vergi",
+      "forbidden_words": ["Devlet", "Ödemek", "Para", "Gelir", "Beyanname"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Dernek",
+      "forbidden_words": ["Gönüllü", "Üye", "Amaç", "Yardım", "Topluluk"]
+    },
+    {
+      "category": "İnsan ve Toplum",
+      "word": "Mutluluk",
+      "forbidden_words": ["Sevinç", "Gülmek", "Keyif", "İyi hissetmek", "Duygu"]
+    },
+
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bıçak",
+    "forbidden_words": ["Kesmek", "Çatal", "Kaşık", "Keskin", "Mutfak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bardak",
+    "forbidden_words": ["Su", "İçmek", "Cam", "Kupa", "Sıvı"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çaydanlık",
+    "forbidden_words": ["Çay", "Demlemek", "Su", "Sıcak", "Ocak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bulaşık Makinesi",
+    "forbidden_words": ["Yıkamak", "Tabak", "Mutfak", "Deterjan", "Sepet"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Peçete",
+    "forbidden_words": ["Silmek", "Ağız", "Masa", "Kağıt", "Islak mendil"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gömlek",
+    "forbidden_words": ["Giymek", "Düğme", "Yaka", "Kravat", "Pantolon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kemer",
+    "forbidden_words": ["Pantolon", "Bel", "Toka", "Deri", "Sıkmak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Terlik",
+    "forbidden_words": ["Ayak", "Ev", "Giymek", "Rahat", "Plaj"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Şampuan",
+    "forbidden_words": ["Saç", "Yıkamak", "Banyo", "Köpük", "Duş"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tırnak Makası",
+    "forbidden_words": ["Kesmek", "Parmak", "El", "Ayak", "Manikür"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çekiç",
+    "forbidden_words": ["Vurmak", "Çivi", "Tahta", "İnşaat", "Alet"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tornavida",
+    "forbidden_words": ["Vida", "Sıkmak", "Gevşetmek", "Alet", "Uç"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ampul",
+    "forbidden_words": ["Işık", "Lamba", "Elektrik", "Duy", "Avize"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kova",
+    "forbidden_words": ["Su", "Taşımak", "Temizlik", "Plastik", "Sap"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Defter",
+    "forbidden_words": ["Yazmak", "Kalem", "Kağıt", "Not", "Çizgili"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kitaplık",
+    "forbidden_words": ["Kitap", "Raf", "Dizmek", "Kütüphane", "Mobilya"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Silgi",
+    "forbidden_words": ["Kalem", "Silmek", "Hata", "Kurşun", "Yazı"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Takvim",
+    "forbidden_words": ["Gün", "Ay", "Yıl", "Tarih", "Yaprak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Zarf",
+    "forbidden_words": ["Mektup", "Posta", "Göndermek", "Kağıt", "Pul"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bavul",
+    "forbidden_words": ["Seyahat", "Valiz", "Taşımak", "Yolculuk", "Eşya"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kibrit",
+    "forbidden_words": ["Ateş", "Yakmak", "Kutu", "Çöp", "Alev"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mandal",
+    "forbidden_words": ["Çamaşır", "Asmak", "İp", "Yay", "Tutturmak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Askı",
+    "forbidden_words": ["Elbise", "Asmak", "Dolap", "Giysi", "Kıyafet"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tepsi",
+    "forbidden_words": ["Taşımak", "Çay", "Servis", "Bardak", "Mutfak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Oklava",
+    "forbidden_words": ["Hamur", "Açmak", "Yufka", "Mutfak", "Yuvarlak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Streç Film",
+    "forbidden_words": ["Sarmak", "Yiyecek", "Mutfak", "Tazelik", "Rulo"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Düdüklü Tencere",
+    "forbidden_words": ["Basınç", "Pişirmek", "Hızlı", "Buhar", "Yemek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Parfüm",
+    "forbidden_words": ["Koku", "Sıkmak", "Güzel", "Esans", "Şişe"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Eldiven",
+    "forbidden_words": ["El", "Soğuk", "Giymek", "Kış", "Parmak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Atkı",
+    "forbidden_words": ["Boyun", "Soğuk", "Sarmak", "Kış", "Yün"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fular",
+    "forbidden_words": ["Boyun", "Aksesuar", "İpek", "Kumaş", "Bağlamak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Harita",
+    "forbidden_words": ["Yer", "Yön", "Ülke", "Şehir", "Coğrafya"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Pusula",
+    "forbidden_words": ["Yön", "Kuzey", "Güney", "Manyetik", "İbre"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Dürbün",
+    "forbidden_words": ["Bakmak", "Uzak", "Yakınlaştırmak", "Göz", "Lens"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Hesap Makinesi",
+    "forbidden_words": ["Sayı", "Toplama", "Çıkarma", "Matematik", "Ekran"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mikrofon",
+    "forbidden_words": ["Ses", "Konuşmak", "Şarkı söylemek", "Kayıt", "Anfi"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Hoparlör",
+    "forbidden_words": ["Ses", "Müzik", "Yüksek", "Dinlemek", "Cihaz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kulaklık",
+    "forbidden_words": ["Müzik", "Dinlemek", "Kulak", "Ses", "Kablo"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Vazo",
+    "forbidden_words": ["Çiçek", "Koymak", "Su", "Masa", "Dekorasyon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çerçeve",
+    "forbidden_words": ["Fotoğraf", "Resim", "Duvar", "Asmak", "Kenar"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kanyon",
+    "forbidden_words": ["Vadi", "Derin", "Akarsu", "Aşındırma", "Kaya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Plato",
+    "forbidden_words": ["Yayla", "Yüksek", "Düzlük", "Akarsu", "Coğrafya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yarımada",
+    "forbidden_words": ["Üç tarafı deniz", "Kara", "Deniz", "Kıta", "Çıkıntı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Körfez",
+    "forbidden_words": ["Deniz", "Kara içine girmek", "Liman", "Girinti", "Su"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Bataklık",
+    "forbidden_words": ["Çamur", "Su", "Sazlık", "Sivrisinek", "Islak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çayır",
+    "forbidden_words": ["Ot", "Yeşil", "Düzlük", "Kır", "Hayvan otlatmak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "İklim",
+    "forbidden_words": ["Hava", "Mevsim", "Sıcaklık", "Yağış", "Coğrafya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Dolu",
+    "forbidden_words": ["Yağmur", "Buz", "Yağmak", "Tane", "Fırtına"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kırağı",
+    "forbidden_words": ["Soğuk", "Buz", "Kristal", "Sabah", "Çiy"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sel",
+    "forbidden_words": ["Su", "Taşkın", "Yağmur", "Nehir", "Afet"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kuraklık",
+    "forbidden_words": ["Susuzluk", "Sıcak", "Çöl", "Yağmur yağmaması", "Toprak çatlaması"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kök",
+    "forbidden_words": ["Ağaç", "Bitki", "Toprak", "Su emmek", "Alt"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tohum",
+    "forbidden_words": ["Bitki", "Ekmek", "Filiz", "Meyve", "Yeni"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çimen",
+    "forbidden_words": ["Yeşil", "Ot", "Bahçe", "Park", "Biçmek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sarmaşık",
+    "forbidden_words": ["Bitki", "Tırmanmak", "Duvar", "Yeşil", "Yaprak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kaktüs",
+    "forbidden_words": ["Diken", "Çöl", "Bitki", "Su", "Yeşil"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Meşe",
+    "forbidden_words": ["Ağaç", "Palamut", "Kereste", "Orman", "Yaprak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kuyruklu Yıldız",
+    "forbidden_words": ["Uzay", "Buz", "Güneş Sistemi", "Parlak", "Halley"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Meteor",
+    "forbidden_words": ["Taş", "Atmosfer", "Yanmak", "Gökyüzü", "Kayan yıldız"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Evren",
+    "forbidden_words": ["Uzay", "Gezegen", "Yıldız", "Galaksi", "Büyük Patlama"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Karadelik",
+    "forbidden_words": ["Uzay", "Yıldız", "Çekim gücü", "Işık", "Einstein"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Hava",
+    "forbidden_words": ["Atmosfer", "Oksijen", "Nefes almak", "Gaz", "Rüzgar"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ateş",
+    "forbidden_words": ["Yakmak", "Sıcak", "Alev", "Odun", "Yangın"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Maden",
+    "forbidden_words": ["Toprak", "Kazmak", "Cevher", "Altın", "Demir"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Altın",
+    "forbidden_words": ["Sarı", "Değerli", "Metal", "Maden", "Kuyumcu"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Demir",
+    "forbidden_words": ["Metal", "Paslanmak", "Mıknatıs", "Sert", "İnşaat"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çakıl",
+    "forbidden_words": ["Taş", "Küçük", "Kumsal", "Dere", "Yuvarlak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Toz",
+    "forbidden_words": ["Kir", "Temizlik", "Süpürge", "Hava", "Uçuşmak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Buhar",
+    "forbidden_words": ["Su", "Sıcak", "Gaz", "Kaynamak", "Yoğunlaşmak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Irmak",
+    "forbidden_words": ["Nehir", "Akarsu", "Su", "Yatak", "Denize dökülmek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kum",
+    "forbidden_words": ["Plaj", "Çöl", "Deniz", "Tane", "Sarı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Dal",
+    "forbidden_words": ["Ağaç", "Yaprak", "Gövde", "Kuş konmak", "Kırılmak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yaprak",
+    "forbidden_words": ["Ağaç", "Yeşil", "Sonbahar", "Dökülmek", "Fotosentez"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gölge",
+    "forbidden_words": ["Işık", "Güneş", "Karanlık", "Cisim", "Yansıma"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Zirve",
+    "forbidden_words": ["Dağ", "Tepe", "En yüksek", "Tırmanmak", "Uç"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ufuk",
+    "forbidden_words": ["Deniz", "Gökyüzü", "Birleşmek", "Çizgi", "Güneşin batışı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sığ",
+    "forbidden_words": ["Derin", "Su", "Deniz", "Ayak", "Yüzmek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Akıntı",
+    "forbidden_words": ["Su", "Nehir", "Deniz", "Sürüklemek", "Yön"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Erozyon",
+    "forbidden_words": ["Toprak", "Aşınma", "Rüzgar", "Su", "Ağaçlandırma"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Portakal",
+    "forbidden_words": ["Meyve", "Turuncu", "C Vitamini", "Sıkmak", "Kış"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Çilek",
+    "forbidden_words": ["Meyve", "Kırmızı", "Tatlı", "Yaz", "Tohumlu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Üzüm",
+    "forbidden_words": ["Meyve", "Salkım", "Bağ", "Şarap", "Çekirdek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kiraz",
+    "forbidden_words": ["Meyve", "Kırmızı", "Sap", "Yaz", "Çekirdek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Salatalık",
+    "forbidden_words": ["Sebze", "Yeşil", "Cacık", "Su", "Hıyar"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Havuç",
+    "forbidden_words": ["Sebze", "Turuncu", "Tavşan", "Göz", "Toprak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ispanak",
+    "forbidden_words": ["Sebze", "Yeşil", "Demir", "Temel Reis", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kebap",
+    "forbidden_words": ["Et", "Şiş", "Mangal", "Adana", "Restoran"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Dolma",
+    "forbidden_words": ["Biber", "Pirinç", "İç harç", "Sarmak", "Tencere"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Börek",
+    "forbidden_words": ["Hamur", "Yufka", "Peynir", "Fırın", "Tepsi"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Köfte",
+    "forbidden_words": ["Kıyma", "Et", "Yuvarlak", "Izgara", "Ekmek arası"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mantı",
+    "forbidden_words": ["Hamur", "Kıyma", "Yoğurt", "Sarımsak", "Kaşık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Bulgur",
+    "forbidden_words": ["Buğday", "Pilav", "Tane", "Kısır", "Haşlamak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mercimek",
+    "forbidden_words": ["Çorba", "Bakliyat", "Kırmızı", "Yeşil", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Nohut",
+    "forbidden_words": ["Yemek", "Bakliyat", "Leblebi", "Dürüm", "Gaz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ceviz",
+    "forbidden_words": ["Kabuk", "Kırmak", "Beyin", "Ağaç", "Baklava"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Badem",
+    "forbidden_words": ["Çerez", "Acı", "Tatlı", "Süt", "Kavrulmuş"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Un",
+    "forbidden_words": ["Buğday", "Ekmek", "Hamur", "Beyaz", "Elek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Maya",
+    "forbidden_words": ["Hamur", "Kabarmak", "Ekmek", "Bira", "Yaş"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sirke",
+    "forbidden_words": ["Ekşi", "Salata", "Üzüm", "Elma", "Turşu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ayran",
+    "forbidden_words": ["Yoğurt", "Su", "İçmek", "Tuzlu", "Köpüklü"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Baharat",
+    "forbidden_words": ["Tat", "Koku", "Yemek", "Tuz", "Biber"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Nane",
+    "forbidden_words": ["Yeşil", "Ferahlatan", "Koku", "Limon", "Sakız"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Karabiber",
+    "forbidden_words": ["Baharat", "Acı", "Tane", "Değirmen", "Tuz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Şarap",
+    "forbidden_words": ["Üzüm", "İçki", "Kırmızı", "Beyaz", "Fermantasyon"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Bira",
+    "forbidden_words": ["Arpa", "Şerbetçiotu", "Alkol", "Köpük", "Malt"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Limonata",
+    "forbidden_words": ["Limon", "Şeker", "Su", "İçecek", "Soğuk"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Gofret",
+    "forbidden_words": ["Çikolata", "Kremalı", "Gevrek", "Tatlı", "Bisküvi"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Cips",
+    "forbidden_words": ["Patates", "Kızartma", "Tuzlu", "Paket", "Atıştırmalık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sakız",
+    "forbidden_words": ["Çiğnemek", "Balon", "Nane", "Şekerli", "Diş"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sosis",
+    "forbidden_words": ["Et", "Kahvaltı", "Sandviç", "Hot dog", "İşlenmiş"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pastırma",
+    "forbidden_words": ["Et", "Çemen", "Kayseri", "Kurutulmuş", "Tuzlu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Krem Peynir",
+    "forbidden_words": ["Sürmek", "Kahvaltı", "Yumuşak", "Beyaz", "Ekmek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tahin",
+    "forbidden_words": ["Susam", "Pekmez", "Kahvaltı", "Ezme", "Yağ"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pekmez",
+    "forbidden_words": ["Üzüm", "Tahin", "Tatlı", "Akışkan", "Dut"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Turşu",
+    "forbidden_words": ["Salatalık", "Sirke", "Tuzlu", "Ekşi", "Kavanoz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kestane",
+    "forbidden_words": ["Kış", "Pişirmek", "Soba", "Dikenli", "Tatlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Şalgam",
+    "forbidden_words": ["İçecek", "Acı", "Havuç", "Kırmızı", "Adana"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Boza",
+    "forbidden_words": ["İçecek", "Kış", "Darı", "Leblebi", "Ekşi"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Hentbol",
+    "forbidden_words": ["Top", "El", "Kale", "Takım", "Saha"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Boks",
+    "forbidden_words": ["Yumruk", "Eldiven", "Ring", "Nakavt", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Güreş",
+    "forbidden_words": ["Minder", "Rakip", "Tuş", "Yağlı", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Atletizm",
+    "forbidden_words": ["Koşu", "Atlama", "Atma", "Pist", "Olimpiyat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Okçuluk",
+    "forbidden_words": ["Yay", "Ok", "Hedef", "İsabet", "SADAK"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Masa Tenisi",
+    "forbidden_words": ["Raket", "Top", "Masa", "File", "Pinpon"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kayak",
+    "forbidden_words": ["Kar", "Dağ", "Kaymak", "Baton", "Kış sporu"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kart Oyunu",
+    "forbidden_words": ["İskambil", "Destesi", "Kupa", "Maça", "Blöf"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dama",
+    "forbidden_words": ["Taş", "Tahta", "Siyah", "Beyaz", "Yemek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Tombala",
+    "forbidden_words": ["Sayı", "Kart", "Çekmek", "Çinko", "Yılbaşı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sudoku",
+    "forbidden_words": ["Sayı", "Kare", "Dokuz", "Bulmaca", "Mantik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Örgü",
+    "forbidden_words": ["Şiş", "Yün", "İp", "Kazak", "Örmek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Nakış",
+    "forbidden_words": ["İğne", "İplik", "Desen", "Kumaş", "İşlemek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Origami",
+    "forbidden_words": ["Kağıt", "Katlamak", "Japon", "Turna", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Bateri",
+    "forbidden_words": ["Davul", "Çalmak", "Baget", "Zil", "Ritim"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Flüt",
+    "forbidden_words": ["Üflemek", "Yan", "Müzik", "Delik", "Ses"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Şarkı",
+    "forbidden_words": ["Söylemek", "Müzik", "Söz", "Beste", "Nakarat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Koro",
+    "forbidden_words": ["Şarkı söylemek", "Birlikte", "Kalabalık", "Şef", "Ses"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Orkestra",
+    "forbidden_words": ["Enstrüman", "Müzik", "Senfoni", "Şef", "Klasik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sirk",
+    "forbidden_words": ["Palyaço", "Akrobat", "Çadır", "Hayvan", "Gösteri"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Lunapark",
+    "forbidden_words": ["Dönme dolap", "Hız treni", "Eğlence", "Bilet", "Atlıkarınca"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Müze",
+    "forbidden_words": ["Eser", "Sergi", "Tarihi", "Ziyaret", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dizi",
+    "forbidden_words": ["İzlemek", "Televizyon", "Bölüm", "Sezon", "Oyuncu"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Karikatür",
+    "forbidden_words": ["Çizgi", "Mizah", "Komik", "Dergi", "Baloncuk"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Çizgi Film",
+    "forbidden_words": ["Animasyon", "Çocuk", "Televizyon", "Karakter", "İzlemek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sohbet",
+    "forbidden_words": ["Konuşmak", "Arkadaş", "Muhabbet", "Laf", "İletişim"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Blog",
+    "forbidden_words": ["Yazmak", "İnternet", "Web sitesi", "Yazı", "Paylaşmak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Maket",
+    "forbidden_words": ["Uçak", "Gemi", "Yapmak", "Parça", "Yapıştırmak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Golf",
+    "forbidden_words": ["Top", "Sopa", "Delik", "Çim", "Saha"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Bowling",
+    "forbidden_words": ["Top", "Lobut", "Atmak", "Devirmek", "Salon"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "At Yarışı",
+    "forbidden_words": ["Jokey", "Ganyan", "Hipodrom", "Bahis", "Koşu"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Air Hockey",
+    "forbidden_words": ["Masa", "Disk", "Kale", "Oyun", "Hava"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Langırt",
+    "forbidden_words": ["Masa", "Futbol", "Oyuncu", "Kol", "Top"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Doğa Yürüyüşü",
+    "forbidden_words": ["Trekking", "Orman", "Patika", "Yürümek", "Doğa"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Eskrim",
+    "forbidden_words": ["Kılıç", "Maske", "Spor", "Düello", "Hamle"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Jimnastik",
+    "forbidden_words": ["Spor", "Esneklik", "Hareket", "Minder", "Artistik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Halter",
+    "forbidden_words": ["Kaldırmak", "Ağırlık", "Bar", "Spor", "Güç"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Podcast",
+    "forbidden_words": ["Dinlemek", "Ses", "Program", "Yayın", "İnternet"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Stand-up",
+    "forbidden_words": ["Komedi", "Sahne", "Komedyen", "Gülmek", "Gösteri"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Eczacı",
+    "forbidden_words": ["İlaç", "Reçete", "Eczane", "Sağlık", "Nöbetçi"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Dişçi",
+    "forbidden_words": ["Diş", "Çekmek", "Dolgu", "Ağız", "Koltuk"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Veteriner",
+    "forbidden_words": ["Hayvan", "Kedi", "Köpek", "Tedavi", "Aşı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Psikolog",
+    "forbidden_words": ["Ruh sağlığı", "Terapi", "Danışan", "Konuşmak", "Sorun"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Pilot",
+    "forbidden_words": ["Uçak", "Uçmak", "Kokpit", "Havaalanı", "Kaptan"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Garson",
+    "forbidden_words": ["Restoran", "Sipariş", "Servis", "Müşteri", "Hesap"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Terzi",
+    "forbidden_words": ["Kumaş", "Dikmek", "Elbise", "Makine", "İğne"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Yazar",
+    "forbidden_words": ["Kitap", "Yazmak", "Roman", "Hikaye", "Kalem"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Şair",
+    "forbidden_words": ["Şiir", "Dize", "Mısra", "Kafiye", "Yazmak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Toplum",
+    "forbidden_words": ["İnsan", "Halk", "Birlikte yaşamak", "Kültür", "Sosyal"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Gelenek",
+    "forbidden_words": ["Görenek", "Kültür", "Eski", "Nesil", "Bayram"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Göç",
+    "forbidden_words": ["Taşınmak", "Ülke", "Şehir", "Yer değiştirmek", "Mülteci"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Demokrasi",
+    "forbidden_words": ["Seçim", "Halk", "Yönetim", "Özgürlük", "Cumhuriyet"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Medeniyet",
+    "forbidden_words": ["Uygarlık", "Gelişmişlik", "Tarih", "Toplum", "Kültür"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Özgürlük",
+    "forbidden_words": ["Serbestlik", "Hak", "Tutsaklık", "Bağımsızlık", "İrade"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Üniversite",
+    "forbidden_words": ["Eğitim", "Fakülte", "Öğrenci", "Profesör", "Kampüs"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kütüphane",
+    "forbidden_words": ["Kitap", "Okumak", "Sessizlik", "Raf", "Ödünç almak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Ordu",
+    "forbidden_words": ["Asker", "Savaş", "Savunma", "Silah", "Ülke"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Banka",
+    "forbidden_words": ["Para", "Hesap", "Kredi", "Çekmek", "Yatırmak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Akraba",
+    "forbidden_words": ["Aile", "Kuzen", "Teyze", "Amca", "Kan bağı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Lider",
+    "forbidden_words": ["Başkan", "Yönetici", "Önder", "Takip etmek", "Grup"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Çalışan",
+    "forbidden_words": ["İş", "Maaş", "Mesai", "Ofis", "İşveren"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Müşteri",
+    "forbidden_words": ["Satın almak", "Mağaza", "Hizmet", "Para", "Satıcı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kiracı",
+    "forbidden_words": ["Ev", "Kira", "Oturmak", "Daire", "Ev sahibi"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Üzüntü",
+    "forbidden_words": ["Mutsuzluk", "Ağlamak", "Hüzün", "Keder", "Duygu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Öfke",
+    "forbidden_words": ["Sinir", "Kızmak", "Bağırmak", "Hiddet", "Duygu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Korku",
+    "forbidden_words": ["Ürkmek", "Heyecan", "Tehlike", "Endişe", "Duygu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Güven",
+    "forbidden_words": ["İnanmak", "Sadakat", "Dostluk", "Sır", "Emin olmak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Umut",
+    "forbidden_words": ["Beklenti", "İstemek", "Gelecek", "İyi olmasını dilemek", "Işık"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Bilgi",
+    "forbidden_words": ["Öğrenmek", "Malumat", "Veri", "Kitap", "Bilmek"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Şüphe",
+    "forbidden_words": ["Emin olamamak", "Kuşku", "Güvensizlik", "Soru işareti", "Tereddüt"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Hafıza",
+    "forbidden_words": ["Hatırlamak", "Unutmak", "Bellek", "Anı", "Geçmiş"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Hayal",
+    "forbidden_words": ["Düş", "Kurmak", "İstemek", "Gerçek olmayan", "Zihin"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Yetimhane",
+    "forbidden_words": ["Çocuk", "Annesiz", "Babasız", "Devlet", "Kurum"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Huzurevi",
+    "forbidden_words": ["Yaşlı", "Bakım", "İnsan", "Kalmak", "Kurum"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Fabrika",
+    "forbidden_words": ["Üretim", "İşçi", "Makine", "Sanayi", "Bina"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sınav",
+    "forbidden_words": ["Öğrenci", "Soru", "Cevap", "Not", "Geçmek"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mezuniyet",
+    "forbidden_words": ["Okul", "Bitirmek", "Diploma", "Tören", "Kep"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sendika",
+    "forbidden_words": ["İşçi", "Hak", "Toplu sözleşme", "Üye", "Greve"]
+  },
+
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Klozet",
+    "forbidden_words": ["Tuvalet", "Banyo", "Oturmak", "Sifon", "Alafranga"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Lavabo",
+    "forbidden_words": ["El yıkamak", "Musluk", "Banyo", "Mutfak", "Su"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Duş",
+    "forbidden_words": ["Yıkanmak", "Banyo", "Su", "Kabin", "Başlık"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bornoz",
+    "forbidden_words": ["Banyo sonrası", "Kurulanmak", "Havlu", "Giymek", "Sabahlık"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Saç Kurutma Makinesi",
+    "forbidden_words": ["Saç", "Islak", "Sıcak hava", "Üflemek", "Fön"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gardırop",
+    "forbidden_words": ["Elbise", "Dolap", "Asmak", "Kıyafet", "Yatak odası"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Komodin",
+    "forbidden_words": ["Yatak yanı", "Çekmece", "Lamba", "Mobilya", "Küçük dolap"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Yorgan",
+    "forbidden_words": ["Uyumak", "Yatak", "Örtmek", "Soğuk", "Pamuk"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Battaniye",
+    "forbidden_words": ["Örtmek", "Uyumak", "Soğuk", "Yün", "Koltuk"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çalar Saat",
+    "forbidden_words": ["Uyanmak", "Sabah", "Zil", "Alarm", "Ertelemek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Pijama",
+    "forbidden_words": ["Gece", "Uyumak", "Giysi", "Takım", "Rahat"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Sehpa",
+    "forbidden_words": ["Koltuk önü", "Masa", "Küçük", "Orta", "Salon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Abajur",
+    "forbidden_words": ["Lamba", "Işık", "Başlık", "Yatak odası", "Loş"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Anahtarlık",
+    "forbidden_words": ["Anahtar", "Takmak", "Taşımak", "Halka", "Kaybetmemek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kesme Tahtası",
+    "forbidden_words": ["Doğramak", "Bıçak", "Mutfak", "Sebze", "Ahşap"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Spatula",
+    "forbidden_words": ["Karıştırmak", "Sıyırmak", "Mutfak", "Kek", "Silikon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kepçe",
+    "forbidden_words": ["Çorba", "Almak", "Sulu yemek", "Tencere", "Kaşık"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tirbuşon",
+    "forbidden_words": ["Şarap", "Mantar", "Açmak", "Şişe", "Alet"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mikrodalga Fırın",
+    "forbidden_words": ["Isıtmak", "Hızlı", "Yemek", "Mutfak", "Dalga"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tost Makinesi",
+    "forbidden_words": ["Ekmek", "Peynir", "Isıtmak", "Bastırmak", "Kahvaltı"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Metre",
+    "forbidden_words": ["Ölçmek", "Uzunluk", "Sayı", "Şerit", "İnşaat"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kilit",
+    "forbidden_words": ["Kapı", "Anahtar", "Kilitlemek", "Güvenlik", "Açmak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "İp",
+    "forbidden_words": ["Bağlamak", "Düğüm", "Çekmek", "Uçurtma", "Sicim"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Bant",
+    "forbidden_words": ["Yapıştırmak", "Koli", "Şeffaf", "Kesmek", "Rulo"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Şarj Aleti",
+    "forbidden_words": ["Telefon", "Pil", "Doldurmak", "Kablo", "Priz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Uzatma Kablosu",
+    "forbidden_words": ["Priz", "Elektrik", "Fiş", "Uzak", "Kablo"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Güneş Gözlüğü",
+    "forbidden_words": ["Güneş", "Göz", "Yaz", "Koruma", "Cam"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kutu",
+    "forbidden_words": ["Karton", "Koymak", "Saklamak", "Kapak", "Taşımak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Masa Örtüsü",
+    "forbidden_words": ["Masa", "Sermek", "Yemek", "Kumaş", "Koruma"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Baston",
+    "forbidden_words": ["Yürümek", "Yaşlı", "Destek", "Dayanmak", "Üçüncü ayak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tekerlekli Sandalye",
+    "forbidden_words": ["Engelli", "Yürüyememek", "Sürmek", "Oturmak", "Hastane"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Yangın Söndürücü",
+    "forbidden_words": ["Ateş", "Yangın", "Tüp", "Köpük", "Söndürmek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "İlk Yardım Çantası",
+    "forbidden_words": ["Yara", "Sargı bezi", "Ambulans", "Kaza", "Sağlık"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fotokopi Makinesi",
+    "forbidden_words": ["Çoğaltmak", "Kağıt", "Belge", "Ofis", "Kopya"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kaşe",
+    "forbidden_words": ["Mühür", "Damga", "İmza", "Resmi", "Mürekkep"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ataş",
+    "forbidden_words": ["Kağıt", "Tutturmak", "Birleştirmek", "Tel", "Ofis"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Delgeç",
+    "forbidden_words": ["Kağıt", "Delik açmak", "Dosya", "Ofis", "Alet"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Posta Kutusu",
+    "forbidden_words": ["Mektup", "Postacı", "Atmak", "Ev önü", "Zarf"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gazete",
+    "forbidden_words": ["Haber", "Okumak", "Manşet", "Köşe yazısı", "Günlük"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Dergi",
+    "forbidden_words": ["Aylık", "Haftalık", "Kapak", "Makale", "Okumak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sıradağ",
+    "forbidden_words": ["Dağ", "Zincir", "Yan yana", "Yüksek", "Coğrafya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Lagün",
+    "forbidden_words": ["Göl", "Deniz", "Kıyı", "Kumsal", "Coğrafya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Delta",
+    "forbidden_words": ["Nehir", "Deniz", "Ova", "Birikinti", "Alüvyon"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Fiyort",
+    "forbidden_words": ["Buzul", "Vadi", "Deniz", "Norveç", "Girinti"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gayzer",
+    "forbidden_words": ["Sıcak su", "Fışkırmak", "Yeraltı", "Buhar", "Volkanik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ekosistem",
+    "forbidden_words": ["Canlı", "Cansız", "Çevre", "Denge", "Doğa"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Habitat",
+    "forbidden_words": ["Yaşam alanı", "Canlı", "Doğal", "Ev", "Çevre"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Besin Zinciri",
+    "forbidden_words": ["Yemek", "Hayvan", "Bitki", "Enerji", "Avcı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tür",
+    "forbidden_words": ["Canlı", "Sınıflandırma", "Hayvan", "Bitki", "Çeşit"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Evrim",
+    "forbidden_words": ["Değişim", "Zaman", "Tür", "Doğal seçilim", "Darwin"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Polen",
+    "forbidden_words": ["Çiçek", "Toz", "Arı", "Döllenme", "Alerji"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Reçine",
+    "forbidden_words": ["Ağaç", "Sıvı", "Yapışkan", "Çam", "Fosil"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kabuk",
+    "forbidden_words": ["Ağaç", "Hayvan", "Dış", "Sert", "Kaplumbağa"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Lav",
+    "forbidden_words": ["Volkan", "Sıcak", "Magma", "Akışkan", "Kaya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Magma",
+    "forbidden_words": ["Volkan", "Yeraltı", "Sıcak", "Erimiş kaya", "Lav"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Mermer",
+    "forbidden_words": ["Taş", "Beyaz", "Sert", "Mutfak", "Heykel"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kireçtaşı",
+    "forbidden_words": ["Kaya", "Beyaz", "Tebeşir", "Mağara", "Çökelti"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Basınç",
+    "forbidden_words": ["Hava", "Atmosfer", "Alçak", "Yüksek", "Kuvvet"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ozon",
+    "forbidden_words": ["Tabaka", "Atmosfer", "Güneş", "Koruma", "Delik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Küresel Isınma",
+    "forbidden_words": ["İklim değişikliği", "Sıcaklık", "Buzul", "Sera etkisi", "Atmosfer"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kozalak",
+    "forbidden_words": ["Çam ağacı", "Tohum", "Odunsu", "Pul", "Sert"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Diken",
+    "forbidden_words": ["Batmak", "Gül", "Kaktüs", "Sivri", "Korunma"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Filiz",
+    "forbidden_words": ["Tohum", "Büyümek", "Genç", "Bitki", "Yeşil"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çalı",
+    "forbidden_words": ["Ağaç", "Küçük", "Bodur", "Bitki", "Yeşil"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Papatya",
+    "forbidden_words": ["Çiçek", "Beyaz", "Sarı", "Taç yaprak", "Fal"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Lale",
+    "forbidden_words": ["Çiçek", "Soğanlı", "Bahar", "Hollanda", "Renk"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gül",
+    "forbidden_words": ["Çiçek", "Kırmızı", "Diken", "Koku", "Aşk"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kıvılcım",
+    "forbidden_words": ["Ateş", "Çakmak", "Küçük", "Parlak", "Sürtünme"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kül",
+    "forbidden_words": ["Yanmak", "Ateş", "Gri", "Toz", "Odun"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tsunami",
+    "forbidden_words": ["Deprem", "Dalga", "Okyanus", "Dev", "Afet"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çığ",
+    "forbidden_words": ["Kar", "Dağ", "Kaymak", "Afet", "Beyaz"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Girdap",
+    "forbidden_words": ["Su", "Dönmek", "Çekmek", "Deniz", "Tehlikeli"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kaynak",
+    "forbidden_words": ["Su", "Toprak", "Çıkmak", "Doğal", "Pınar"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yamaç",
+    "forbidden_words": ["Dağ", "Eğim", "İniş", "Tepe", "Bayır"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Patika",
+    "forbidden_words": ["Yol", "Dar", "Orman", "Yürüyüş", "Toprak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Obruk",
+    "forbidden_words": ["Çöküntü", "Toprak", "Delik", "Mağara", "Yeraltı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Nem",
+    "forbidden_words": ["Hava", "Su buharı", "Islaklık", "Sıcak", "Terlemek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Göktaşı",
+    "forbidden_words": ["Uzay", "Taş", "Atmosfer", "Dünya'ya düşmek", "Krater"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Şafak",
+    "forbidden_words": ["Güneş doğumu", "Sabah", "Alacakaranlık", "Kızıllık", "Vakit"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Erik",
+    "forbidden_words": ["Meyve", "Mor", "Yeşil", "Ekşi", "Yaz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kayısı",
+    "forbidden_words": ["Meyve", "Turuncu", "Yaz", "Malatya", "Çekirdek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Vişne",
+    "forbidden_words": ["Meyve", "Kırmızı", "Ekşi", "Kiraz", "Reçel"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ayva",
+    "forbidden_words": ["Meyve", "Sarı", "Sert", "Kış", "Tatlısı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Patlıcan",
+    "forbidden_words": ["Sebze", "Mor", "Kızartma", "Musakka", "Kemer"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kabak",
+    "forbidden_words": ["Sebze", "Yeşil", "Dolma", "Yemek", "Tatlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Fasulye",
+    "forbidden_words": ["Sebze", "Yeşil", "Yemek", "Kuru", "Bakliyat"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Bamya",
+    "forbidden_words": ["Sebze", "Yeşil", "Küçük", "Salyalı", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Omlet",
+    "forbidden_words": ["Yumurta", "Tava", "Kahvaltı", "Peynir", "Pişirmek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Güveç",
+    "forbidden_words": ["Et", "Sebze", "Toprak kap", "Fırın", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Çiğ Köfte",
+    "forbidden_words": ["Bulgur", "Acı", "Etsiz", "Lavaş", "Yoğurmak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Lahmacun",
+    "forbidden_words": ["Hamur", "Kıyma", "Fırın", "Limon", "Acı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pide",
+    "forbidden_words": ["Hamur", "Fırın", "Kıymalı", "Kuşbaşılı", "Ramazan"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Krema",
+    "forbidden_words": ["Süt", "Yağ", "Pasta", "Tatlı", "Sıvı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kaymak",
+    "forbidden_words": ["Süt", "Yağ", "Kahvaltı", "Bal", "Yoğun"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Margarine",
+    "forbidden_words": ["Yağ", "Bitkisel", "Tereyağı alternatifi", "Paket", "Sarı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Helva",
+    "forbidden_words": ["Tahin", "Tatlı", "İrmik", "Yaz", "Kış"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Lokum",
+    "forbidden_words": ["Tatlı", "Şeker", "Türk", "Güllü", "Fındıklı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sütlaç",
+    "forbidden_words": ["Süt", "Pirinç", "Tatlı", "Fırın", "Tarçın"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Aşure",
+    "forbidden_words": ["Tatlı", "Buğday", "Nohut", "Fasulye", "Muharrem"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Şekerleme",
+    "forbidden_words": ["Tatlı", "Şeker", "Çocuk", "Renkli", "Bayram"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Maden Suyu",
+    "forbidden_words": ["Soda", "Gazlı", "İçecek", "Mineral", "Şişe"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Şerbet",
+    "forbidden_words": ["Tatlı", "İçecek", "Meyve", "Şeker", "Soğuk"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Hardal",
+    "forbidden_words": ["Sos", "Sarı", "Acı", "Sandviç", "Tohum"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ketçap",
+    "forbidden_words": ["Domates", "Sos", "Kırmızı", "Patates kızartması", "Sıkmak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mayonez",
+    "forbidden_words": ["Yumurta", "Yağ", "Sos", "Beyaz", "Sandviç"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Galeta",
+    "forbidden_words": ["Un", "Kuru", "Çubuk", "Tuzlu", "Atıştırmalık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kraker",
+    "forbidden_words": ["Atıştırmalık", "Tuzlu", "Gevrek", "Bisküvi", "Peynir"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Jöle",
+    "forbidden_words": ["Tatlı", "Titreşen", "Meyveli", "Renkli", "Kalıp"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sos",
+    "forbidden_words": ["Yemek", "Lezzet", "Sıvı", "Domates", "Salata"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Makaron",
+    "forbidden_words": ["Tatlı", "Fransız", "Renkli", "Badem unu", "Kurabiye"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Et Suyu",
+    "forbidden_words": ["Çorba", "Yemek", "Lezzet", "Kemik", "Bulyon"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kuru Yemiş",
+    "forbidden_words": ["Fındık", "Fıstık", "Leblebi", "Çerez", "Atıştırmalık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Salam",
+    "forbidden_words": ["Et", "İşlenmiş", "Sandviç", "Kahvaltı", "Dilim"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "İrmik",
+    "forbidden_words": ["Tatlı", "Helva", "Buğday", "Tane", "Un"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tarçın",
+    "forbidden_words": ["Baharat", "Kabuk", "Koku", "Tatlı", "Sütlaç"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Zencefil",
+    "forbidden_words": ["Baharat", "Acı", "Kök", "Taze", "Çay"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Deniz Ürünü",
+    "forbidden_words": ["Balık", "Karides", "Midye", "Kalamar", "Deniz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sakatat",
+    "forbidden_words": ["Ciğer", "Böbrek", "İşkembe", "Hayvan", "İç organ"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Körebe",
+    "forbidden_words": ["Oyun", "Göz bağlamak", "Ebe", "Yakalamak", "Çocuk"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Seksek",
+    "forbidden_words": ["Oyun", "Çizmek", "Taş", "Tek ayak", "Zıplamak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "İp Atlama",
+    "forbidden_words": ["İp", "Atlamak", "Spor", "Oyun", "Çevirmek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Yelken",
+    "forbidden_words": ["Tekne", "Deniz", "Rüzgar", "Açılmak", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kürek",
+    "forbidden_words": ["Tekne", "Çekmek", "Su", "Yarış", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Rafting",
+    "forbidden_words": ["Nehir", "Bot", "Akıntı", "Macera", "Kürek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Binicilik",
+    "forbidden_words": ["At", "Binmek", "Eyer", "Dörtnala", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Triatlon",
+    "forbidden_words": ["Yüzme", "Bisiklet", "Koşu", "Yarış", "Spor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Badminton",
+    "forbidden_words": ["Raket", "Tüylü top", "File", "Spor", "Oyun"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Ebru Sanatı",
+    "forbidden_words": ["Su", "Boya", "Kağıt", "Desen", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Vitray",
+    "forbidden_words": ["Cam", "Renkli", "Desen", "Pencere", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Çömlekçilik",
+    "forbidden_words": ["Kil", "Çamur", "Tekerlek", "Şekil vermek", "Vazo"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dil Öğrenme",
+    "forbidden_words": ["Yabancı", "Kelime", "Gramer", "Konuşma", "Kurs"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Gönüllülük",
+    "forbidden_words": ["Yardım", "Karşılıksız", "Dernek", "Çalışmak", "Toplum"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Astronomi",
+    "forbidden_words": ["Uzay", "Yıldız", "Gezegen", "Teleskop", "Gözlem"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kuş Gözlemciliği",
+    "forbidden_words": ["Kuş", "Dürbün", "Doğa", "İzlemek", "Tür"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Programlama",
+    "forbidden_words": ["Kod", "Bilgisayar", "Yazılım", "Dil", "Hata ayıklama"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Balo",
+    "forbidden_words": ["Dans", "Müzik", "Elbise", "Davet", "Kutlama"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kermes",
+    "forbidden_words": ["Satış", "Okul", "Yardım", "Etkinlik", "Hayır işi"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Defile",
+    "forbidden_words": ["Moda", "Manken", "Kıyafet", "Podyum", "Tasarımcı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Tören",
+    "forbidden_words": ["Kutlama", "Resmi", "Ödül", "Mezuniyet", "Açılış"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Atölye",
+    "forbidden_words": ["Çalışma", "Öğrenme", "Uygulama", "Sanat", "Eğitim"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kulis",
+    "forbidden_words": ["Sahne arkası", "Tiyatro", "Oyuncu", "Hazırlık", "Bekleme"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "İllüzyon",
+    "forbidden_words": ["Sihirbaz", "Göz aldanması", "Hile", "Gösteri", "Kaybetmek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Pandomim",
+    "forbidden_words": ["Sessiz", "Sanatçı", "Hareket", "Jest", "Anlatmak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Animasyon",
+    "forbidden_words": ["Çizgi film", "Canlandırma", "Bilgisayar", "Karakter", "Film"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Belgesel",
+    "forbidden_words": ["Gerçek", "Film", "Doğa", "Hayvan", "Bilgilendirici"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Karaoke",
+    "forbidden_words": ["Şarkı söylemek", "Mikrofon", "Sözler", "Müzik", "Bar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Labirent",
+    "forbidden_words": ["Yol bulma", "Kaybolmak", "Çıkış", "Karışık", "Duvar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Rol Yapma Oyunu",
+    "forbidden_words": ["Karakter", "Fantezi", "Zar", "Macera", "Oyun"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kutu Oyunu",
+    "forbidden_words": ["Masa", "Oynamak", "Piyon", "Zar", "Arkadaşlar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sirk cambazı",
+    "forbidden_words": ["İp", "Yürümek", "Denge", "Yüksek", "Akrobat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kukla",
+    "forbidden_words": ["Oynatmak", "İp", "El", "Tiyatro", "Gösteri"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Eleştiri",
+    "forbidden_words": ["Film", "Kitap", "Yorum", "İyi", "Kötü"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Biyografi",
+    "forbidden_words": ["Hayat hikayesi", "Kitap", "Ünlü", "Yaşam", "Anlatı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Otobiyografi",
+    "forbidden_words": ["Hayat hikayesi", "Kendi", "Yazmak", "Kitap", "Anı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dublaj",
+    "forbidden_words": ["Seslendirme", "Film", "Yabancı", "Türkçe", "Sanatçı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Koro şefi",
+    "forbidden_words": ["Koro", "Yönetmek", "Müzik", "El hareketi", "Orkestra"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Beste",
+    "forbidden_words": ["Müzik", "Yaratmak", "Nota", "Şarkı", "Besteci"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Müfettiş",
+    "forbidden_words": ["Denetlemek", "Kontrol", "Okul", "Bakanlık", "Rapor"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Dedektif",
+    "forbidden_words": ["Suç", "İpucu", "Soruşturma", "Gizem", "Polis"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Casus",
+    "forbidden_words": ["Gizli", "Bilgi", "Ajan", "Ülke", "Sır"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Diplomat",
+    "forbidden_words": ["Ülke", "Temsilci", "Elçilik", "Dış işleri", "Politika"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Akademisyen",
+    "forbidden_words": ["Üniversite", "Ders", "Araştırma", "Profesör", "Makale"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sekreter",
+    "forbidden_words": ["Ofis", "Telefon", "Randevu", "Yönetici", "Asistan"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Çevirmen",
+    "forbidden_words": ["Dil", "Tercüman", "Yabancı", "Metin", "Anlam"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Rehber",
+    "forbidden_words": ["Turist", "Gezdirmek", "Anlatmak", "Tarihi yer", "Grup"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sporcu",
+    "forbidden_words": ["Spor", "Antrenman", "Maç", "Madalya", "Takım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Krallık",
+    "forbidden_words": ["Kral", "Kraliçe", "Monarşi", "Taht", "Saray"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kabile",
+    "forbidden_words": ["Topluluk", "İlkel", "Şef", "Gelenek", "Afrika"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Hanedan",
+    "forbidden_words": ["Aile", "Yönetim", "Kral", "Sultan", "Osmanlı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İdeoloji",
+    "forbidden_words": ["Fikir", "Düşünce", "Sistem", "Politika", "Görüş"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Devrim",
+    "forbidden_words": ["Değişim", "Yönetim", "Halk", "İhtilal", "Ani"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Propaganda",
+    "forbidden_words": ["Fikir", "Yaymak", "Etkilemek", "Politika", "Medya"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sansür",
+    "forbidden_words": ["Yasaklamak", "Kontrol", "Medya", "Hükümet", "İfade özgürlüğü"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Grev",
+    "forbidden_words": ["İşçi", "Çalışmamak", "Protesto", "Sendika", "Hak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Boykot",
+    "forbidden_words": ["Protesto", "Satın almamak", "Katılmamak", "Tepki", "Ürün"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Anayasa",
+    "forbidden_words": ["Yasa", "Temel", "Devlet", "Kanun", "Madde"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Bürokrasi",
+    "forbidden_words": ["Devlet", "Memur", "Resmiyet", "İşlem", "Kağıt işi"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Nişan",
+    "forbidden_words": ["Evlilik öncesi", "Yüzük", "Söz", "Tören", "Aile"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Boşanma",
+    "forbidden_words": ["Evlilik", "Bitirmek", "Ayrılmak", "Mahkeme", "Çift"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Miras",
+    "forbidden_words": ["Ölüm sonrası", "Para", "Mal", "Aile", "Paylaşım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Vasiyet",
+    "forbidden_words": ["Miras", "Bırakmak", "Son istek", "Noter", "Belge"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kıskançlık",
+    "forbidden_words": ["Duygu", "Paylaşamamak", "Sevgi", "Güvensizlik", "Başkası"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Gurur",
+    "forbidden_words": ["Onur", "Kibir", "Başarı", "Övünmek", "Duygu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Merak",
+    "forbidden_words": ["Öğrenme isteği", "Soru sormak", "Araştırmak", "Gizem", "Duygu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Vicdan",
+    "forbidden_words": ["İç ses", "Doğru", "Yanlış", "Rahatlık", "Muhasebe"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Empati",
+    "forbidden_words": ["Kendini başkasının yerine koymak", "Anlamak", "Duygu", "Hissetmek", "Duyarlılık"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mahalle",
+    "forbidden_words": ["Sokak", "Evler", "Komşu", "Semt", "Muhtar"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Jüri",
+    "forbidden_words": ["Yarışma", "Mahkeme", "Değerlendirme", "Karar", "Üye"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Azınlık",
+    "forbidden_words": ["Grup", "Farklı", "Sayıca az", "Çoğunluk", "Toplum"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Çoğunluk",
+    "forbidden_words": ["Grup", "Sayıca fazla", "Azınlık", "Genel", "Toplum"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sivil Toplum Kuruluşu",
+    "forbidden_words": ["Dernek", "Vakıf", "Gönüllü", "Devlet dışı", "Yardım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Ön yargı",
+    "forbidden_words": ["Peşin hüküm", "Bilmeden", "Olumsuz", "Düşünce", "Ayrımcılık"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sorumluluk",
+    "forbidden_words": ["Görev", "Üstlenmek", "Yapmak zorunda olmak", "Hesap vermek", "Bilinç"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Nostalji",
+    "forbidden_words": ["Geçmişe özlem", "Eski", "Anı", "Duygu", "Hatırlamak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Protesto",
+    "forbidden_words": ["Tepki", "Göstermek", "Yürüyüş", "Pankart", "İtiraz"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Anket",
+    "forbidden_words": ["Soru", "Cevap", "Kamuoyu", "Araştırma", "Görüş"]
+  },
+
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kravat",
+    "forbidden_words": ["Boyun", "Takım elbise", "Gömlek", "Bağlamak", "İş"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çorap",
+    "forbidden_words": ["Ayak", "Giymek", "Ayakkabı", "Çift", "Pamuk"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "İç çamaşırı",
+    "forbidden_words": ["Külot", "Sütyen", "Atlet", "Giymek", "Alt"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Eşofman",
+    "forbidden_words": ["Spor", "Rahat", "Takım", "Ev kıyafeti", "Lastikli"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mayo",
+    "forbidden_words": ["Deniz", "Havuz", "Yüzmek", "Plaj", "Bikini"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gelinlik",
+    "forbidden_words": ["Düğün", "Gelin", "Beyaz", "Evlenmek", "Damat"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tabure",
+    "forbidden_words": ["Oturak", "Sandalye", "Ayak", "Alçak", "Mutfak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Hamak",
+    "forbidden_words": ["Sallanmak", "Yatmak", "İp", "Bahçe", "Ağaç"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mumluk",
+    "forbidden_words": ["Mum", "Koymak", "Ateş", "Işık", "Şamdan"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ayakkabılık",
+    "forbidden_words": ["Ayakkabı", "Koymak", "Kapı önü", "Raf", "Dolap"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Portmanto",
+    "forbidden_words": ["Palto", "Asmak", "Antre", "Askı", "Ceket"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Küllük",
+    "forbidden_words": ["Sigara", "Kül", "İzmarit", "Tütün", "Masa"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Sürahi",
+    "forbidden_words": ["Su", "Doldurmak", "Masa", "Servis", "Cam"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tuzluk",
+    "forbidden_words": ["Tuz", "Dökmek", "Masa", "Biberlik", "Yemek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Saklama kabı",
+    "forbidden_words": ["Yiyecek", "Koymak", "Buzdolabı", "Kapak", "Plastik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Buz kalıbı",
+    "forbidden_words": ["Buz", "Su", "Dondurmak", "Küp", "İçecek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fritöz",
+    "forbidden_words": ["Patates", "Kızartmak", "Yağ", "Sıcak", "Mutfak aleti"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Dikiş makinesi",
+    "forbidden_words": ["Dikmek", "İğne", "İplik", "Kumaş", "Terzi"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ütü masası",
+    "forbidden_words": ["Ütü", "Koymak", "Kıyafet", "Düzleştirmek", "Katlanır"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fotoğraf albümü",
+    "forbidden_words": ["Fotoğraf", "Koymak", "Anı", "Bakmak", "Sayfa"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kumbara",
+    "forbidden_words": ["Para", "Biriktirmek", "Atmak", "Bozukluk", "Domuz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çakı",
+    "forbidden_words": ["Bıçak", "Katlanır", "Cep", "Kesmek", "İsviçre"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Saksı",
+    "forbidden_words": ["Çiçek", "Bitki", "Toprak", "Ekmek", "Pencere"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Sulama kabı",
+    "forbidden_words": ["Su", "Çiçek", "Sulamak", "Bahçe", "Bitki"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mangal",
+    "forbidden_words": ["Et", "Pişirmek", "Kömür", "Ateş", "Piknik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Sırt çantası",
+    "forbidden_words": ["Sırt", "Taşımak", "Okul", "Gezi", "Eşya"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "El feneri",
+    "forbidden_words": ["Işık", "Karanlık", "Pil", "Aydınlatma", "Kamp"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Oto teybi",
+    "forbidden_words": ["Araba", "Müzik", "Radyo", "Kaset", "CD"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Direksiyon",
+    "forbidden_words": ["Araba", "Sürmek", "Çevirmek", "Yön", "Şoför"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Vites",
+    "forbidden_words": ["Araba", "Değiştirmek", "Hız", "Manuel", "Otomatik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fren",
+    "forbidden_words": ["Araba", "Durmak", "Yavaşlamak", "Pedal", "Basmak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Korna",
+    "forbidden_words": ["Araba", "Ses", "Çalmak", "Uyarı", "Direksiyon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Silecek",
+    "forbidden_words": ["Araba", "Cam", "Yağmur", "Temizlemek", "Su"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "İlaç kutusu",
+    "forbidden_words": ["Hap", "Saklamak", "Günlük", "Unutmamak", "Hasta"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Merhem",
+    "forbidden_words": ["Krem", "Sürmek", "Cilt", "Yara", "Tedavi"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Yara bandı",
+    "forbidden_words": ["Yara", "Kesik", "Yapıştırmak", "Kan", "Koruma"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gırgır",
+    "forbidden_words": ["Süpürge", "Kırıntı", "Temizlik", "Halı", "Fırça"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çekpas",
+    "forbidden_words": ["Su", "Çekmek", "Cam", "Yer", "Temizlik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kalorifer",
+    "forbidden_words": ["Isınmak", "Petek", "Kış", "Sıcak", "Doğalgaz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Klima",
+    "forbidden_words": ["Soğutmak", "Isıtmak", "Hava", "Yaz", "Kumanda"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Buzdağı",
+    "forbidden_words": ["Buz", "Deniz", "Soğuk", "Titanik", "Erimek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Krater",
+    "forbidden_words": ["Çukur", "Göktaşı", "Volkan", "Ay", "Patlama"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Haliç",
+    "forbidden_words": ["Nehir", "Deniz", "Ağız", "İstanbul", "Su yolu"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gölet",
+    "forbidden_words": ["Göl", "Küçük", "Su", "Durgun", "Yapay"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Falez",
+    "forbidden_words": ["Uçurum", "Deniz kenarı", "Kaya", "Yüksek", "Dalga"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Klorofil",
+    "forbidden_words": ["Yeşil", "Bitki", "Yaprak", "Fotosentez", "Renk"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Hücre",
+    "forbidden_words": ["Canlı", "En küçük yapı taşı", "Bölünme", "Çekirdek", "Biyoloji"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "DNA",
+    "forbidden_words": ["Genetik", "Kod", "Sarmal", "Kalıtım", "Kromozom"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Enzim",
+    "forbidden_words": ["Protein", "Reaksiyon", "Hızlandırmak", "Biyoloji", "Katalizör"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Vitamin",
+    "forbidden_words": ["Sağlık", "Meyve", "Sebze", "Vücut", "Eksiklik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Liken",
+    "forbidden_words": ["Mantar", "Yosun", "Birliktelik", "Kaya", "Ağaç"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Bakteri",
+    "forbidden_words": ["Mikroorganizma", "Tek hücreli", "Hastalık", "Yararlı", "Zararlı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Virüs",
+    "forbidden_words": ["Hastalık", "Bulaşıcı", "Mikrop", "Aşı", "Grip"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Parazit",
+    "forbidden_words": ["Asalak", "Konak", "Canlı", "Beslenmek", "Zararlı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Fotosentez",
+    "forbidden_words": ["Bitki", "Güneş ışığı", "Oksijen", "Klorofil", "Besin"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Muson",
+    "forbidden_words": ["Yağmur", "Yaz", "Hindistan", "Rüzgar", "Asya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Alize",
+    "forbidden_words": ["Rüzgar", "Tropikal", "Ekvator", "Sürekli", "Yelkenli"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Takımyıldız",
+    "forbidden_words": ["Yıldız", "Grup", "Gökyüzü", "Şekil", "Burç"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Nebüla",
+    "forbidden_words": ["Uzay", "Toz", "Gaz", "Bulut", "Yıldız oluşumu"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Süpernova",
+    "forbidden_words": ["Yıldız", "Patlama", "Büyük", "Parlak", "Enerji"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yörünge",
+    "forbidden_words": ["Gezegen", "Dönmek", "Elips", "Uydu", "Güneş"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ekinoks",
+    "forbidden_words": ["Gece", "Gündüz", "Eşit", "İlkbahar", "Sonbahar"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gündönümü",
+    "forbidden_words": ["En uzun", "En kısa", "Gün", "Yaz", "Kış"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Mevki",
+    "forbidden_words": ["Konum", "Yer", "Coğrafya", "Belirlemek", "Enlem"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Enlem",
+    "forbidden_words": ["Coğrafya", "Paralel", "Ekvator", "Konum", "Derece"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Boylam",
+    "forbidden_words": ["Coğrafya", "Meridyen", "Greenwich", "Konum", "Derece"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gelincik",
+    "forbidden_words": ["Çiçek", "Kırmızı", "Tarla", "Haşhaş", "Nazik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Menekşe",
+    "forbidden_words": ["Çiçek", "Mor", "Saksı", "Koku", "Bahar"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sümbül",
+    "forbidden_words": ["Çiçek", "Soğanlı", "Bahar", "Koku", "Mor"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Nilüfer",
+    "forbidden_words": ["Çiçek", "Su", "Göl", "Yaprak", "Beyaz"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sera",
+    "forbidden_words": ["Bitki", "Yetiştirmek", "Cam", "Naylon", "Sıcak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Karasal iklim",
+    "forbidden_words": ["Yaz sıcak", "Kış soğuk", "Denizden uzak", "İç bölge", "Step"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Akdeniz iklimi",
+    "forbidden_words": ["Yaz sıcak", "Kış ılık", "Yağışlı", "Maki", "Zeytin"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kutup",
+    "forbidden_words": ["Soğuk", "Buz", "Kuzey", "Güney", "Ayı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ekvator",
+    "forbidden_words": ["Çizgi", "Dünya", "Sıcak", "Orta", "Hayali"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Atol",
+    "forbidden_words": ["Ada", "Mercan", "Halka", "Okyanus", "Lagün"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Manyetik alan",
+    "forbidden_words": ["Dünya", "Pusula", "Kutup", "Çekim", "Koruma"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yerçekimi",
+    "forbidden_words": ["Çekim", "Kuvvet", "Düşmek", "Newton", "Elma"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ses dalgası",
+    "forbidden_words": ["Ses", "Titreşim", "Yayılma", "Kulak", "Fizik"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "İskender",
+    "forbidden_words": ["Kebap", "Döner", "Yoğurt", "Tereyağı", "Pide"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tarhana",
+    "forbidden_words": ["Çorba", "Toz", "Yoğurt", "Domates", "Kış"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mücver",
+    "forbidden_words": ["Kabak", "Kızartma", "Un", "Yumurta", "Dereotu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sigara böreği",
+    "forbidden_words": ["Börek", "Peynir", "Yufka", "Sarmak", "Kızartmak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Nar ekşisi",
+    "forbidden_words": ["Nar", "Sos", "Ekşi", "Salata", "Koyu renk"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Sumak",
+    "forbidden_words": ["Baharat", "Ekşi", "Kırmızı", "Soğan", "Salata"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pul biber",
+    "forbidden_words": ["Acı", "Biber", "Kırmızı", "Yemek", "Baharat"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Köri",
+    "forbidden_words": ["Baharat", "Sarı", "Hindistan", "Tavuk", "Toz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Soya sosu",
+    "forbidden_words": ["Soya", "Sos", "Tuzlu", "Asya mutfağı", "Koyu renk"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Greyfurt",
+    "forbidden_words": ["Meyve", "Turunçgil", "Acı", "Portakal", "Su"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mandalina",
+    "forbidden_words": ["Meyve", "Turuncu", "Kış", "Kolay soyulur", "Portakal"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Dut",
+    "forbidden_words": ["Meyve", "Ağaç", "Beyaz", "Kara", "Pekmez"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kuşkonmaz",
+    "forbidden_words": ["Sebze", "Yeşil", "Mızrak", "Yemek", "Sürgün"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kereviz",
+    "forbidden_words": ["Sebze", "Sap", "Koku", "Zeytinyağlı", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pancar",
+    "forbidden_words": ["Sebze", "Kırmızı", "Toprak", "Şeker", "Turşu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Turp",
+    "forbidden_words": ["Sebze", "Kırmızı", "Beyaz", "Acı", "Salata"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Poğaça",
+    "forbidden_words": ["Hamur işi", "Kahvaltı", "Peynirli", "Pastane", "Yumuşak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kruvasan",
+    "forbidden_words": ["Hamur işi", "Fransız", "Hilal", "Kat kat", "Tereyağlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pankek",
+    "forbidden_words": ["Kahvaltı", "Hamur", "Tava", "Şurup", "Amerikan"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tart",
+    "forbidden_words": ["Tatlı", "Meyveli", "Hamur", "Altlık", "Turta"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Milföy",
+    "forbidden_words": ["Hamur", "Kat kat", "Tereyağlı", "Kare", "Börek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Salep",
+    "forbidden_words": ["İçecek", "Sıcak", "Kış", "Süt", "Tarçın"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Ihlamur",
+    "forbidden_words": ["Bitki çayı", "Ağaç", "Kış", "Soğuk algınlığı", "Sıcak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Adaçayı",
+    "forbidden_words": ["Bitki çayı", "Yaprak", "Demlemek", "Boğaz ağrısı", "Sıcak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Yeşil çay",
+    "forbidden_words": ["Çay", "Antioksidan", "Sağlıklı", "Demlemek", "Japonya"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kokteyl",
+    "forbidden_words": ["İçecek", "Karışım", "Alkollü", "Bar", "Meyveli"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Smoothie",
+    "forbidden_words": ["İçecek", "Meyve", "Yoğurt", "Blender", "Sağlıklı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Çekirdek",
+    "forbidden_words": ["Ayçiçeği", "Çitlemek", "Tuzlu", "Kabuk", "Maç"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Leblebi",
+    "forbidden_words": ["Nohut", "Kavrulmuş", "Sarı", "Beyaz", "Çerez"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Haşhaş",
+    "forbidden_words": ["Tohum", "Siyah", "Börek", "Ezme", "Bitki"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Beze",
+    "forbidden_words": ["Yumurta akı", "Şeker", "Tatlı", "Fırın", "Köpük"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Grisini",
+    "forbidden_words": ["Ekmek", "Çubuk", "İtalyan", "Kıtır", "Atıştırmalık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kapari",
+    "forbidden_words": ["Bitki", "Tomurcuk", "Turşu", "Salata", "Küçük"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Enginar",
+    "forbidden_words": ["Sebze", "Zeytinyağlı", "Kalp", "Yaprak", "Garnitür"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Mısır gevreği",
+    "forbidden_words": ["Kahvaltı", "Süt", "Kase", "Çocuk", "Kutu"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Karides",
+    "forbidden_words": ["Deniz ürünü", "Kabuklu", "Pembe", "Yemek", "Güveç"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Midye",
+    "forbidden_words": ["Deniz ürünü", "Kabuklu", "Siyah", "Dolma", "Tava"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "İstiridye",
+    "forbidden_words": ["Deniz ürünü", "Kabuklu", "İnci", "Yemek", "Lüks"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Havyar",
+    "forbidden_words": ["Balık yumurtası", "Lüks", "Siyah", "Tuzlu", "Pahalı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Darts",
+    "forbidden_words": ["Ok", "Hedef tahtası", "Atmak", "Puan", "Bar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Frizbi",
+    "forbidden_words": ["Disk", "Atmak", "Yakalamak", "Plastik", "Uçan"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Go-kart",
+    "forbidden_words": ["Araba", "Küçük", "Yarış", "Pist", "Sürmek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Paintball",
+    "forbidden_words": ["Boya", "Top", "Silah", "Takım", "Maske"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Su topu",
+    "forbidden_words": ["Su", "Top", "Havuz", "Kale", "Takım"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Senkronize yüzme",
+    "forbidden_words": ["Yüzme", "Müzik", "Grup", "Su", "Artistik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kelime avı",
+    "forbidden_words": ["Bulmaca", "Kelime", "Harf", "Tablo", "Bulmak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Amiral battı",
+    "forbidden_words": ["Oyun", "Gemi", "Kare", "Batırmak", "Koordinat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kızma birader",
+    "forbidden_words": ["Oyun", "Zar", "Piyon", "Eve getirmek", "Tahta"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Üç taş",
+    "forbidden_words": ["Oyun", "X", "O", "Sıra", "Kare"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "İsim şehir",
+    "forbidden_words": ["Oyun", "Harf", "Kağıt", "Kalem", "Kategori"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Opera",
+    "forbidden_words": ["Müzik", "Sahne", "Şarkı söylemek", "Klasik", "Arya"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Bale",
+    "forbidden_words": ["Dans", "Zarif", "Tütü", "Sahne", "Figür"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Arya",
+    "forbidden_words": ["Opera", "Tek kişilik şarkı", "Söylemek", "Müzik", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Resital",
+    "forbidden_words": ["Müzik", "Konser", "Tek kişi", "Piyano", "Enstrüman"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Turne",
+    "forbidden_words": ["Sanatçı", "Konser", "Şehir şehir gezmek", "Grup", "Yolculuk"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Akrobasi",
+    "forbidden_words": ["Sirk", "Jimnastik", "Tehlikeli", "Hareket", "Denge"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Jonglörlük",
+    "forbidden_words": ["Top", "Havaya atmak", "Çevirmek", "Sirk", "El"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Hat sanatı",
+    "forbidden_words": ["Yazı", "Arap harfleri", "Kaligrafi", "Sanat", "İslam"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Minyatür",
+    "forbidden_words": ["Resim", "Küçük", "Detaylı", "Osmanlı", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Tezhip",
+    "forbidden_words": ["Süsleme", "Altın", "Kitap", "El yazması", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Ahşap oymacılığı",
+    "forbidden_words": ["Ahşap", "Oymak", "Şekil vermek", "Alet", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Bahis",
+    "forbidden_words": ["Para", "Tahmin", "Oynamak", "At yarışı", "Maç"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Açık artırma",
+    "forbidden_words": ["Satış", "Teklif", "En yüksek fiyat", "Eser", "Müzayede"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Münazara",
+    "forbidden_words": ["Tartışma", "Fikir", "Savunmak", "Takım", "Jüri"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kamp ateşi",
+    "forbidden_words": ["Ateş", "Kamp", "Gece", "Etrafında oturmak", "Odun"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sosyal medya",
+    "forbidden_words": ["İnternet", "Paylaşım", "Arkadaş", "Profil", "Uygulama"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Forum",
+    "forbidden_words": ["İnternet", "Tartışma", "Konu", "Mesaj", "Üye"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "E-spor",
+    "forbidden_words": ["Elektronik", "Spor", "Oyun", "Turnuva", "Profesyonel"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Canlı yayın",
+    "forbidden_words": ["İnternet", "Anında", "İzlemek", "Video", "Yayıncı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Video düzenleme",
+    "forbidden_words": ["Video", "Kesmek", "Birleştirmek", "Efekt", "Program"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Masaüstü rol yapma oyunu",
+    "forbidden_words": ["Oyun", "Masa", "Karakter", "Zar", "Fantezi"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kare bulmaca",
+    "forbidden_words": ["Bulmaca", "Kare", "Soru", "Cevap", "Gazete"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "El işi",
+    "forbidden_words": ["El", "Yapmak", "Hobi", "Makas", "Kağıt"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Makrome",
+    "forbidden_words": ["İp", "Düğüm", "Duvar süsü", "El işi", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Radyo tiyatrosu",
+    "forbidden_words": ["Radyo", "Oyun", "Ses", "Efekt", "Dinlemek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "İmitasyon",
+    "forbidden_words": ["Taklit", "Ünlü", "Ses", "Hareket", "Komik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kısa film",
+    "forbidden_words": ["Film", "Kısa", "Süre", "Festival", "Yönetmen"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Hayran kurgu",
+    "forbidden_words": ["Hayran", "Hikaye", "Yazmak", "Karakter", "Film"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Noter",
+    "forbidden_words": ["Onaylamak", "Belge", "Resmi", "İmza", "Tasdik"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Vali",
+    "forbidden_words": ["İl", "Yönetici", "Devlet", "Atanmak", "Hükümet"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kaymakam",
+    "forbidden_words": ["İlçe", "Yönetici", "Devlet", "Atanmak", "Vali"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Muhtar",
+    "forbidden_words": ["Köy", "Mahalle", "Seçim", "Yönetici", "Azalar"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Rektör",
+    "forbidden_words": ["Üniversite", "Yönetici", "Seçim", "Profesör", "Dekan"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Dekan",
+    "forbidden_words": ["Fakülte", "Yönetici", "Üniversite", "Profesör", "Rektör"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Arkeolog",
+    "forbidden_words": ["Kazı", "Tarih", "Eski", "Eser", "Toprak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sosyolog",
+    "forbidden_words": ["Toplum", "İnsan", "Davranış", "Araştırma", "Bilim"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Referandum",
+    "forbidden_words": ["Halk oylaması", "Evet", "Hayır", "Sandık", "Seçim"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Oligarşi",
+    "forbidden_words": ["Yönetim", "Küçük grup", "Zengin", "İktidar", "Politika"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Teokrasi",
+    "forbidden_words": ["Yönetim", "Din", "Devlet", "Rahipler", "İnanç"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Anarşi",
+    "forbidden_words": ["Yönetimsizlik", "Otorite yokluğu", "Kaos", "Kargaşa", "Devletsizlik"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kapitalizm",
+    "forbidden_words": ["Ekonomi", "Özel mülkiyet", "Sermaye", "Kar", "Piyasa"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sosyalizm",
+    "forbidden_words": ["Ekonomi", "Devlet", "Eşitlik", "Toplum", "Üretim araçları"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sanık",
+    "forbidden_words": ["Mahkeme", "Suçlanan", "Davacı", "Avukat", "Savunma"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Tanık",
+    "forbidden_words": ["Mahkeme", "Görmek", "Duyma", "İfade", "Yemin"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Delil",
+    "forbidden_words": ["Mahkeme", "İspat", "Kanıt", "Suç", "İpucu"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mülteci",
+    "forbidden_words": ["Ülkesinden kaçan", "Savaş", "Sığınma", "Göçmen", "Kamp"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Göçmen",
+    "forbidden_words": ["Ülke değiştiren", "Yaşamak", "Çalışmak", "Mülteci", "Vize"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Nüfus",
+    "forbidden_words": ["İnsan sayısı", "Ülke", "Şehir", "Sayım", "Kalabalık"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Nüfus sayımı",
+    "forbidden_words": ["Nüfus", "Saymak", "Devlet", "İstatistik", "Memur"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Vatandaşlık",
+    "forbidden_words": ["Ülke", "Hak", "Kimlik", "Sorumluluk", "Pasaport"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Vize",
+    "forbidden_words": ["Pasaport", "İzin", "Yurtdışı", "Ülkeye giriş", "Konsolosluk"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Pasaport",
+    "forbidden_words": ["Yurtdışı", "Kimlik", "Seyahat", "Vize", "Belge"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Konsolosluk",
+    "forbidden_words": ["Elçilik", "Vize", "Yabancı ülke", "Temsilcilik", "Resmi"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Liyakat",
+    "forbidden_words": ["Layık olmak", "Hak etmek", "Yeterlilik", "Başarı", "İş"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Hoşgörü",
+    "forbidden_words": ["Anlayış", "Farklılık", "Saygı", "Sabır", "Kabul etmek"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Fedakarlık",
+    "forbidden_words": ["Vazgeçmek", "Başkası için", "Özveri", "Menfaat", "Yardım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İhanet",
+    "forbidden_words": ["Güven", "Aldatmak", "Sır", "Dostluk", "Sırtından vurmak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sadakat",
+    "forbidden_words": ["Bağlılık", "Güven", "Dostluk", "İhanet etmemek", "Vefa"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Şöhret",
+    "forbidden_words": ["Ünlü", "Tanınmak", "Popülerlik", "Medya", "Hayran"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Karizma",
+    "forbidden_words": ["Etkileyicilik", "Liderlik", "Çekicilik", "İnsanlar", "Özellik"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Merasim",
+    "forbidden_words": ["Tören", "Resmi", "Kutlama", "Protokol", "Davet"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Hiyerarşi",
+    "forbidden_words": ["Sıralama", "Ast", "Üst", "Makam", "Otorite"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Muhalefet",
+    "forbidden_words": ["İktidar", "Karşı", "Parti", "Eleştiri", "Politika"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İktidar",
+    "forbidden_words": ["Yönetim", "Güç", "Parti", "Hükümet", "Muhalefet"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mülakat",
+    "forbidden_words": ["İş görüşmesi", "Soru", "Cevap", "Aday", "İşe alım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Girişimci",
+    "forbidden_words": ["İş kurmak", "Risk", "Yeni fikir", "Şirket", "Yatırım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Cemaat",
+    "forbidden_words": ["Topluluk", "Din", "İnanç", "Birliktelik", "Grup"]
+  },
+
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Çengelli iğne",
+    "forbidden_words": ["İğne", "Bebek bezi", "Tutturmak", "Güvenlik", "Metal"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Yüksük",
+    "forbidden_words": ["Parmak", "Dikiş", "İğne", "Korumak", "Metal"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Raptiye",
+    "forbidden_words": ["Pano", "Tutturmak", "İğne", "Başparmak", "Mantar"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Havan",
+    "forbidden_words": ["Ezmek", "Sarımsak", "Dövmek", "Baharat", "Mutfak aleti"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Şiş",
+    "forbidden_words": ["Et", "Kebap", "Takmak", "Metal", "Çöp"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Cımbız",
+    "forbidden_words": ["Kaş", "Almak", "Kıl", "Küçük", "Metal"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Törpü",
+    "forbidden_words": ["Tırnak", "Düzeltmek", "Şekil vermek", "Manikür", "Kağıt"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Oje",
+    "forbidden_words": ["Tırnak", "Sürmek", "Renk", "Fırça", "Aseton"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Rimel",
+    "forbidden_words": ["Kirpik", "Sürmek", "Siyah", "Makyaj", "Göz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ruj",
+    "forbidden_words": ["Dudak", "Sürmek", "Kırmızı", "Makyaj", "Renk"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Projeksiyon cihazı",
+    "forbidden_words": ["Görüntü", "Yansıtmak", "Perde", "Sunum", "Işık"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Beyaz tahta",
+    "forbidden_words": ["Tahta", "Yazmak", "Kalem", "Silgi", "Ofis"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mantar pano",
+    "forbidden_words": ["Pano", "Raptiye", "Asmak", "Not", "Mantar"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Klasör",
+    "forbidden_words": ["Dosya", "Kağıt", "Saklamak", "Ofis", "Arşiv"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ayraç",
+    "forbidden_words": ["Kitap", "Sayfa", "Kaldığı yer", "İşaret", "Okumak"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Büyüteç",
+    "forbidden_words": ["Büyütmek", "Bakmak", "Lens", "Küçük", "Mercek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kask",
+    "forbidden_words": ["Kafa", "Korumak", "Motosiklet", "Bisiklet", "Güvenlik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Can yeleği",
+    "forbidden_words": ["Su", "Batmamak", "Gemi", "Yüzmek", "Güvenlik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Matara",
+    "forbidden_words": ["Su", "Taşımak", "İçmek", "Asker", "Kamp"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Termos",
+    "forbidden_words": ["Sıcak", "Soğuk", "Tutmak", "İçecek", "Çay"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Damacana",
+    "forbidden_words": ["Su", "Büyük", "Pompa", "Sebil", "Plastik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Faraş",
+    "forbidden_words": ["Süpürge", "Toz", "Toplamak", "Çöp", "Temizlik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Vantuz",
+    "forbidden_words": ["Yapışmak", "Vakum", "Cam", "Asmak", "Çekmek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "İskemle",
+    "forbidden_words": ["Sandalye", "Oturak", "Tabure", "Alçak", "Ahşap"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Şezlong",
+    "forbidden_words": ["Plaj", "Güneşlenmek", "Yatmak", "Havuz", "Yaz"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Fiske masası",
+    "forbidden_words": ["Masa", "Küçük", "Yan sehpa", "Dekorasyon", "Salon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kerata",
+    "forbidden_words": ["Ayakkabı", "Giymek", "Yardımcı", "Topuk", "Çekecek"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Abaküs",
+    "forbidden_words": ["Hesap", "Sayı", "Boncuk", "Eski", "Matematik"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Gönye",
+    "forbidden_words": ["Açı", "Ölçmek", "Üçgen", "Cetvel", "Çizim"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Pergel",
+    "forbidden_words": ["Daire", "Çizmek", "Sivri uç", "Matematik", "Geometri"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Stetoskop",
+    "forbidden_words": ["Doktor", "Dinlemek", "Kalp", "Akciğer", "Muayene"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tansiyon aleti",
+    "forbidden_words": ["Tansiyon", "Ölçmek", "Kan basıncı", "Doktor", "Manşon"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tebeşir",
+    "forbidden_words": ["Kara tahta", "Yazmak", "Toz", "Beyaz", "Okul"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Mandalina kabuğu",
+    "forbidden_words": ["Soba", "Koku", "Yakmak", "Turuncu", "Çöp"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Kapı zili",
+    "forbidden_words": ["Kapı", "Çalmak", "Ses", "Misafir", "Düğme"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Duman dedektörü",
+    "forbidden_words": ["Duman", "Yangın", "Alarm", "Ses", "Tavan"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Nargile",
+    "forbidden_words": ["Tütün", "İçmek", "Marpuç", "Köz", "Duman"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Tespih",
+    "forbidden_words": ["Çekmek", "Boncuk", "İmame", "Stres", "Dua"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Oltu taşı",
+    "forbidden_words": ["Tespih", "Siyah", "Erzurum", "Değerli", "Taş"]
+  },
+  {
+    "category": "Günlük Yaşam ve Nesneler",
+    "word": "Ambalaj kağıdı",
+    "forbidden_words": ["Hediye", "Sarmak", "Paket", "Desenli", "Kağıt"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "İskelet",
+    "forbidden_words": ["Kemik", "Vücut", "Yapı", "Destek", "Kafatası"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kas",
+    "forbidden_words": ["Hareket", "Güç", "Vücut", "Lif", "İskelet"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kan",
+    "forbidden_words": ["Kırmızı", "Damar", "Vücut", "Sıvı", "Dolaşım"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Organ",
+    "forbidden_words": ["Vücut", "Kalp", "Akciğer", "Böbrek", "Görev"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sürüngen",
+    "forbidden_words": ["Hayvan", "Yılan", "Kertenkele", "Pullu", "Sürünmek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Memeli",
+    "forbidden_words": ["Hayvan", "Doğurmak", "Süt", "Kıllı", "İnsan"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Böcek",
+    "forbidden_words": ["Hayvan", "Altı bacaklı", "Küçük", "Karınca", "Sinek"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Odun",
+    "forbidden_words": ["Ağaç", "Yakmak", "Sert", "Kereste", "Mobilya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Selüloz",
+    "forbidden_words": ["Bitki", "Lif", "Kağıt", "Odun", "Yapı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Magmatik kayaç",
+    "forbidden_words": ["Kaya", "Magma", "Soğumak", "Volkanik", "Granit"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tortul kayaç",
+    "forbidden_words": ["Kaya", "Çökelti", "Katman", "Fosil", "Kireçtaşı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Metamorfik kayaç",
+    "forbidden_words": ["Kaya", "Başkalaşım", "Basınç", "Sıcaklık", "Mermer"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Fay",
+    "forbidden_words": ["Deprem", "Kırık", "Yer kabuğu", "Hareket", "Levha"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Manto",
+    "forbidden_words": ["Dünya", "Katman", "Magma", "Çekirdek", "Yer kabuğu"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Çekirdek",
+    "forbidden_words": ["Dünya", "Merkez", "En iç katman", "Sıcak", "Demir"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yer kabuğu",
+    "forbidden_words": ["Dünya", "En dış katman", "Kaya", "Toprak", "Levha"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Biyoçeşitlilik",
+    "forbidden_words": ["Canlı", "Çeşitlilik", "Tür", "Ekosistem", "Doğa"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sürdürülebilirlik",
+    "forbidden_words": ["Kaynak", "Gelecek", "Tükenmemek", "Denge", "Çevre"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Geri dönüşüm",
+    "forbidden_words": ["Çöp", "Tekrar kullanmak", "Kağıt", "Plastik", "Atık"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Karbon ayak izi",
+    "forbidden_words": ["Karbon", "Salınım", "Çevre", "Atmosfer", "İnsan etkisi"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Fosil yakıt",
+    "forbidden_words": ["Kömür", "Petrol", "Doğalgaz", "Enerji", "Yenilenemez"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yenilenebilir enerji",
+    "forbidden_words": ["Enerji", "Güneş", "Rüzgar", "Su", "Tükenmez"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sürtünme",
+    "forbidden_words": ["Kuvvet", "Yavaşlatmak", "Temas", "Pürüz", "Hareket"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Yoğunluk",
+    "forbidden_words": ["Kütle", "Hacim", "Madde", "Suya batmak", "Fizik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kütle",
+    "forbidden_words": ["Madde miktarı", "Ağırlık", "Kilogram", "Fizik", "Yoğunluk"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Hacim",
+    "forbidden_words": ["Yer kaplamak", "Boşluk", "Litre", "Metreküp", "Fizik"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Frekans",
+    "forbidden_words": ["Dalga", "Titreşim", "Sıklık", "Ses", "Hertz"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Gen",
+    "forbidden_words": ["Kalıtım", "DNA", "Özellik", "Karakter", "Anne-baba"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Kromozom",
+    "forbidden_words": ["DNA", "Hücre", "Genetik", "İnsan", "Çift"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Solunum",
+    "forbidden_words": ["Nefes almak", "Oksijen", "Akciğer", "Karbondioksit", "Canlı"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Sindirim",
+    "forbidden_words": ["Yemek", "Mide", "Bağırsak", "Parçalamak", "Besin"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Dolaşım sistemi",
+    "forbidden_words": ["Kan", "Kalp", "Damar", "Vücut", "Taşımak"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tayga",
+    "forbidden_words": ["Orman", "Soğuk", "İğne yapraklı", "Sibirya", "Biyom"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Savana",
+    "forbidden_words": ["Ot", "Ağaç", "Sıcak", "Afrika", "Aslan"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Biyom",
+    "forbidden_words": ["İklim", "Bitki örtüsü", "Hayvan", "Geniş coğrafi alan", "Ekosistem"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Ekolojik niş",
+    "forbidden_words": ["Canlı", "Görev", "İş", "Habitat", "Ekosistem"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Tortu",
+    "forbidden_words": ["Birikinti", "Çökelti", "Dip", "Katman", "Kaya"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Işın",
+    "forbidden_words": ["Işık", "Güneş", "Doğru", "Çizgi", "Lazer"]
+  },
+  {
+    "category": "Doğa ve Dünya",
+    "word": "Işıma",
+    "forbidden_words": ["Enerji", "Yayılma", "Radyasyon", "Isı", "Işık"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Hünkarbeğendi",
+    "forbidden_words": ["Patlıcan", "Et", "Beşamel sos", "Yemek", "Osmanlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "İmambayıldı",
+    "forbidden_words": ["Patlıcan", "Zeytinyağlı", "Soğan", "Domates", "Yemek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kısır",
+    "forbidden_words": ["Bulgur", "Salata", "Nar ekşisi", "Salça", "Yeşillik"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Humus",
+    "forbidden_words": ["Nohut", "Tahin", "Meze", "Ezme", "Limon"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Nişasta",
+    "forbidden_words": ["Mısır", "Buğday", "Toz", "Kıvam", "Muhallebi"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Jelatin",
+    "forbidden_words": ["Kıvam", "Hayvansal", "Tatlı", "Toz", "Jöle"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Susam",
+    "forbidden_words": ["Simit", "Tohum", "Tahin", "Küçük", "Yağlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Çörek otu",
+    "forbidden_words": ["Siyah", "Tohum", "Poğaça", "Baharat", "Küçük"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Safran",
+    "forbidden_words": ["Baharat", "Pahalı", "Sarı", "Renk", "Çiçek"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Vanilya",
+    "forbidden_words": ["Tatlı", "Koku", "Pasta", "Çubuk", "Aroma"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Güllaç",
+    "forbidden_words": ["Ramazan", "Tatlı", "Süt", "Yaprak", "Nar"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kazandibi",
+    "forbidden_words": ["Tatlı", "Süt", "Yanık", "Muhallebi", "Tavukgöğsü"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tavukgöğsü",
+    "forbidden_words": ["Tatlı", "Süt", "Tavuk", "Muhallebi", "Yalancı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Revani",
+    "forbidden_words": ["Tatlı", "Şerbet", "İrmik", "Kek", "Yoğurt"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Puding",
+    "forbidden_words": ["Tatlı", "Süt", "Çikolatalı", "Muzlu", "Toz"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Şampanya",
+    "forbidden_words": ["İçki", "Patlatmak", "Kutlama", "Köpüklü", "Fransız"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Votka",
+    "forbidden_words": ["İçki", "Rus", "Alkollü", "Sek", "Kokteyl"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Viski",
+    "forbidden_words": ["İçki", "İskoç", "Buzlu", "Arpa", "Fıçı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Rakı",
+    "forbidden_words": ["İçki", "Anason", "Beyaz", "Su", "Aslan sütü"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kefir",
+    "forbidden_words": ["İçecek", "Süt", "Faydalı", "Probiyotik", "Mayalamak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Pestil",
+    "forbidden_words": ["Meyve", "Kurutmak", "İnce", "Dut", "Tatlı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Cevizli sucuk",
+    "forbidden_words": ["Ceviz", "Pekmez", "İp", "Tatlı", "Şeker"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Glüten",
+    "forbidden_words": ["Buğday", "Protein", "Hamur", "Alerji", "Çölyak"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Kinoa",
+    "forbidden_words": ["Tohum", "Sağlıklı", "Salata", "Tahıl", "Besleyici"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Avokado",
+    "forbidden_words": ["Meyve", "Yeşil", "Yumuşak", "Salata", "Ezme"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Hindistan cevizi",
+    "forbidden_words": ["Meyve", "Tropikal", "Sert kabuklu", "Beyaz", "Süt"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Brüksel lahanası",
+    "forbidden_words": ["Sebze", "Küçük", "Lahana", "Yeşil", "Fırında"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Chia tohumu",
+    "forbidden_words": ["Tohum", "Sağlıklı", "Puding", "Jel", "Sıvı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Wasabi",
+    "forbidden_words": ["Acı", "Yeşil", "Japon", "Suşi", "Sos"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tempura",
+    "forbidden_words": ["Japon", "Kızartma", "Kaplama", "Karides", "Sebze"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Suşi",
+    "forbidden_words": ["Japon", "Pirinç", "Balık", "Yosun", "Rulo"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Taco",
+    "forbidden_words": ["Meksika", "Et", "Mısır", "Katlanmış", "Acı"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Paella",
+    "forbidden_words": ["İspanyol", "Pirinç", "Safran", "Deniz ürünü", "Tava"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Gulaş",
+    "forbidden_words": ["Macar", "Et", "Sulu yemek", "Biber", "Çorba"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Fondü",
+    "forbidden_words": ["İsviçre", "Peynir", "Eritmek", "Ekmek", "Çatal"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Tiramisu",
+    "forbidden_words": ["İtalyan", "Tatlı", "Kahve", "Mascarpone", "Kedi dili"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Cheesecake",
+    "forbidden_words": ["Peynir", "Kek", "Tatlı", "Taban", "Fırın"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Frappe",
+    "forbidden_words": ["Kahve", "Soğuk", "Köpüklü", "Buzlu", "Yunan"]
+  },
+  {
+    "category": "Yiyecek ve İçecekler",
+    "word": "Espresso",
+    "forbidden_words": ["Kahve", "İtalyan", "Sert", "Küçük fincan", "Makine"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Gala",
+    "forbidden_words": ["Özel gösterim", "Film", "Kırmızı halı", "Davet", "Kutlama"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Prömiyer",
+    "forbidden_words": ["İlk gösterim", "Film", "Tiyatro", "Gala", "Açılış"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Bienal",
+    "forbidden_words": ["Sergi", "Sanat", "İki yılda bir", "Etkinlik", "Uluslararası"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Matine",
+    "forbidden_words": ["Sinema", "Tiyatro", "Gündüz seansı", "Gösterim", "Öğleden sonra"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Suare",
+    "forbidden_words": ["Gösteri", "Gece", "Tiyatro", "Eğlence", "Davet"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Arpej",
+    "forbidden_words": ["Müzik", "Akor", "Notalar", "Tek tek çalmak", "Gitar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Solfej",
+    "forbidden_words": ["Müzik", "Nota", "Okumak", "Eğitim", "Do re mi"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Armoni",
+    "forbidden_words": ["Müzik", "Uyum", "Akor", "Sesler", "Birliktelik"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Melodi",
+    "forbidden_words": ["Müzik", "Ezgi", "Şarkı", "Nota dizisi", "Kulak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Akustik",
+    "forbidden_words": ["Müzik", "Enstrüman", "Elektronik olmayan", "Gitar", "Canlı"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kahve falı",
+    "forbidden_words": ["Kahve", "Fincan", "Bakmak", "Telveler", "Gelecek"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Hazine avı",
+    "forbidden_words": ["Oyun", "İpucu", "Harita", "Bulmak", "Gömü"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kaçış odası",
+    "forbidden_words": ["Oyun", "Kilitli", "Oda", "İpucu", "Süre"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Filografi",
+    "forbidden_words": ["Çivi", "Tel", "Sanat", "Tablo", "Sarmak"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Boyama kitabı",
+    "forbidden_words": ["Kitap", "Boyamak", "Kalem", "Çocuk", "Desen"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dekupaj",
+    "forbidden_words": ["Kağıt", "Kesmek", "Yapıştırmak", "Süsleme", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kolaj",
+    "forbidden_words": ["Kağıt", "Fotoğraf", "Kesmek", "Yapıştırmak", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Sanal gerçeklik",
+    "forbidden_words": ["Gözlük", "Bilgisayar", "3D", "Oyun", "Simülasyon"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Artırılmış gerçeklik",
+    "forbidden_words": ["Telefon", "Kamera", "Görüntü", "Sanal", "Gerçek dünya"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Drone uçurmak",
+    "forbidden_words": ["Drone", "Uçurmak", "Kamera", "Uzaktan kumanda", "Hava"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "3D baskı",
+    "forbidden_words": ["Yazıcı", "Üç boyutlu", "Plastik", "Model", "Tasarım"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Parodi",
+    "forbidden_words": ["Taklit", "Komik", "Film", "Şarkı", "Alay"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Skeç",
+    "forbidden_words": ["Kısa oyun", "Komik", "Tiyatro", "Televizyon", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Potpuri",
+    "forbidden_words": ["Şarkı", "Karışım", "Birleştirmek", "Müzik", "Popüler"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Dublör",
+    "forbidden_words": ["Oyuncu", "Yerine geçmek", "Tehlikeli sahne", "Film", "Kaskadör"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Koreografi",
+    "forbidden_words": ["Dans", "Hareket", "Tasarım", "Figür", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Figüran",
+    "forbidden_words": ["Oyuncu", "Kalabalık", "Arka plan", "Film", "Rol"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Soundtrack",
+    "forbidden_words": ["Film müziği", "Müzik", "Şarkı", "Albüm", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Jenerik",
+    "forbidden_words": ["Film başlangıcı", "Yazılar", "İsimler", "Müzik", "Dizi"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Monolog",
+    "forbidden_words": ["Tek kişilik konuşma", "Tiyatro", "Karakter", "Düşünce", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Tirad",
+    "forbidden_words": ["Uzun konuşma", "Tiyatro", "Karakter", "Duygusal", "Sahne"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Atari",
+    "forbidden_words": ["Eski oyun konsolu", "Oyun", "Kaset", "Joystick", "Televizyon"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Jet ski",
+    "forbidden_words": ["Deniz", "Sürmek", "Hızlı", "Su", "Motor"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kano",
+    "forbidden_words": ["Tekne", "Kürek", "Nehir", "Spor", "Dar"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Rodeo",
+    "forbidden_words": ["Boğa", "At", "Üzerinde durmak", "Kovboy", "Amerika"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Su altı hokeyi",
+    "forbidden_words": ["Hokey", "Su altı", "Disk", "Nefes", "Havuz"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Curling",
+    "forbidden_words": ["Buz", "Taş", "Süpürmek", "Hedef", "Kış sporu"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Kaligrafi",
+    "forbidden_words": ["Güzel yazı", "Yazı", "Kalem", "Mürekkep", "Sanat"]
+  },
+  {
+    "category": "Eğlence ve Hobiler",
+    "word": "Eskiz",
+    "forbidden_words": ["Taslak", "Çizim", "Kara kalem", "Hızlı", "Resim"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Komünizm",
+    "forbidden_words": ["Ekonomi", "Sınıfsız toplum", "Devlet", "Eşitlik", "Marx"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Liberalizm",
+    "forbidden_words": ["Fikir", "Özgürlük", "Ekonomi", "Birey", "Piyasa"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Milliyetçilik",
+    "forbidden_words": ["Millet", "Ulus", "Vatan", "Sevgi", "Bayrak"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İmtiyaz",
+    "forbidden_words": ["Ayrıcalık", "Hak", "Özel", "Üstünlük", "Eşitsizlik"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Dokunulmazlık",
+    "forbidden_words": ["Milletvekili", "Yargılanamama", "Zırh", "Koruma", "Hukuk"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Yaptırım",
+    "forbidden_words": ["Ceza", "Uluslararası", "Ekonomik", "Ülke", "Kısıtlama"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Ambargo",
+    "forbidden_words": ["Yasak", "Ticaret", "Ülke", "Ekonomik", "Yaptırım"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Koalisyon",
+    "forbidden_words": ["Parti", "Birlikte", "Hükümet", "Ortaklık", "Seçim"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Temyiz",
+    "forbidden_words": ["Mahkeme", "Karar", "İtiraz", "Üst mahkeme", "Hukuk"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Müebbet",
+    "forbidden_words": ["Hapis", "Ceza", "Ömür boyu", "Mahkeme", "Ağırlaştırılmış"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İflas",
+    "forbidden_words": ["Şirket", "Borç", "Batmak", "Para", "Mahkeme"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Haciz",
+    "forbidden_words": ["Borç", "El koyma", "Mal", "İcra", "Avukat"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Velayet",
+    "forbidden_words": ["Çocuk", "Boşanma", "Anne", "Baba", "Mahkeme"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Nafaka",
+    "forbidden_words": ["Boşanma", "Para", "Geçim", "Eş", "Çocuk"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Beraat",
+    "forbidden_words": ["Mahkeme", "Suçsuz", "Karar", "Aklanma", "Serbest"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Rönesans",
+    "forbidden_words": ["Yeniden doğuş", "Avrupa", "Sanat", "Bilim", "Tarih"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Aydınlanma Çağı",
+    "forbidden_words": ["Akıl", "Bilim", "Felsefe", "Avrupa", "18. yüzyıl"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Sanayi Devrimi",
+    "forbidden_words": ["Makine", "Fabrika", "Buhar", "İngiltere", "Üretim"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mitoloji",
+    "forbidden_words": ["Tanrılar", "Efsane", "Yunan", "Hikaye", "Eski"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Ritüel",
+    "forbidden_words": ["Tören", "Dini", "Gelenek", "Tekrarlanan", "Ayin"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Tabu",
+    "forbidden_words": ["Yasak", "Kutsal", "Dokunulmaz", "Toplum", "Konuşulmaz"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Aristokrasi",
+    "forbidden_words": ["Soylular", "Yönetim", "Sınıf", "Zengin", "Ayrıcalıklı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Burjuvazi",
+    "forbidden_words": ["Sınıf", "Tüccar", "Zengin", "Şehirli", "Orta sınıf"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Proletarya",
+    "forbidden_words": ["İşçi sınıfı", "Emekçi", "Fabrika", "Marx", "Sınıf"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Aktivist",
+    "forbidden_words": ["Eylemci", "Savunucu", "Protesto", "Toplumsal", "Gönüllü"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Lobicilik",
+    "forbidden_words": ["Etkileme", "Meclis", "Şirket", "Çıkar", "Yasa"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Filantrop",
+    "forbidden_words": ["Hayırsever", "Yardım", "Bağış", "Zengin", "İnsan sevgisi"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Paradoks",
+    "forbidden_words": ["Çelişki", "Mantık", "Görünüşte doğru", "Zıtlık", "Düşünce"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Ütopya",
+    "forbidden_words": ["Hayali ülke", "Mükemmel", "Toplum", "İdeal", "Gerçek dışı"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Distopya",
+    "forbidden_words": ["Kötü gelecek", "Baskıcı", "Toplum", "Ütopya karşıtı", "Film"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Etik",
+    "forbidden_words": ["Ahlak", "Doğru", "Yanlış", "Felsefe", "Değer"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mantık",
+    "forbidden_words": ["Akıl yürütme", "Doğru düşünme", "Felsefe", "Çıkarım", "Tutarlılık"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "İroni",
+    "forbidden_words": ["Söylenenin tersi", "Alay", "İğneleme", "Kinaye", "Edebiyat"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kader",
+    "forbidden_words": ["Alın yazısı", "Kaçınılmaz", "Gelecek", "İnanç", "Kısmet"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Mezhep",
+    "forbidden_words": ["Din", "Yorum", "Farklılık", "Grup", "İnanç"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Asimilasyon",
+    "forbidden_words": ["Kültür", "Benzemek", "Değişmek", "Azınlık", "Baskın"]
+  }, 
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Entegrasyon",
+    "forbidden_words": ["Uyum", "Toplum", "Bütünleşme", "Göçmen", "Kültür"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Klişe",
+    "forbidden_words": ["Basmakalıp", "Çok kullanılan", "Sıradan", "Söz", "Fikir"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Stereotip",
+    "forbidden_words": ["Kalıp yargı", "Genelleme", "Ön yargı", "Grup", "Basit"]
+  },
+  {
+    "category": "İnsan ve Toplum",
+    "word": "Kararname",
+    "forbidden_words": ["Hükümet", "Kanun", "Yasa gücünde", "Cumhurbaşkanı", "Resmi Gazete"]
+  }
+  ]

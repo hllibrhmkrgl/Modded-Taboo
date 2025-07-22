@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { View, Text, TouchableOpacity, SafeAreaView, Animated } from 'react-native';
+import { View, Text, TouchableOpacity, SafeAreaView, ScrollView, Animated, Dimensions } from 'react-native';
 import { GlobalStyles, GameModeStyles } from '../styles/GlobalStyles';
 
 const GameModeScreen = ({ onModeSelect, onBack }) => {
@@ -7,6 +7,10 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
   const slideAnim1 = useRef(new Animated.Value(50)).current;
   const slideAnim2 = useRef(new Animated.Value(50)).current;
   const slideAnim3 = useRef(new Animated.Value(50)).current;
+  
+  // Ekran boyutunu al
+  const { height } = Dimensions.get('window');
+  const isSmallScreen = height < 700; // iPhone 13 ve küçükleri için
 
   useEffect(() => {
     // Sıralı animasyon başlat
@@ -46,7 +50,7 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
         <Text style={GameModeStyles.headerTitle}>Oyun Modu Seç</Text>
       </Animated.View>
 
-      <View style={GameModeStyles.modesContainer}>
+      <ScrollView contentContainerStyle={GameModeStyles.modesContainer}>
         {/* Klasik Mod */}
         <Animated.View style={[
           GameModeStyles.modeCard,
@@ -82,9 +86,8 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
         ]}>
           <TouchableOpacity 
             style={[GameModeStyles.modeButton, GameModeStyles.categoryMode]}
-            onPress={() => {}} // Disabled
+            onPress={() => handleModeSelect('category')}
             activeOpacity={0.8}
-            disabled={true}
           >
             <Text style={GameModeStyles.modeIcon}>📚</Text>
             <Text style={GameModeStyles.modeTitle}>KATEGORİLİ</Text>
@@ -92,11 +95,8 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
               Kategorili kelimeler
             </Text>
             <View style={GameModeStyles.modeFeatures}>
-              <Text style={GameModeStyles.featureText}>🎲 Kategoriler</Text>
-              <Text style={GameModeStyles.featureText}>🎉 Çeşitlilik</Text>
-            </View>
-            <View style={GameModeStyles.comingSoon}>
-              <Text style={GameModeStyles.comingSoonText}>Yakında!</Text>
+              <Text style={GameModeStyles.featureText}>🎲 5 Kategori</Text>
+              <Text style={GameModeStyles.featureText}>🎯 Seçimli</Text>
             </View>
           </TouchableOpacity>
         </Animated.View>
@@ -125,7 +125,7 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
             </View>
           </TouchableOpacity>
         </Animated.View>
-      </View>
+      </ScrollView>
 
       <Animated.View style={[GameModeStyles.backContainer, { opacity: fadeAnim }]}>
         <TouchableOpacity style={GameModeStyles.backButton} onPress={onBack}>

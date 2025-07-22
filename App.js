@@ -5,6 +5,7 @@ import { ImageBackground } from 'react-native';
 // Import Screens
 import WelcomeScreen from './screens/WelcomeScreen';
 import GameModeScreen from './screens/GameModeScreen';
+import CategorySelectionScreen from './screens/CategorySelectionScreen';
 import TeamCountScreen from './screens/TeamCountScreen';
 import TeamNamesScreen from './screens/TeamNamesScreen';
 import GameScreen from './screens/GameScreen';
@@ -19,6 +20,7 @@ import { GlobalStyles } from './styles/GlobalStyles';
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('welcome');
   const [gameMode, setGameMode] = useState('classic');
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [teamCount, setTeamCount] = useState(2);
   const [teamNames, setTeamNames] = useState(['', '']);
 
@@ -32,6 +34,15 @@ export default function App() {
 
   const handleModeSelect = (mode) => {
     setGameMode(mode);
+    if (mode === 'category') {
+      setCurrentScreen('categorySelection');
+    } else {
+      setCurrentScreen('teamCount');
+    }
+  };
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
     setCurrentScreen('teamCount');
   };
 
@@ -51,9 +62,9 @@ export default function App() {
   };
 
   const handleStartGame = () => {
-    gameLogic.initializeGame(teamNames, gameMode);
+    gameLogic.initializeGame(teamNames, gameMode, selectedCategory);
     setCurrentScreen('game');
-    gameLogic.startNewRound();
+    gameLogic.startNewRound(gameMode, selectedCategory);
   };
 
   const handleGameAnswer = (type) => {
@@ -65,11 +76,9 @@ export default function App() {
   };
 
   const handleNextTeam = () => {
-    const hasMoreTeams = gameLogic.nextTeam();
-    if (hasMoreTeams) {
-      setCurrentScreen('game');
-      gameLogic.startNewRound();
-    }
+    gameLogic.nextTeam(); // Sıradaki takıma geç
+    setCurrentScreen('game');
+    gameLogic.startNewRound(gameMode, selectedCategory);
   };
 
   const handleFinishGame = () => {
@@ -81,6 +90,7 @@ export default function App() {
     gameLogic.resetGame();
     setCurrentScreen('welcome');
     setGameMode('classic');
+    setSelectedCategory(null);
     setTeamCount(2);
     setTeamNames(['', '']);
   };
@@ -107,13 +117,21 @@ export default function App() {
           />
         );
       
+      case 'categorySelection':
+        return (
+          <CategorySelectionScreen
+            onCategorySelect={handleCategorySelect}
+            onBack={() => setCurrentScreen('gameMode')}
+          />
+        );
+      
       case 'teamCount':
         return (
           <TeamCountScreen
             teamCount={teamCount}
             setTeamCount={setTeamCount}
             onContinue={handleTeamCountContinue}
-            onBack={() => setCurrentScreen('welcome')}
+            onBack={() => gameMode === 'category' ? setCurrentScreen('categorySelection') : setCurrentScreen('gameMode')}
           />
         );
       
@@ -138,6 +156,7 @@ export default function App() {
             isGameActive={gameLogic.isGameActive}
             isPaused={gameLogic.isPaused}
             gameMode={gameLogic.gameMode}
+            selectedCategory={selectedCategory}
             rushTimer={gameLogic.rushTimer}
             onAnswer={handleGameAnswer}
             formatTime={gameLogic.formatTime}
@@ -152,7 +171,6 @@ export default function App() {
           <ResultsScreen
             currentTeam={gameLogic.currentTeam}
             allTeamsStats={gameLogic.getAllTeamsStats()}
-            isLastTeam={gameLogic.isLastTeam}
             onNextTeam={handleNextTeam}
             onFinishGame={handleFinishGame}
             onBackToMenu={handleBackToMenu}

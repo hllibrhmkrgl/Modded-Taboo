@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Alert } from 'react-native';
 import wordsData from '../words.json';
+import categorizedWordsData from '../categorized_words.json';
 
 export const useGameLogic = () => {
   // Game states
@@ -14,6 +15,7 @@ export const useGameLogic = () => {
   const [usedWords, setUsedWords] = useState([]);
   const [teamNames, setTeamNames] = useState(['', '']);
   const [gameMode, setGameMode] = useState('classic');
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [rushTimer, setRushTimer] = useState(10);
 
   // Timer effect
@@ -47,17 +49,33 @@ export const useGameLogic = () => {
     return () => clearInterval(rushInterval);
   }, [gameMode, isGameActive, isPaused, rushTimer]);
 
-  const getRandomWord = () => {
-    const availableWords = wordsData.filter(wordObj => !usedWords.includes(wordObj.word));
-    if (availableWords.length === 0) {
+  const getRandomWord = (mode = gameMode, category = selectedCategory) => {
+    let wordSource;
+    
+    if (mode === 'category' && category) {
+      // Kategorili modda seçilen kategoriden kelime al
+      wordSource = categorizedWordsData.filter(wordObj => 
+        wordObj.category === category && !usedWords.includes(wordObj.word)
+      );
+    } else {
+      // Klasik modda normal kelimelerden al
+      wordSource = wordsData.filter(wordObj => !usedWords.includes(wordObj.word));
+    }
+
+    if (wordSource.length === 0) {
       // Reset used words if all are used
       setUsedWords([]);
-      return wordsData[Math.floor(Math.random() * wordsData.length)];
+      if (mode === 'category' && category) {
+        const categoryWords = categorizedWordsData.filter(wordObj => wordObj.category === category);
+        return categoryWords[Math.floor(Math.random() * categoryWords.length)];
+      } else {
+        return wordsData[Math.floor(Math.random() * wordsData.length)];
+      }
     }
-    return availableWords[Math.floor(Math.random() * availableWords.length)];
+    return wordSource[Math.floor(Math.random() * wordSource.length)];
   };
 
-  const initializeGame = (teams, mode = 'classic') => {
+  const initializeGame = (teams, mode = 'classic', category = null) => {
     // Initialize game stats
     const stats = {};
     teams.forEach(team => {
@@ -66,13 +84,14 @@ export const useGameLogic = () => {
     setGameStats(stats);
     setTeamNames(teams);
     setGameMode(mode);
+    setSelectedCategory(category);
     setCurrentTeamIndex(0);
     setUsedWords([]);
     setRushTimer(10); // Reset rush timer
   };
 
-  const startNewRound = () => {
-    const newWord = getRandomWord();
+  const startNewRound = (mode = gameMode, category = selectedCategory) => {
+    const newWord = getRandomWord(mode, category);
     setCurrentWord(newWord);
     setUsedWords(prev => [...prev, newWord.word]);
     setTimeLeft(90);
@@ -169,6 +188,7 @@ export const useGameLogic = () => {
     setUsedWords([]);
     setTeamNames(['', '']);
     setGameMode('classic');
+    setSelectedCategory(null);
     setRushTimer(10);
   };
 

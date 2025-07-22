@@ -11,6 +11,7 @@ const GameScreen = ({
   isGameActive, 
   isPaused,
   gameMode,
+  selectedCategory,
   rushTimer,
   onAnswer,
   formatTime,
@@ -176,7 +177,7 @@ const GameScreen = ({
           </Text>
         )}
         <Text style={GameStyles.passInfo}>
-          Pas Hakkı: {passCount} {gameMode === 'classic' ? '' : `• ${gameMode.toUpperCase()}`}
+         {gameMode === 'Klasik' ? '' : ` ${gameMode.toUpperCase()}`}
         </Text>
       </View>
 
@@ -189,12 +190,39 @@ const GameScreen = ({
             transform: [{ scale: scaleAnim }],
           }
         ]}>
+          {/* Kategori gösterimi - sadece kategorili modda */}
+          {gameMode === 'category' && selectedCategory && (
+            <View style={GameStyles.categoryContainer}>
+              <Text style={GameStyles.categoryLabel}>KATEGORİ</Text>
+              <Text style={GameStyles.categoryName}>{selectedCategory}</Text>
+            </View>
+          )}
+          
           <Text style={GameStyles.mainWord}>{currentWord.word}</Text>
           
           <View style={GameStyles.forbiddenWordsContainer}>
             {currentWord.forbidden_words.map((word, index) => (
               <Text key={index} style={GameStyles.forbiddenWord}>{word.toUpperCase()}</Text>
             ))}
+          </View>
+
+          {/* Compact Skor Göstergesi - Word card'ın altında */}
+          <View style={GameStyles.compactScores}>
+            <View style={GameStyles.scoreItem}>
+              <Text style={GameStyles.scoreIcon}>✅</Text>
+              <Text style={GameStyles.scoreValue}>{gameStats?.correct || 0}</Text>
+              <Text style={GameStyles.scoreLabel}>Doğru</Text>
+            </View>
+            <View style={GameStyles.scoreItem}>
+              <Text style={GameStyles.scoreIcon}>⏭️</Text>
+              <Text style={GameStyles.scoreValue}>{passCount}</Text>
+              <Text style={GameStyles.scoreLabel}>Pas Hakkı</Text>
+            </View>
+            <View style={GameStyles.scoreItem}>
+              <Text style={GameStyles.scoreIcon}>🚫</Text>
+              <Text style={GameStyles.scoreValue}>{gameStats?.taboo || 0}</Text>
+              <Text style={GameStyles.scoreLabel}>Tabu</Text>
+            </View>
           </View>
 
           {/* Feedback Overlay */}
@@ -260,19 +288,6 @@ const GameScreen = ({
           <Text style={GameStyles.actionButtonText}>⏭️ PAS</Text>
           <Text style={GameStyles.buttonSubText}>Geç</Text>
         </TouchableOpacity>
-      </View>
-
-      {/* Current scores */}
-      <View style={GameStyles.currentScores}>
-        <Text style={GameStyles.scoresTitle}>Anlık Skor:</Text>
-        <Text style={GameStyles.scoreText}>
-          Doğru: {gameStats?.correct || 0} | 
-          Tabu: {gameStats?.taboo || 0} | 
-          Pas: {gameStats?.pass || 0}
-        </Text>
-        <Text style={GameStyles.scoreSubText}>
-          💡 Tabu yaparsanız doğru sayınızdan 1 düşer!
-        </Text>
       </View>
 
       {/* Pause Menu Modal */}
