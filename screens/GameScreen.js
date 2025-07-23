@@ -21,12 +21,15 @@ const GameScreen = ({
 }) => {
   const [showPauseMenu, setShowPauseMenu] = useState(false);
   const [lastAction, setLastAction] = useState(null);
+  const [isProcessing, setIsProcessing] = useState(false);
   
   // Animation values
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const scaleAnim = useRef(new Animated.Value(1)).current;
   const feedbackAnim = useRef(new Animated.Value(0)).current;
   const timerPulse = useRef(new Animated.Value(1)).current;
+  const pauseMenuScale = useRef(new Animated.Value(0)).current;
+  const pauseMenuOpacity = useRef(new Animated.Value(0)).current;
 
   // Timer pulse animation when low
   useEffect(() => {
@@ -51,7 +54,14 @@ const GameScreen = ({
     } else {
       timerPulse.setValue(1);
     }
-  }, [timeLeft, isGameActive]);
+  }, [timeLeft, isGameActive, timerPulse]);
+
+  // Reset processing state when game state changes
+  useEffect(() => {
+    if (!isGameActive || isPaused) {
+      setIsProcessing(false);
+    }
+  }, [isGameActive, isPaused]);
 
   const showFeedback = (action) => {
     setLastAction(action);
@@ -74,7 +84,9 @@ const GameScreen = ({
   };
 
   const handleAnswerWithAnimation = (type) => {
-    if (!isGameActive || isPaused) return;
+    if (!isGameActive || isPaused || isProcessing) return;
+    
+    setIsProcessing(true); // Başlangıçta processing'i true yap
     
     // Show feedback
     showFeedback(type);
@@ -105,7 +117,9 @@ const GameScreen = ({
           useNativeDriver: true,
         }),
       ]),
-    ]).start();
+    ]).start(() => {
+      setIsProcessing(false); // Animasyon bitiminde processing'i false yap
+    });
     
     // Call original handler
     onAnswer(type);
@@ -114,16 +128,61 @@ const GameScreen = ({
   const handlePausePress = () => {
     onPause();
     setShowPauseMenu(true);
+    
+    // Animate pause menu entrance
+    Animated.parallel([
+      Animated.spring(pauseMenuScale, {
+        toValue: 1,
+        tension: 100,
+        friction: 8,
+        useNativeDriver: true,
+      }),
+      Animated.timing(pauseMenuOpacity, {
+        toValue: 1,
+        duration: 300,
+        useNativeDriver: true,
+      }),
+    ]).start();
   };
 
   const handleResumePress = () => {
-    setShowPauseMenu(false);
-    onResume();
+    // Animate pause menu exit
+    Animated.parallel([
+      Animated.spring(pauseMenuScale, {
+        toValue: 0,
+        tension: 100,
+        friction: 8,
+        useNativeDriver: true,
+      }),
+      Animated.timing(pauseMenuOpacity, {
+        toValue: 0,
+        duration: 200,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      setShowPauseMenu(false);
+      onResume();
+    });
   };
 
   const handleQuitPress = () => {
-    setShowPauseMenu(false);
-    onBackToMenu();
+    // Animate pause menu exit
+    Animated.parallel([
+      Animated.spring(pauseMenuScale, {
+        toValue: 0,
+        tension: 100,
+        friction: 8,
+        useNativeDriver: true,
+      }),
+      Animated.timing(pauseMenuOpacity, {
+        toValue: 0,
+        duration: 200,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      setShowPauseMenu(false);
+      onBackToMenu();
+    });
   };
 
   const getFeedbackStyle = () => {
@@ -256,9 +315,13 @@ const GameScreen = ({
       {/* Action buttons */}
       <View style={GameStyles.actionButtonsContainer}>
         <TouchableOpacity 
-          style={[GameStyles.actionButton, GameStyles.correctButton]} 
+          style={[
+            GameStyles.actionButton, 
+            GameStyles.correctButton,
+            (isProcessing || !isGameActive || isPaused) && GameStyles.disabledButton
+          ]} 
           onPress={() => handleAnswerWithAnimation('correct')}
-          disabled={!isGameActive || isPaused}
+          disabled={!isGameActive || isPaused || isProcessing}
           activeOpacity={0.7}
         >
           <Text style={GameStyles.actionButtonText}>✅ DOĞRU</Text>
@@ -266,9 +329,13 @@ const GameScreen = ({
         </TouchableOpacity>
         
         <TouchableOpacity 
-          style={[GameStyles.actionButton, GameStyles.tabooButton]} 
+          style={[
+            GameStyles.actionButton, 
+            GameStyles.tabooButton,
+            (isProcessing || !isGameActive || isPaused) && GameStyles.disabledButton
+          ]} 
           onPress={() => handleAnswerWithAnimation('taboo')}
-          disabled={!isGameActive || isPaused}
+          disabled={!isGameActive || isPaused || isProcessing}
           activeOpacity={0.7}
         >
           <Text style={GameStyles.actionButtonText}>🚫 TABU</Text>
@@ -279,10 +346,10 @@ const GameScreen = ({
           style={[
             GameStyles.actionButton, 
             GameStyles.passButton, 
-            (passCount <= 0 || isPaused) && GameStyles.disabledButton
+            (passCount <= 0 || isPaused || isProcessing) && GameStyles.disabledButton
           ]} 
           onPress={() => handleAnswerWithAnimation('pass')}
-          disabled={!isGameActive || isPaused || passCount <= 0}
+          disabled={!isGameActive || isPaused || passCount <= 0 || isProcessing}
           activeOpacity={0.7}
         >
           <Text style={GameStyles.actionButtonText}>⏭️ PAS</Text>
@@ -298,23 +365,59 @@ const GameScreen = ({
         onRequestClose={() => setShowPauseMenu(false)}
       >
         <View style={PauseMenuStyles.overlay}>
-          <View style={PauseMenuStyles.menuContainer}>
-            <Text style={PauseMenuStyles.menuTitle}>Oyun Duraklatıldı</Text>
-            
-            <TouchableOpacity 
-              style={[PauseMenuStyles.menuButton, PauseMenuStyles.resumeButton]} 
-              onPress={handleResumePress}
-            >
-              <Text style={PauseMenuStyles.menuButtonText}>Devam Et</Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity 
-              style={[PauseMenuStyles.menuButton, PauseMenuStyles.quitButton]} 
-              onPress={handleQuitPress}
-            >
-              <Text style={PauseMenuStyles.menuButtonText}>Ana Menüye Dön</Text>
-            </TouchableOpacity>
-          </View>
+          <Animated.View style={[
+            PauseMenuStyles.menuContainer,
+            {
+              transform: [{ scale: pauseMenuScale }],
+              opacity: pauseMenuOpacity,
+            }
+          ]}>
+            <View style={PauseMenuStyles.menuHeader}>
+              <Text style={PauseMenuStyles.pauseIcon}>⏸️</Text>
+              <Text style={PauseMenuStyles.menuTitle}>Oyun Duraklatıldı</Text>
+              <Text style={PauseMenuStyles.menuSubtitle}>Ne yapmak istiyorsun?</Text>
+            </View>
+
+            {/* Oyun Bilgileri */}
+            <View style={PauseMenuStyles.gameInfo}>
+              <View style={PauseMenuStyles.gameInfoRow}>
+                <Text style={PauseMenuStyles.gameInfoLabel}>👥 Takım:</Text>
+                <Text style={PauseMenuStyles.gameInfoValue}>{currentTeam}</Text>
+              </View>
+              <View style={PauseMenuStyles.gameInfoRow}>
+                <Text style={PauseMenuStyles.gameInfoLabel}>⏱️ Kalan Süre:</Text>
+                <Text style={PauseMenuStyles.gameInfoValue}>{formatTime(timeLeft)}</Text>
+              </View>
+              <View style={PauseMenuStyles.gameInfoRow}>
+                <Text style={PauseMenuStyles.gameInfoLabel}>⏭️ Pas Hakkı:</Text>
+                <Text style={PauseMenuStyles.gameInfoValue}>{passCount}</Text>
+              </View>
+              <View style={[PauseMenuStyles.gameInfoRow, { marginBottom: 0 }]}>
+                <Text style={PauseMenuStyles.gameInfoLabel}>✅ Doğru Cevaplar:</Text>
+                <Text style={PauseMenuStyles.gameInfoValue}>{gameStats?.correct || 0}</Text>
+              </View>
+            </View>
+
+            <View style={PauseMenuStyles.buttonsContainer}>
+              <TouchableOpacity 
+                style={[PauseMenuStyles.menuButton, PauseMenuStyles.resumeButton]} 
+                onPress={handleResumePress}
+                activeOpacity={0.8}
+              >
+                <Text style={PauseMenuStyles.buttonIcon}>▶️</Text>
+                <Text style={PauseMenuStyles.menuButtonText}>Devam Et</Text>
+              </TouchableOpacity>
+              
+              <TouchableOpacity 
+                style={[PauseMenuStyles.menuButton, PauseMenuStyles.quitButton]} 
+                onPress={handleQuitPress}
+                activeOpacity={0.8}
+              >
+                <Text style={PauseMenuStyles.buttonIcon}>🏠</Text>
+                <Text style={PauseMenuStyles.menuButtonText}>Ana Menüye Dön</Text>
+              </TouchableOpacity>
+            </View>
+          </Animated.View>
         </View>
       </Modal>
     </SafeAreaView>

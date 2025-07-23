@@ -1,41 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, TextInput, ScrollView, SafeAreaView, Alert } from 'react-native';
-import { GlobalStyles } from '../styles/GlobalStyles';
+import { GlobalStyles, TeamNamesStyles } from '../styles/GlobalStyles';
 
 const TeamNamesScreen = ({ teamNames, onTeamNameChange, onStartGame, onBack }) => {
+  const [focusedInput, setFocusedInput] = useState(null);
+
   const handleStartGame = () => {
-    // Check if all team names are filled
-    const emptyNames = teamNames.filter(name => name.trim() === '');
-    if (emptyNames.length > 0) {
-      Alert.alert('Uyarı', 'Lütfen tüm takım adlarını giriniz!');
-      return;
-    }
-    
-    // Check for duplicate names
-    const uniqueNames = new Set(teamNames.map(name => name.trim().toLowerCase()));
-    if (uniqueNames.size !== teamNames.length) {
+    // Boş isimleri otomatik "Takım X" yap
+    const finalTeamNames = teamNames.map((name, index) => {
+      const trimmedName = name.trim();
+      return trimmedName === '' ? `Takım ${index + 1}` : trimmedName;
+    });
+
+    // Duplicate name kontrolü
+    const uniqueNames = new Set(finalTeamNames.map(name => name.toLowerCase()));
+    if (uniqueNames.size !== finalTeamNames.length) {
       Alert.alert('Uyarı', 'Takım adları farklı olmalıdır!');
       return;
     }
+
+    // Final isimleri güncelle ve oyunu başlat
+    finalTeamNames.forEach((name, index) => {
+      if (teamNames[index].trim() === '') {
+        onTeamNameChange(index, name);
+      }
+    });
 
     onStartGame();
   };
 
   return (
     <SafeAreaView style={GlobalStyles.container}>
-      <Text style={GlobalStyles.title}>Takım Adları</Text>
+      <View style={TeamNamesStyles.header}>
+        <Text style={GlobalStyles.title}>Takım Adları</Text>
+        <Text style={TeamNamesStyles.subtitle}>
+          Boş bırakılan isimler otomatik olarak "Takım X" olacak
+        </Text>
+      </View>
       
-      <ScrollView style={GlobalStyles.scrollContainer} showsVerticalScrollIndicator={false}>
+      <ScrollView style={TeamNamesStyles.scrollContainer} showsVerticalScrollIndicator={false}>
         {teamNames.map((name, index) => (
-          <View key={index} style={GlobalStyles.inputContainer}>
-            <Text style={GlobalStyles.inputLabel}>{index + 1}. Takım:</Text>
+          <View key={index} style={TeamNamesStyles.teamCard}>
+            <View style={TeamNamesStyles.teamHeader}>
+              <Text style={TeamNamesStyles.teamNumber}>{index + 1}</Text>
+              <Text style={TeamNamesStyles.teamLabel}>. TAKIM</Text>
+            </View>
             <TextInput
-              style={GlobalStyles.textInput}
+              style={[
+                TeamNamesStyles.teamInput,
+                focusedInput === index && TeamNamesStyles.teamInputFocused
+              ]}
               value={name}
               onChangeText={(text) => onTeamNameChange(index, text)}
-              placeholder={`Takım ${index + 1} adını giriniz`}
-              placeholderTextColor="#rgba(255,255,255,0.6)"
+              onFocus={() => setFocusedInput(index)}
+              onBlur={() => setFocusedInput(null)}
+              placeholder={`Takım ${index + 1}`}
+              placeholderTextColor="rgba(0,0,0,0.4)"
               maxLength={20}
+              returnKeyType="next"
             />
           </View>
         ))}
