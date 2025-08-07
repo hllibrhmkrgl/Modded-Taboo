@@ -13,6 +13,10 @@ const GameScreen = ({
   gameMode,
   selectedCategory,
   rushTimer,
+  jokerPunishmentEffect,
+  setJokerPunishmentEffect,
+  isWordFrozen,
+  freezeTimer,
   onAnswer,
   formatTime,
   onPause,
@@ -30,6 +34,11 @@ const GameScreen = ({
   const timerPulse = useRef(new Animated.Value(1)).current;
   const pauseMenuScale = useRef(new Animated.Value(0)).current;
   const pauseMenuOpacity = useRef(new Animated.Value(0)).current;
+  
+  // Super Tabu effect animations
+  const effectRotation = useRef(new Animated.Value(0)).current;
+  const effectScale = useRef(new Animated.Value(0)).current;
+  const effectOpacity = useRef(new Animated.Value(0)).current;
 
   // Timer pulse animation when low
   useEffect(() => {
@@ -62,6 +71,62 @@ const GameScreen = ({
       setIsProcessing(false);
     }
   }, [isGameActive, isPaused]);
+
+
+
+  // Super Tabu effect animation
+  useEffect(() => {
+    if (jokerPunishmentEffect) {
+      // Reset animation values
+      effectRotation.setValue(0);
+      effectScale.setValue(0);
+      effectOpacity.setValue(0);
+
+      // Start spinning and scaling animation
+      const animation = Animated.sequence([
+        Animated.parallel([
+          Animated.timing(effectOpacity, {
+            toValue: 1,
+            duration: 300,
+            useNativeDriver: true,
+          }),
+          Animated.timing(effectScale, {
+            toValue: 1,
+            duration: 500,
+            useNativeDriver: true,
+          }),
+          Animated.timing(effectRotation, {
+            toValue: 1,
+            duration: 1000,
+            useNativeDriver: true,
+          }),
+        ]),
+        Animated.delay(1500),
+        Animated.parallel([
+          Animated.timing(effectOpacity, {
+            toValue: 0,
+            duration: 300,
+            useNativeDriver: true,
+          }),
+          Animated.timing(effectScale, {
+            toValue: 0,
+            duration: 300,
+            useNativeDriver: true,
+          }),
+        ]),
+      ]);
+
+      animation.start((finished) => {
+        if (finished && setJokerPunishmentEffect) {
+          setJokerPunishmentEffect(null);
+        }
+      });
+
+      return () => {
+        animation.stop();
+      };
+    }
+  }, [jokerPunishmentEffect, setJokerPunishmentEffect]);
 
   const showFeedback = (action) => {
     setLastAction(action);
@@ -235,6 +300,11 @@ const GameScreen = ({
             🚀 Kelime değişir: {rushTimer}s
           </Text>
         )}
+        {gameMode === 'super_tabu' && (
+          <Text style={GameStyles.superTabuInfo}>
+            🌟 Doğru: {Math.floor((gameStats?.correct || 0) / 3) * 3}/3 | ⚡ Tabu: {Math.floor((gameStats?.taboo || 0) / 2) * 2}/2
+          </Text>
+        )}
         <Text style={GameStyles.passInfo}>
          {gameMode === 'Klasik' ? '' : ` ${gameMode.toUpperCase()}`}
         </Text>
@@ -257,13 +327,24 @@ const GameScreen = ({
             </View>
           )}
           
-          <Text style={GameStyles.mainWord}>{currentWord.word}</Text>
-          
-          <View style={GameStyles.forbiddenWordsContainer}>
-            {currentWord.forbidden_words.map((word, index) => (
-              <Text key={index} style={GameStyles.forbiddenWord}>{word.toUpperCase()}</Text>
-            ))}
-          </View>
+          {isWordFrozen ? (
+            <View style={GameStyles.frozenWordContainer}>
+              <Text style={GameStyles.frozenWordText}>❄️ KELIME DONDU</Text>
+              <Text style={GameStyles.frozenWordTimer}>
+                Kelime {freezeTimer} saniye sonra görünecek
+              </Text>
+            </View>
+          ) : (
+            <>
+              <Text style={GameStyles.mainWord}>{currentWord.word}</Text>
+              
+              <View style={GameStyles.forbiddenWordsContainer}>
+                {currentWord.forbidden_words.map((word, index) => (
+                  <Text key={index} style={GameStyles.forbiddenWord}>{word.toUpperCase()}</Text>
+                ))}
+              </View>
+            </>
+          )}
 
           {/* Compact Skor Göstergesi - Word card'ın altında */}
           <View style={GameStyles.compactScores}>
@@ -309,6 +390,44 @@ const GameScreen = ({
               </Animated.Text>
             </Animated.View>
           )}
+        </Animated.View>
+      )}
+
+      {/* Super Tabu Effect Overlay */}
+      {jokerPunishmentEffect && (
+        <Animated.View style={[
+          GameStyles.superTabuEffectOverlay,
+          {
+            opacity: effectOpacity,
+            transform: [
+              { scale: effectScale },
+              { rotate: effectRotation.interpolate({
+                inputRange: [0, 1],
+                outputRange: ['0deg', '360deg'],
+              })},
+            ],
+          }
+        ]}>
+          <View style={GameStyles.effectContainer}>
+            <Text style={[
+              GameStyles.effectIcon,
+              { color: jokerPunishmentEffect.type === 'joker' ? '#FFD93D' : '#FF6B6B' }
+            ]}>
+              {jokerPunishmentEffect.type === 'joker' ? '🌟' : '⚡'}
+            </Text>
+            <Text style={[
+              GameStyles.effectTitle,
+              { color: jokerPunishmentEffect.type === 'joker' ? '#FFD93D' : '#FF6B6B' }
+            ]}>
+              {jokerPunishmentEffect.type === 'joker' ? 'JOKER!' : 'CEZA!'}
+            </Text>
+            <Text style={GameStyles.effectName}>
+              {jokerPunishmentEffect.item.name}
+            </Text>
+            <Text style={GameStyles.effectDescription}>
+              {jokerPunishmentEffect.item.description}
+            </Text>
+          </View>
         </Animated.View>
       )}
 

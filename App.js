@@ -4,6 +4,7 @@ import { ImageBackground } from 'react-native';
 
 // Import Screens
 import WelcomeScreen from './screens/WelcomeScreen';
+import HelpScreen from './screens/HelpScreen';
 import GameModeScreen from './screens/GameModeScreen';
 import CategorySelectionScreen from './screens/CategorySelectionScreen';
 import TeamCountScreen from './screens/TeamCountScreen';
@@ -30,6 +31,10 @@ export default function App() {
   // Navigation handlers
   const handlePlayPress = () => {
     setCurrentScreen('gameMode');
+  };
+
+  const handleHelpPress = () => {
+    setCurrentScreen('help');
   };
 
   const handleModeSelect = (mode) => {
@@ -107,7 +112,14 @@ export default function App() {
   const renderCurrentScreen = () => {
     switch (currentScreen) {
       case 'welcome':
-        return <WelcomeScreen onPlayPress={handlePlayPress} />;
+        return <WelcomeScreen onPlayPress={handlePlayPress} onHelpPress={handleHelpPress} />;
+      
+      case 'help':
+        return (
+          <HelpScreen
+            onBack={() => setCurrentScreen('welcome')}
+          />
+        );
       
       case 'gameMode':
         return (
@@ -158,6 +170,10 @@ export default function App() {
             gameMode={gameLogic.gameMode}
             selectedCategory={selectedCategory}
             rushTimer={gameLogic.rushTimer}
+            jokerPunishmentEffect={gameLogic.jokerPunishmentEffect}
+            setJokerPunishmentEffect={gameLogic.setJokerPunishmentEffect}
+            isWordFrozen={gameLogic.isWordFrozen}
+            freezeTimer={gameLogic.freezeTimer}
             onAnswer={handleGameAnswer}
             formatTime={gameLogic.formatTime}
             onPause={gameLogic.pauseGame}

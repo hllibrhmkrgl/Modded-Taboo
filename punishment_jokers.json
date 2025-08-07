@@ -1,0 +1,48 @@
+{
+    "jokers": [
+      {
+        "id": 1,
+        "name": "Ek Süre",
+        "description": "Oyuncuya +10 saniye ek süre verir.",
+        "effect": "time_bonus",
+        "value": 10
+      },
+      {
+        "id": 2,
+        "name": "Kelime Atlama",
+        "description": "Ekstra 1 pas hakkı.",
+        "effect": "skip_word",
+        "value": 1
+      },
+      {
+        "id": 3,
+        "name": "Çifte Puan",
+        "description": "Sonraki 1 doğru cevap için puanını ikiye katlar.",
+        "effect": "double_points",
+        "value": 1
+      }
+    ],
+    "punishments": [
+      {
+        "id": 1,
+        "name": "Süre Azaltma",
+        "description": "Toplam süreden 5 saniye düşer.",
+        "effect": "time_penalty",
+        "value": -5
+      },
+      {
+        "id": 2,
+        "name": "Puan Silme",
+        "description": "Mevcut puandan 1 puan silinir.",
+        "effect": "score_penalty",
+        "value": -10
+      },
+      {
+        "id": 3,
+        "name": "Kelime Donması",
+        "description": "Bir sonraki kelime 5 saniye boyunca gösterilmez.",
+        "effect": "freeze_word",
+        "value": 5
+      }
+    ]
+  }

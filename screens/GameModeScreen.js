@@ -7,6 +7,7 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
   const slideAnim1 = useRef(new Animated.Value(50)).current;
   const slideAnim2 = useRef(new Animated.Value(50)).current;
   const slideAnim3 = useRef(new Animated.Value(50)).current;
+  const slideAnim4 = useRef(new Animated.Value(50)).current;
   
   // Ekran boyutunu al
   const { height } = Dimensions.get('window');
@@ -32,6 +33,11 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
           useNativeDriver: true,
         }),
         Animated.timing(slideAnim3, {
+          toValue: 0,
+          duration: 400,
+          useNativeDriver: true,
+        }),
+        Animated.timing(slideAnim4, {
           toValue: 0,
           duration: 400,
           useNativeDriver: true,
@@ -76,12 +82,37 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
           </TouchableOpacity>
         </Animated.View>
 
-        {/* Kategorili Mod */}
+        {/* Super Tabu Mod */}
         <Animated.View style={[
           GameModeStyles.modeCard,
           {
             opacity: fadeAnim,
             transform: [{ translateY: slideAnim2 }],
+          }
+        ]}>
+          <TouchableOpacity 
+            style={[GameModeStyles.modeButton, GameModeStyles.superTabuMode]}
+            onPress={() => handleModeSelect('super_tabu')}
+            activeOpacity={0.8}
+          >
+            <Text style={GameModeStyles.modeIcon}>🌟</Text>
+            <Text style={GameModeStyles.modeTitle}>SUPER TABU</Text>
+            <Text style={GameModeStyles.modeDescription}>
+              Joker ve ceza sistemi
+            </Text>
+            <View style={GameModeStyles.modeFeatures}>
+              <Text style={GameModeStyles.featureText}>🃏 3 Joker</Text>
+              <Text style={GameModeStyles.featureText}>⚡ 3 Ceza</Text>
+            </View>
+          </TouchableOpacity>
+        </Animated.View>
+
+        {/* Kategorili Mod */}
+        <Animated.View style={[
+          GameModeStyles.modeCard,
+          {
+            opacity: fadeAnim,
+            transform: [{ translateY: slideAnim3 }],
           }
         ]}>
           <TouchableOpacity 
@@ -106,7 +137,7 @@ const GameModeScreen = ({ onModeSelect, onBack }) => {
           GameModeStyles.modeCard,
           {
             opacity: fadeAnim,
-            transform: [{ translateY: slideAnim3 }],
+            transform: [{ translateY: slideAnim4 }],
           }
         ]}>
           <TouchableOpacity 

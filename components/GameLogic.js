@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Alert } from 'react-native';
 import wordsData from '../words.json';
 import categorizedWordsData from '../categorized_words.json';
+import punishmentJokersData from '../punishment_jokers.json';
 
 export const useGameLogic = () => {
   // Game states
@@ -17,6 +18,15 @@ export const useGameLogic = () => {
   const [gameMode, setGameMode] = useState('classic');
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [rushTimer, setRushTimer] = useState(10);
+  
+  // Super Tabu mode states
+  const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
+  const [tabooCount, setTabooCount] = useState(0);
+  const [activeJoker, setActiveJoker] = useState(null);
+  const [activePunishment, setActivePunishment] = useState(null);
+  const [jokerPunishmentEffect, setJokerPunishmentEffect] = useState(null);
+  const [isWordFrozen, setIsWordFrozen] = useState(false);
+  const [freezeTimer, setFreezeTimer] = useState(0);
 
   // Timer effect
   useEffect(() => {
@@ -48,6 +58,23 @@ export const useGameLogic = () => {
     }
     return () => clearInterval(rushInterval);
   }, [gameMode, isGameActive, isPaused, rushTimer]);
+
+  // Freeze timer effect
+  useEffect(() => {
+    let freezeInterval = null;
+    if (isWordFrozen && freezeTimer > 0) {
+      freezeInterval = setInterval(() => {
+        setFreezeTimer(timer => {
+          if (timer <= 1) {
+            setIsWordFrozen(false);
+            return 0;
+          }
+          return timer - 1;
+        });
+      }, 1000);
+    }
+    return () => clearInterval(freezeInterval);
+  }, [isWordFrozen, freezeTimer]);
 
   const getRandomWord = (mode = gameMode, category = selectedCategory) => {
     let wordSource;
@@ -88,6 +115,15 @@ export const useGameLogic = () => {
     setCurrentTeamIndex(0);
     setUsedWords([]);
     setRushTimer(10); // Reset rush timer
+    
+    // Reset Super Tabu states
+    setCorrectAnswersCount(0);
+    setTabooCount(0);
+    setActiveJoker(null);
+    setActivePunishment(null);
+    setJokerPunishmentEffect(null);
+    setIsWordFrozen(false);
+    setFreezeTimer(0);
   };
 
   const startNewRound = (mode = gameMode, category = selectedCategory) => {
@@ -105,6 +141,83 @@ export const useGameLogic = () => {
 
   const resumeGame = () => {
     setIsPaused(false);
+  };
+
+  // Super Tabu mode functions
+  const getRandomJoker = () => {
+    const jokers = punishmentJokersData.jokers;
+    return jokers[Math.floor(Math.random() * jokers.length)];
+  };
+
+  const getRandomPunishment = () => {
+    const punishments = punishmentJokersData.punishments;
+    return punishments[Math.floor(Math.random() * punishments.length)];
+  };
+
+  const applyJokerEffect = (joker) => {
+    switch (joker.effect) {
+      case 'time_bonus':
+        setTimeLeft(prev => prev + joker.value);
+        break;
+      case 'skip_word':
+        // This will be handled in the UI as extra pass rights
+        setPassCount(prev => prev + joker.value);
+        break;
+      case 'double_points':
+        // This will be handled when scoring the next correct answer
+        break;
+      default:
+        break;
+    }
+  };
+
+  const applyPunishmentEffect = (punishment) => {
+    const currentTeam = teamNames[currentTeamIndex];
+    const newStats = { ...gameStats };
+    
+    switch (punishment.effect) {
+      case 'time_penalty':
+        setTimeLeft(prev => Math.max(0, prev + punishment.value));
+        break;
+      case 'score_penalty':
+        newStats[currentTeam].correct = Math.max(0, newStats[currentTeam].correct + punishment.value / 10);
+        setGameStats(newStats);
+        break;
+      case 'freeze_word':
+        setIsWordFrozen(true);
+        setFreezeTimer(punishment.value);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const checkSuperTabuTriggers = (answerType) => {
+    if (gameMode !== 'super_tabu') return;
+
+    if (answerType === 'correct') {
+      const newCorrectCount = correctAnswersCount + 1;
+      setCorrectAnswersCount(newCorrectCount);
+      
+      // Her 3 doğru cevap = 1 joker
+      if (newCorrectCount % 3 === 0) {
+        const joker = getRandomJoker();
+        setActiveJoker(joker);
+        setJokerPunishmentEffect({ type: 'joker', item: joker });
+        applyJokerEffect(joker);
+      }
+    } else if (answerType === 'taboo') {
+      const newTabooCount = tabooCount + 1;
+      setTabooCount(newTabooCount);
+      
+      // Her 2 tabu = 1 ceza
+      if (newTabooCount % 2 === 0) {
+        const punishment = getRandomPunishment();
+        setActivePunishment(punishment);
+        setJokerPunishmentEffect({ type: 'punishment', item: punishment });
+        applyPunishmentEffect(punishment);
+      }
+    }
   };
 
   const handleAnswer = (type) => {
@@ -129,10 +242,23 @@ export const useGameLogic = () => {
       }
     } else {
       // Normal correct/wrong handling
-      newStats[currentTeam][type]++;
+      // Super Tabu mode: Apply double points if joker is active
+      if (gameMode === 'super_tabu' && type === 'correct' && activeJoker?.effect === 'double_points') {
+        newStats[currentTeam][type] += 2; // Double points
+        setActiveJoker(null); // Use joker
+      } else {
+        newStats[currentTeam][type]++;
+      }
     }
     
     setGameStats(newStats);
+
+    // Super Tabu mode: Check for joker/punishment triggers after stats update
+    if (gameMode === 'super_tabu') {
+      requestAnimationFrame(() => {
+        checkSuperTabuTriggers(type);
+      });
+    }
 
     // Get new word
     const newWord = getRandomWord();
@@ -190,6 +316,15 @@ export const useGameLogic = () => {
     setGameMode('classic');
     setSelectedCategory(null);
     setRushTimer(10);
+    
+    // Reset Super Tabu states
+    setCorrectAnswersCount(0);
+    setTabooCount(0);
+    setActiveJoker(null);
+    setActivePunishment(null);
+    setJokerPunishmentEffect(null);
+    setIsWordFrozen(false);
+    setFreezeTimer(0);
   };
 
   const formatTime = (seconds) => {
@@ -237,6 +372,15 @@ export const useGameLogic = () => {
     gameMode,
     rushTimer,
     
+    // Super Tabu states
+    correctAnswersCount,
+    tabooCount,
+    activeJoker,
+    activePunishment,
+    jokerPunishmentEffect,
+    isWordFrozen,
+    freezeTimer,
+    
     // Actions
     initializeGame,
     startNewRound,
@@ -248,6 +392,9 @@ export const useGameLogic = () => {
     getAllTeamsStats,
     pauseGame,
     resumeGame,
+    
+    // Super Tabu actions
+    setJokerPunishmentEffect,
     
     // Computed values
     currentTeam: teamNames[currentTeamIndex] || '',

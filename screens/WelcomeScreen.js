@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { View, Text, TouchableOpacity, Animated, Image } from 'react-native';
 import { GlobalStyles, WelcomeStyles } from '../styles/GlobalStyles';
 
-const WelcomeScreen = ({ onPlayPress }) => {
+const WelcomeScreen = ({ onPlayPress, onHelpPress }) => {
   const logoAnimation = useRef(new Animated.Value(0)).current;
   const logoRotation = useRef(new Animated.Value(0)).current;
   const logoScale = useRef(new Animated.Value(0.8)).current;
@@ -168,6 +168,29 @@ const WelcomeScreen = ({ onPlayPress }) => {
             style={WelcomeStyles.playButtonImage}
             resizeMode="contain"
           />
+        </TouchableOpacity>
+      </Animated.View>
+
+      {/* Animated Help Button */}
+      <Animated.View style={[
+        {
+          opacity: buttonAnimation,
+          transform: [
+            {
+              translateY: buttonAnimation.interpolate({
+                inputRange: [0, 1],
+                outputRange: [40, 0],
+              }),
+            }
+          ],
+        }
+      ]}>
+        <TouchableOpacity 
+          style={WelcomeStyles.helpButtonContainer} 
+          onPress={onHelpPress}
+          activeOpacity={0.8}
+        >
+          <Text style={WelcomeStyles.helpButtonText}>🎯 Oyun Rehberi</Text>
         </TouchableOpacity>
       </Animated.View>
 
