@@ -28,7 +28,7 @@ const ResultsScreen = ({
 
   return (
     <SafeAreaView style={GlobalStyles.container}>
-      <Text style={GlobalStyles.title}>Tur Sonucu</Text>
+      <Text style={[GlobalStyles.title, { fontSize: 32, marginBottom: 25 }]}>🏆 Tur Sonucu</Text>
       
       {/* Current team highlight */}
       {currentTeam && (
@@ -53,15 +53,33 @@ const ResultsScreen = ({
               key={`team-${index}-${team.name || 'unnamed'}`}
               style={[
                 ResultStyles.teamCard,
-                team.name === currentTeam && ResultStyles.currentTeamCard
+                team.name === currentTeam && ResultStyles.currentTeamCard,
+                index === 0 && ResultStyles.winnerCard
               ]}
             >
               {/* Team position and name */}
               <View style={ResultStyles.teamHeader}>
-                <Text style={ResultStyles.teamName}>
+                <View style={ResultStyles.teamPosition}>
+                  <Text style={[
+                    ResultStyles.positionText,
+                    index === 0 && ResultStyles.winnerText
+                  ]}>
+                    {index + 1}.
+                  </Text>
+                  {index === 0 && (
+                    <Text style={ResultStyles.crownEmoji}>👑</Text>
+                  )}
+                </View>
+                <Text style={[
+                  ResultStyles.teamName,
+                  index === 0 && ResultStyles.winnerTeamName
+                ]}>
                   {team.name || `Takım ${index + 1}`}
                 </Text>
-                <Text style={ResultStyles.teamScore}>
+                <Text style={[
+                  ResultStyles.teamScore,
+                  index === 0 && ResultStyles.winnerScore
+                ]}>
                   {team.stats.correct || 0} puan
                 </Text>
               </View>

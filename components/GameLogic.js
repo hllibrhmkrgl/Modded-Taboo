@@ -114,7 +114,7 @@ export const useGameLogic = () => {
     setSelectedCategory(category);
     setCurrentTeamIndex(0);
     setUsedWords([]);
-    setRushTimer(10); // Reset rush timer
+    setRushTimer(15); // Reset rush timer
     
     // Reset Super Tabu states
     setCorrectAnswersCount(0);

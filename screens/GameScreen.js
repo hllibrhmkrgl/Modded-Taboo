@@ -399,16 +399,20 @@ const GameScreen = ({
           GameStyles.superTabuEffectOverlay,
           {
             opacity: effectOpacity,
-            transform: [
-              { scale: effectScale },
-              { rotate: effectRotation.interpolate({
-                inputRange: [0, 1],
-                outputRange: ['0deg', '360deg'],
-              })},
-            ],
           }
         ]}>
-          <View style={GameStyles.effectContainer}>
+          <Animated.View style={[
+            GameStyles.effectContainer,
+            {
+              transform: [
+                { scale: effectScale },
+                { rotate: effectRotation.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: ['0deg', '360deg'],
+                })},
+              ],
+            }
+          ]}>
             <Text style={[
               GameStyles.effectIcon,
               { color: jokerPunishmentEffect.type === 'joker' ? '#FFD93D' : '#FF6B6B' }
@@ -427,7 +431,7 @@ const GameScreen = ({
             <Text style={GameStyles.effectDescription}>
               {jokerPunishmentEffect.item.description}
             </Text>
-          </View>
+          </Animated.View>
         </Animated.View>
       )}
 

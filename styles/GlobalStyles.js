@@ -565,17 +565,19 @@ export const ResultStyles = StyleSheet.create({
   
   // Team card styles
   teamCard: {
-    backgroundColor: 'rgba(255,255,255,0.9)',
+    backgroundColor: 'rgba(255,255,255,0.95)',
     borderRadius: 15,
-    padding: 15,
-    marginBottom: 10,
+    padding: 18,
+    marginBottom: 12,
     ...createShadowStyle({
       shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.3,
-      shadowRadius: 3,
-      elevation: 5,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.4,
+      shadowRadius: 6,
+      elevation: 8,
     }),
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.5)',
   },
   currentTeamCard: {
     backgroundColor: 'rgba(255, 107, 107, 0.15)',
@@ -616,7 +618,7 @@ export const ResultStyles = StyleSheet.create({
     flex: 1,
     fontSize: 18,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
-    color: '#333333',
+    color: '#2C3E50',
     marginLeft: 10,
   },
   winnerTeamName: {
@@ -645,12 +647,12 @@ export const ResultStyles = StyleSheet.create({
   miniStatNumber: {
     fontSize: 16,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
-    color: '#333333',
+    color: '#2C3E50',
   },
   miniStatLabel: {
     fontSize: 10,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
-    color: '#666666',
+    color: '#34495E',
     marginTop: 2,
   },
 
@@ -994,7 +996,6 @@ export const GameModeStyles = StyleSheet.create({
     backgroundColor: 'rgba(168, 85, 247, 0.2)',
     borderColor: 'rgba(168, 85, 247, 0.6)',
     shadowColor: '#A855F7',
-    opacity: 0.8,
   },
   rushMode: {
     backgroundColor: 'rgba(255, 107, 107, 0.2)',

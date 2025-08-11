@@ -122,6 +122,53 @@ const HelpScreen = ({ onBack }) => {
           </View>
         </Animated.View>
 
+        {/* Super Tabu Mod */}
+        <Animated.View style={[
+          styles.modeCard,
+          styles.superTabuCard,
+          {
+            opacity: fadeAnim,
+            transform: [{ translateY: slideAnim2 }],
+          }
+        ]}>
+          <Text style={styles.modeIcon}>🌟</Text>
+          <Text style={styles.modeTitle}>SUPER TABU</Text>
+          <Text style={styles.modeDescription}>Joker ve ceza sistemi ile gelişmiş oyun</Text>
+          
+          <View style={styles.featuresList}>
+            <View style={styles.featureItem}>
+              <Text style={styles.featureIcon}>🃏</Text>
+              <Text style={styles.featureText}>3 joker hakkı</Text>
+            </View>
+            <View style={styles.featureItem}>
+              <Text style={styles.featureIcon}>⚡</Text>
+              <Text style={styles.featureText}>3 ceza sistemi</Text>
+            </View>
+            <View style={styles.featureItem}>
+              <Text style={styles.featureIcon}>🎲</Text>
+              <Text style={styles.featureText}>Rastgele etkiler</Text>
+            </View>
+            <View style={styles.featureItem}>
+              <Text style={styles.featureIcon}>🎯</Text>
+              <Text style={styles.featureText}>Strateji gerektiren oyun</Text>
+            </View>
+          </View>
+          
+          <View style={styles.superTabuFeatures}>
+            <Text style={styles.superTabuTitle}>🃏 Joker Türleri:</Text>
+            <Text style={styles.superTabuItem}>• Pas Hakkı Eklemesi: Ekstra 1 pas hakkı</Text>
+            <Text style={styles.superTabuItem}>• Ek Süre: +10 saniye ek oyun süresi</Text>
+            <Text style={styles.superTabuItem}>• Çifte Puan: Sonraki doğru cevap 2 puan</Text>
+          </View>
+          
+          <View style={styles.superTabuPunishments}>
+            <Text style={styles.superTabuTitle}>⚡ Ceza Türleri:</Text>
+            <Text style={styles.superTabuItem}>• Puan Kaybı: -1 puan kaybedersiniz</Text>
+            <Text style={styles.superTabuItem}>• Süre Kaybı: -15 saniye süre kaybı</Text>
+            <Text style={styles.superTabuItem}>• Pas Kaybı: 1 pas hakkınız gider</Text>
+          </View>
+        </Animated.View>
+
         {/* Kategorili Mod */}
         <Animated.View style={[
           styles.modeCard,
@@ -276,9 +323,10 @@ const styles = {
   },
   ruleItem: {
     fontSize: 16,
-    color: '#34495E',
+    color: '#2C3E50',
     marginBottom: 12,
     lineHeight: 24,
+    fontWeight: Platform.OS === 'android' ? '500' : '500',
   },
   modeCard: {
     borderRadius: 20,
@@ -296,6 +344,11 @@ const styles = {
     backgroundColor: 'rgba(52, 152, 219, 0.1)',
     borderLeftWidth: 6,
     borderLeftColor: '#3498DB',
+  },
+  superTabuCard: {
+    backgroundColor: 'rgba(255, 217, 61, 0.1)',
+    borderLeftWidth: 6,
+    borderLeftColor: '#FFD93D',
   },
   categoryCard: {
     backgroundColor: 'rgba(155, 89, 182, 0.1)',
@@ -341,8 +394,9 @@ const styles = {
   },
   featureText: {
     fontSize: 16,
-    color: '#34495E',
+    color: '#2C3E50',
     flex: 1,
+    fontWeight: Platform.OS === 'android' ? '600' : '600',
   },
   categoriesList: {
     marginTop: 15,
@@ -353,14 +407,15 @@ const styles = {
   categoriesTitle: {
     fontSize: 16,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
-    color: '#8E44AD',
+    color: '#2C3E50',
     marginBottom: 10,
   },
   categoryTag: {
     fontSize: 14,
-    color: '#9B59B6',
+    color: '#2C3E50',
     marginBottom: 6,
     paddingLeft: 10,
+    fontWeight: Platform.OS === 'android' ? '600' : '600',
   },
   rushTip: {
     marginTop: 15,
@@ -371,12 +426,40 @@ const styles = {
   rushTipTitle: {
     fontSize: 16,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
-    color: '#C0392B',
+    color: '#2C3E50',
     marginBottom: 8,
   },
   rushTipText: {
     fontSize: 14,
-    color: '#E74C3C',
+    color: '#2C3E50',
+    lineHeight: 20,
+    fontWeight: Platform.OS === 'android' ? '500' : '500',
+  },
+  superTabuFeatures: {
+    marginTop: 15,
+    padding: 15,
+    backgroundColor: 'rgba(255, 217, 61, 0.1)',
+    borderRadius: 15,
+    marginBottom: 10,
+  },
+  superTabuPunishments: {
+    marginTop: 10,
+    padding: 15,
+    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+    borderRadius: 15,
+  },
+  superTabuTitle: {
+    fontSize: 16,
+    fontWeight: Platform.OS === 'android' ? '700' : 'bold',
+    color: '#2C3E50',
+    marginBottom: 10,
+  },
+  superTabuItem: {
+    fontSize: 14,
+    color: '#2C3E50',
+    marginBottom: 6,
+    paddingLeft: 10,
+    fontWeight: Platform.OS === 'android' ? '500' : '500',
     lineHeight: 20,
   },
   backContainer: {
