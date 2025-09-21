@@ -1,236 +1,212 @@
-# 🎮 TABOO - Modern Kelime Tahmin Oyunu
+# 🎮 TABOO - Modern Word Guessing Game
 
-React Native ile geliştirilmiş, 4 farklı oyun modu sunan modern ve eğlenceli Taboo oyunu.
+[![React Native](https://img.shields.io/badge/React%20Native-0.72-blue.svg)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-SDK%2049+-black.svg)](https://expo.dev/)
+[![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web-lightgrey.svg)](https://github.com/hllibrhmkrgl/tabuu)
 
-## 📁 Proje Yapısı
+A modern, feature-rich Taboo word guessing game built with React Native and Expo. Experience 4 unique game modes with stunning animations and engaging gameplay mechanics.
+
+## 🌟 Features
+
+### 🎯 **4 Game Modes**
+- **🎯 Classic Mode**: Traditional 90-second rounds with 3 skip passes
+- **🌟 Super Tabu**: Advanced mode with jokers and penalties system
+- **📚 Categorized Mode**: Play with 5 themed categories (Food, Sports, Movies, Geography, Science)
+- **⚡ Rush Mode**: Fast-paced automatic word switching with 10-second timers
+
+### 🎨 **Modern UI/UX**
+- Beautiful gradient backgrounds and smooth animations
+- Platform-specific optimizations (iOS, Android, Web)
+- Responsive design with accessibility features
+- Winner celebrations and visual feedback
+
+### 🎮 **Advanced Game Mechanics**
+- Comprehensive statistics tracking
+- Pause menu with game state preservation
+- Joker/penalty animation system
+- Freezing effects and special power-ups
+
+## 📱 Screenshots
+
+*Add your game screenshots here*
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/hllibrhmkrgl/tabuu.git
+
+# Navigate to project directory
+cd tabuu
+
+# Install dependencies
+npm install
+
+# Start the development server
+npx expo start
+
+# Run on specific platform
+npx expo run:ios     # iOS
+npx expo run:android # Android
+npx expo start --web # Web
+```
+
+## 🎮 How to Play
+
+1. **Start**: Tap "PLAY" on the welcome screen
+2. **Choose Mode**: Select from 4 exciting game modes
+3. **Setup Teams**: 
+   - Choose number of teams (2-10)
+   - Enter team names
+4. **Gameplay**: 
+   - Describe the main word to your teammates
+   - 🚫 Avoid using forbidden words
+   - Use ✅ CORRECT / 🚫 TABOO / ⏭️ SKIP buttons
+   - 🌟 In Super Tabu mode, watch for jokers and penalties
+5. **Results**: View detailed statistics after each round
+6. **Victory**: 👑 Winner is determined by highest score
+
+## 🎯 Game Modes Explained
+
+### 🎯 Classic Mode
+- ⏱️ 90-second rounds
+- ⏭️ 3 skip passes per team
+- 🎲 Random word selection
+- 🏆 Standard scoring system
+
+### 🌟 Super Tabu Mode
+**3 Joker Types:**
+- **Extra Pass**: +1 additional skip
+- **Bonus Time**: +10 seconds
+- **Double Points**: Next correct answer = 2 points
+
+**3 Penalty Types:**
+- **Point Loss**: -1 point penalty
+- **Time Loss**: -15 seconds
+- **Pass Loss**: Lose 1 skip pass
+
+*Earn 1 joker every 3 correct answers, get 1 penalty every 2 taboo violations*
+
+### 📚 Categorized Mode
+Choose from 5 themed categories:
+- 🍎 **Food & Drinks**
+- 🏃‍♂️ **Sports**
+- 🎬 **Movies & TV Shows**
+- 🌍 **Geography**
+- 🔬 **Science**
+
+### ⚡ Rush Mode
+- 🚀 Automatic word progression
+- ⚡ 10 seconds per word
+- 🎯 No skip passes
+- 💨 High-intensity gameplay
+
+## 📊 Scoring System
+
+### Basic Scoring
+- ✅ **Correct**: +1 point
+- 🚫 **Taboo**: -1 point (forbidden word used)
+- ⏭️ **Skip**: No points
+
+### Super Tabu Special Cases
+- 🌟 **Double Points Joker**: Next correct answer = +2 points
+- ⚡ **Point Loss Penalty**: Instant -1 point
+- ❄️ **Freeze Effect**: Opponent team skips next turn
+
+## 🛠️ Technical Stack
+
+- **Framework**: React Native with Expo
+- **State Management**: React Hooks + Custom Logic
+- **Animations**: React Native Reanimated
+- **Styling**: StyleSheet with Platform-specific optimizations
+- **Data**: JSON-based word libraries
+
+## 📁 Project Structure
 
 ```
 tabu/
-├── App.js                      # Ana uygulama kontrolcüsü
-├── words.json                  # Klasik oyun kelimeleri
-├── categorized_words.json      # Kategorili kelimeler (5 kategori)
-├── punishment_jokers.json      # Super Tabu joker/ceza sistemi
-├── background.png              # Gradient arka plan
-├── logo.png                    # Ana logo
-├── play_button.png             # Özel oyun butonu
-├── screens/                    # Ekran componentleri
-│   ├── WelcomeScreen.js        # Karşılama ekranı + animasyonlar
-│   ├── HelpScreen.js           # Oyun rehberi (yeni!)
-│   ├── GameModeScreen.js       # 4 oyun modu seçimi (yeni!)
-│   ├── CategorySelectionScreen.js # Kategori seçimi
-│   ├── TeamCountScreen.js      # Takım sayısı seçimi
-│   ├── TeamNamesScreen.js      # Takım adları girişi
-│   ├── GameScreen.js           # Ana oyun ekranı + animasyonlar
-│   └── ResultsScreen.js        # Gelişmiş sonuç ekranı
-├── components/                 # Yardımcı componentler
-│   └── GameLogic.js            # Gelişmiş oyun mantığı + Super Tabu
-├── styles/                     # Stil dosyaları
-│   └── GlobalStyles.js         # Kapsamlı stil sistemi
-└── assets/                     # Görsel varlıklar
-    ├── icon.png
-    ├── splash-icon.png
-    ├── adaptive-icon.png
-    └── favicon.png
+├── App.js                      # Main app controller
+├── words.json                  # Classic game words
+├── categorized_words.json      # Category-based words
+├── punishment_jokers.json      # Super Tabu system
+├── screens/                    # Screen components
+│   ├── WelcomeScreen.js        # Animated welcome screen
+│   ├── GameModeScreen.js       # Game mode selection
+│   ├── HelpScreen.js           # Game guide
+│   ├── GameScreen.js           # Main gameplay
+│   └── ResultsScreen.js        # Results & statistics
+├── components/                 # Utility components
+│   └── GameLogic.js            # Game mechanics
+├── styles/                     # Styling system
+│   └── GlobalStyles.js         # Comprehensive styles
+└── assets/                     # Visual assets
 ```
 
-## 🎯 Oyun Modları
+## 🎨 Design System
 
-### 🎯 **KLASİK MOD**
-- ⏱️ 90 saniye oyun süresi
-- ⏭️ 3 pas hakkı
-- 🎲 Karışık kelimeler
-- 🏆 Standart puanlama
+### Color Palette
+- 🔴 **Primary**: `#FF6B6B` (Action buttons)
+- 🔵 **Secondary**: `#45B7D1` (Info elements)
+- 🟢 **Success**: `#4ECDC4` (Correct answers)
+- 🟣 **Purple**: `#A855F7` (Categorized mode)
+- 🟡 **Warning**: `#FFD93D` (Super Tabu)
 
-### 🌟 **SUPER TABU** (Yeni!)
-- 🃏 **3 Joker Sistemi:**
-  - **Pas Hakkı Eklemesi**: +1 pas hakkı
-  - **Ek Süre**: +10 saniye bonus
-  - **Çifte Puan**: Sonraki doğru cevap 2 puan
-- ⚡ **3 Ceza Sistemi:**
-  - **Puan Kaybı**: -1 puan
-  - **Süre Kaybı**: -15 saniye
-  - **Pas Kaybı**: 1 pas hakkı gider
-- 🎲 Her 3 doğru = 1 joker, Her 2 tabu = 1 ceza
+### Mode-Specific Colors
+- 🎯 **Classic**: Blue (`#3498DB`)
+- 🌟 **Super Tabu**: Gold (`#FFD93D`)
+- 📚 **Categorized**: Purple (`#A855F7`)
+- ⚡ **Rush**: Red (`#FF6B6B`)
 
-### 📚 **KATEGORİLİ MOD** (Yeni!)
-- 🎯 5 farklı kategori:
-  - 🍎 Yiyecek & İçecek
-  - 🏃‍♂️ Spor
-  - 🎬 Film & Dizi
-  - 🌍 Coğrafya
-  - 🔬 Bilim
-- ⏱️ 90 saniye oyun süresi
-- 🎨 Kategoriye özel kelimeler
+## 📱 Platform Support
 
-### ⚡ **RUSH MOD** (Yeni!)
-- 🚀 Otomatik kelime geçişi
-- ⚡ Kelime başına 10 saniye
-- 🎯 Pas hakkı yok
-- 💨 Hızlı tempolu oyun
+| Platform | Status | Features |
+|----------|---------|----------|
+| iOS | ✅ Full Support | Native shadows, haptic feedback |
+| Android | ✅ Full Support | Material Design, elevation |
+| Web | ✅ Full Support | Responsive, PWA ready |
 
-## ✨ Yeni Özellikler
+## 🔮 Roadmap
 
-### 🎨 **Gelişmiş UI/UX**
-- 🌈 Modern gradient arka plan
-- ✨ Smooth animasyonlar ve geçişler
-- 📱 Responsive tasarım iyileştirmeleri
-- 🎯 Platform-specific optimizasyonlar
-- 👑 Kazanan takım için özel vurgular
+### Coming Soon
+- 🔊 Sound effects and background music
+- 📈 Advanced statistics dashboard
+- 🏆 Achievement system
+- 📝 Custom word lists
 
-### 🎮 **Oyun Mekaniği**
-- 📊 Detaylı istatistik sistemi
-- 🔄 Gelişmiş state management
-- ⏸️ Oyun duraklatma menüsü
-- 🎪 Joker/ceza animasyonları
-- ❄️ Dondurucu efektleri (Super Tabu)
+### Future Plans
+- 🌐 Online multiplayer
+- 📱 Customizable themes
+- 🎮 Tournament mode
+- 📊 Cloud-based leaderboards
 
-### 📚 **Yardım ve Rehber**
-- 📖 Kapsamlı oyun rehberi
-- 🎯 Her mod için detaylı açıklamalar
-- 💡 Strateji ipuçları
-- 🏆 Puanlama sistemi açıklamaları
+## 🤝 Contributing
 
-## 🚀 Kurulum
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-```bash
-# Bağımlılıkları yükle
-npm install
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-# iOS için
-npx expo run:ios
+## 📝 License
 
-# Android için
-npx expo run:android
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Web için
-npx expo start --web
-```
+## 👨‍💻 Author
 
-## 🎮 Nasıl Oynanır
+**Ibrahim Koroglu** - [GitHub](https://github.com/hllibrhmkrgl)
 
-1. **Başlangıç**: Ana ekrandan "OYNA" butonuna tıklayın
-2. **Oyun Modu**: 4 moddan birini seçin
-3. **Kategori** (Kategorili modda): İstediğiniz kategoriyi seçin
-4. **Takım Ayarları**: 
-   - Takım sayısı seçin (2-10)
-   - Her takım için isim girin
-5. **Oyun**: 
-   - Ana kelimeyi takım arkadaşlarınıza açıklayın
-   - 🚫 Yasaklı kelimeleri kullanmayın
-   - ✅ DOĞRU / 🚫 TABU / ⏭️ PAS butonlarını kullanın
-   - 🌟 Super Tabu'da joker/ceza efektlerine dikkat edin
-6. **Sonuçlar**: Her turun sonunda detaylı istatistikler
-7. **Final**: 👑 Kazanan takım belirlenir
+## 🙏 Acknowledgments
 
-## 📊 Puanlama Sistemi
-
-### Temel Puanlama
-- ✅ **Doğru**: +1 puan
-- 🚫 **Tabu**: -1 puan (yasaklı kelime kullanımı)
-- ⏭️ **Pas**: Puan yok
-
-### Super Tabu Özel Durumlar
-- 🌟 **Çifte Puan Jokeri**: Sonraki doğru cevap +2 puan
-- ⚡ **Puan Kaybı Cezası**: Anlık -1 puan
-- ❄️ **Dondurucu**: Rakip takım 1 tur bekler
-
-## 🛠️ Teknik Detaylar
-
-### Component Mimarisi
-```javascript
-// Ana kontrolcü
-App.js - Navigation ve state yönetimi
-
-// Ekranlar
-screens/ - Her özellik ayrı component
-├── WelcomeScreen.js    # Animasyonlu giriş
-├── GameModeScreen.js   # 4 mod seçimi
-├── HelpScreen.js       # Detaylı rehber
-└── GameScreen.js       # Gelişmiş oyun arayüzü
-
-// Logic
-components/GameLogic.js - Custom hook ile state yönetimi
-```
-
-### Stil Sistemi
-```javascript
-import { 
-  GlobalStyles,      // Genel stiller
-  GameStyles,        // Oyun ekranı
-  ResultStyles,      // Sonuç ekranı
-  GameModeStyles,    // Mod seçimi
-  PauseMenuStyles    // Duraklatma menüsü
-} from '../styles/GlobalStyles';
-```
-
-## 🎨 Tasarım Sistemi
-
-### Renk Paleti
-- 🔴 **Ana Buton**: `#FF6B6B`
-- 🔵 **İkincil**: `#45B7D1`
-- 🟢 **Doğru/Başarı**: `#4ECDC4`
-- 🟣 **Tabu/Kategorili**: `#A855F7`
-- 🟡 **Timer/Super Tabu**: `#FFD93D`
-- ⚪ **Nötr**: `#2C3E50`
-
-### Mod Renkleri
-- 🎯 **Klasik**: Mavi (`#3498DB`)
-- 🌟 **Super Tabu**: Altın (`#FFD93D`)
-- 📚 **Kategorili**: Mor (`#A855F7`)
-- ⚡ **Rush**: Kırmızı (`#FF6B6B`)
-
-## 📱 Platform Optimizasyonları
-
-### iOS
-- ✅ Native gölge efektleri
-- ✅ Text shadow desteği
-- ✅ Haptic feedback
-
-### Android
-- ✅ Elevation-based shadows
-- ✅ Font weight optimizasyonları
-- ✅ Material Design uyumlu
-
-### Web
-- ✅ Responsive breakpoints
-- ✅ Cross-browser uyumluluk
-- ✅ PWA desteği
-
-## 🔮 Gelecek Güncellemeler
-
-### Yakın Dönem
-- 🔊 Ses efektleri ve müzik
-- 📈 Gelişmiş istatistik ekranı
-- 🏆 Başarı rozetleri sistemi
-- 📝 Özel kelime listeleri
-
-### Uzun Dönem
-- 🌐 Çevrimiçi multiplayer
-- 📱 Kişiselleştirilebilir temalar
-- 🎮 Turnuva modu
-- 📊 Bulut tabanlı skorlar
-
-## 🏗️ Geliştirme Notları
-
-### Code Quality
-- 📦 Modüler component yapısı
-- 🎣 Custom hooks kullanımı
-- 🔄 Efficient state management
-- ⚡ Performance optimizasyonları
-- 🧪 Error boundary implementasyonu
-
-### Accessibility
-- 🔤 Screen reader desteği
-- 🎨 Yüksek kontrast modları
-- ⌨️ Klavye navigasyonu
-- 📱 Touch target boyutları
+- React Native and Expo teams for the amazing framework
+- The open-source community for inspiration and resources
+- All beta testers who helped improve the game
 
 ---
 
-**Geliştirici**: React Native + Expo  
-**Framework**: Expo SDK 49+  
-**Platform**: iOS, Android, Web  
-**Oyun Türü**: Kelime Tahmin / Parti Oyunu  
-**Yaş Sınırı**: 8+  
+**⭐ If you enjoyed this project, please consider giving it a star!**
 
-**Son Güncelleme**: Eylül 2025 - Super Tabu modu, Kategorili kelimeler, Rush modu ve kapsamlı UI iyileştirmeleri
+**📱 Download and play with friends for the ultimate party game experience!**
+
+*Last Updated: September 2025 - Added Super Tabu mode, categorized words, Rush mode, and comprehensive UI improvements*
