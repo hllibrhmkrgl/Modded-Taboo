@@ -34,7 +34,7 @@ A modern, feature-rich Taboo word guessing game built with React Native and Expo
 
 ```bash
 # Clone the repository
-git clone https://github.com/hllibrhmkrgl/tabuu.git
+git clone https://github.com/hllibrhmkrgl/Modded-Taboo
 
 # Navigate to project directory
 cd tabuu
