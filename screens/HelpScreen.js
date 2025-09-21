@@ -268,15 +268,15 @@ const styles = {
     paddingHorizontal: 20,
   },
   headerTitle: {
-    fontSize: 28,
+    fontSize: 30,
     fontWeight: Platform.OS === 'android' ? '700' : 'bold',
     color: '#FFFFFF',
     textAlign: 'center',
     marginBottom: 5,
     ...createTextShadowStyle({
-      textShadowColor: 'rgba(0, 0, 0, 0.5)',
-      textShadowOffset: { width: 0, height: 2 },
-      textShadowRadius: 4,
+      textShadowColor: 'rgba(0, 0, 0, 0.8)',
+      textShadowOffset: { width: 0, height: 3 },
+      textShadowRadius: 6,
     }),
   },
   headerSubtitle: {
@@ -294,17 +294,19 @@ const styles = {
     paddingBottom: 100,
   },
   sectionCard: {
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    backgroundColor: 'rgba(255, 255, 255, 0.98)',
     borderRadius: 20,
     padding: 25,
     marginBottom: 20,
     ...createShadowStyle({
       shadowColor: '#000',
       shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.15,
+      shadowOpacity: 0.2,
       shadowRadius: 15,
-      elevation: 10,
+      elevation: 12,
     }),
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.6)',
   },
   sectionIcon: {
     fontSize: 35,
@@ -329,34 +331,33 @@ const styles = {
     fontWeight: Platform.OS === 'android' ? '500' : '500',
   },
   modeCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.96)',
     borderRadius: 20,
     padding: 25,
     marginBottom: 20,
     ...createShadowStyle({
       shadowColor: '#000',
       shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.15,
+      shadowOpacity: 0.2,
       shadowRadius: 15,
-      elevation: 10,
+      elevation: 12,
     }),
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.5)',
   },
   classicCard: {
-    backgroundColor: 'rgba(52, 152, 219, 0.1)',
     borderLeftWidth: 6,
     borderLeftColor: '#3498DB',
   },
   superTabuCard: {
-    backgroundColor: 'rgba(255, 217, 61, 0.1)',
     borderLeftWidth: 6,
     borderLeftColor: '#FFD93D',
   },
   categoryCard: {
-    backgroundColor: 'rgba(155, 89, 182, 0.1)',
     borderLeftWidth: 6,
     borderLeftColor: '#9B59B6',
   },
   rushCard: {
-    backgroundColor: 'rgba(231, 76, 60, 0.1)',
     borderLeftWidth: 6,
     borderLeftColor: '#E74C3C',
   },
@@ -401,8 +402,10 @@ const styles = {
   categoriesList: {
     marginTop: 15,
     padding: 15,
-    backgroundColor: 'rgba(155, 89, 182, 0.1)',
+    backgroundColor: 'rgba(155, 89, 182, 0.15)',
     borderRadius: 15,
+    borderWidth: 1,
+    borderColor: 'rgba(155, 89, 182, 0.3)',
   },
   categoriesTitle: {
     fontSize: 16,
@@ -420,8 +423,10 @@ const styles = {
   rushTip: {
     marginTop: 15,
     padding: 15,
-    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+    backgroundColor: 'rgba(231, 76, 60, 0.15)',
     borderRadius: 15,
+    borderWidth: 1,
+    borderColor: 'rgba(231, 76, 60, 0.3)',
   },
   rushTipTitle: {
     fontSize: 16,
@@ -438,15 +443,19 @@ const styles = {
   superTabuFeatures: {
     marginTop: 15,
     padding: 15,
-    backgroundColor: 'rgba(255, 217, 61, 0.1)',
+    backgroundColor: 'rgba(255, 217, 61, 0.15)',
     borderRadius: 15,
     marginBottom: 10,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 217, 61, 0.3)',
   },
   superTabuPunishments: {
     marginTop: 10,
     padding: 15,
-    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+    backgroundColor: 'rgba(231, 76, 60, 0.15)',
     borderRadius: 15,
+    borderWidth: 1,
+    borderColor: 'rgba(231, 76, 60, 0.3)',
   },
   superTabuTitle: {
     fontSize: 16,
